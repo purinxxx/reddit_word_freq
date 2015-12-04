@@ -1,0 +1,784 @@
+There absolutely is. But I'm not going to tell you how you can do it. Study the material, dumbass. 
+As far as I know there's no open source software for this. You'll have to write it yourself or hire someone to.
+Yea this accomplishes the goal, but I need software like this to put on my own website.
+https://www.drawnames.com/ maybe? 
+No. Study and the material.
+[www.b00mbox.com](http://www.b00mbox.com/bb_main.php) does this
+have you tried copyq. it is configurable with script.
+good
+nice
+This.  Or make a private room on [cytube](https://cytu.be/), that way the audio will stream through everyone's headset.
+plz visit
+Both the YouTube app and the web page already have this functionality, so you better have an idea with something more to it.
+Thank you so much. I've already done it manually though. I edited 199 tracks by hand lol
+You can do this in Mp3Tag. You would select the file or files, then go to Action -> Actions Quick. Then choose Replace with regular expression. Then choose the field you want to modify. If you want to remove x amount of characters at the beginning then put the following in the Regular expression box: `^.{x}`  To remove characters from the end, put the following in the Regular expression box: `.{x}$`  x should be replaced with the number of characters and the replace box should be blank in both cases.
+https://github.com/YePpHa/YouTubeCenter/wiki/Developer-Version
+Oh wow how convenient, thanks man! I had no idea!
+The Youtube app can already do this.
+You just gave me an idea for an app
+Use remote desktop to connect to your laptop through your desktop pc and use all the devices attached to it. 
+YouTube.com/TV on the laptop, everyone else can use YouTube.com/pair to connect (or the youtube app on their smartphone).
+I'm looking for a software solution.
+It goes without saying that I am thankful for any help, but please, don't misunderstand the question. All I want is **to see that specific app in order to see that specific list of options**. I am sure that the app is, was or should be famous in its field, but... I spent a lot of time checking various hashing apps, but found nothing similar, no alternative... it's a mystery...
+The Chromecast can do this, anyone can add videos to it's queue.
+I understand what you're asking for and am merely offering an alternative, the list of hashes that any language supports natively is usually quite comprehensive but does depend on the system it's running on.  In terms of salts, they are just random strings.  Quick python script:      import hashlib as h          print ("Hashes available on this system:")     for x in h.algorithms_available:         print (" - " + x)          hash = input("Select a hash: ")     string = input("String to hash: ")          hasher = h.new(hash)     hasher.update(string.encode('utf-8'))     print(hasher.hexdigest())        
+https://vubey.yt/
+You could say no in a more diplomatic way. It's not like they just wasted 30 minutes of time. They are just trying to help. Just sayin...
+I really like Google Hangouts, can't believe I never thought of using that!  Thank you so much! 
+This seems to be the best option so far!  Thanks for your quick reply! 
+Wow!  Thank you for all of the options and for your reply! 
+Thank you so much!  This is exactly what I was looking for! 
+Of course not. HashTab does not even fit my description. (For example, there is no salt/hmac options). That app was much more advanced.
+I suggest [HashTab](http://implbits.com/products/hashtab/).
+IGATE infrastructure management system optimizes the performance of your data resources along-with security and high productivity.
+I am not asking how to write hashing scripts, I am asking about the name of that specific app. Its list of items was really impressive and comprehensive, and I just want to see it again.
+Hashing functions are so readily available in every language it might be easier for you to write your own small script that does this.  https://docs.python.org/2/library/hashlib.html would be a good place to start if you're familiar with Python.
+Depends on your preference.  * [Pidgin](https://pidgin.im/) is probably the closest match to what you're looking for: a light(ish)-weight Messenger alternative. * There are lots of online options; some are free, while others aren't.  [Telegram](https://telegram.org/) and [HipChat](http://www.hipchat.com/) come to mind (between those two, Telegram's probably closest to what you'd want). * IRC is the traditional answer here.  The easiest approach would be to join an existing server and "query" each other to establish a one-to-one chat, but it's also possible to setup your own and use that (hell, maybe even talk your employer into setting up its own IRC server for internal use, if they don't already have one).  [Lots of clients available](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients); Pidgin happens to be one of them.
+I dont really care about browsing, its more like P2P I'm worried about.
+Sharearchiver offers you unique email archiving solutions with easy management of storage. The software allows an administrator to reduce storage and can reduce your data and optimize your backups. The software provides the powerful search interface for locating any email record in less time.
+Nice
+Yep, your ISP will see any traffic as PIA while the VPN is on, and when it's off, they could choose to review the sites you're visiting. 
+Love pidgin, been using it for around 6+ years, maybe more
+[Pidgin.](https://pidgin.im/) It supports accounts from      AIM,     Bonjour,     Gadu-Gadu,     Google Hangouts,     Groupwise,     ICQ,     IRC,     MSN,     MXit,     SILC,     SIMPLE,     Sametime,     XMPP,     Yahoo!,     Zephyr.
+I'm confused. GoPro, Starwood Hotels, et. al. are not bundling SSL into the products they're selling, they're simply using SSL to send information and arrange transactions. Do holders of cash register patents have a similar case against brick and mortar merchants like Barnes &amp; Noble, Dick's sporting goods, Best Buy, et. al.?
+I'm using [Telegram](https://telegram.org/) at the moment and I'm quite pleased with it. My task manager reports that it consumes less than 9 MB of RAM which is great if true. The interface is clean and modern and it runs just about everywhere. There are some concerns about the quality of its cryptography so if you have privacy concerns you might want to look elsewhere.
+If you're both on Facebook or Google Hangouts, you can go to messenger.com or hangouts.google.com, respectively. That is, assuming you're employer isn't blocking these sites through a proxy ...
+That is why everyone needs to counter sue and blast this shit away for the rest of us
+plz visit
+I'd use Autohotkey, or the Microsoft Keyboard and Mouse software thing.
+You can try puppylinux, it's ultra small.
+[VLC](http://www.videolan.org/vlc/download-windows.en_GB.html). Here is [how to record the screen](https://pctonic.net/use-vlc-as-a-screen-recording-tool)
+Actually ODDLY yesterday it started working out the freakin blue. 
+If your monitor has 2 inputs (most monitors do) you could add a 2nd cable and switch the input on the monitor.  If not, this might do what you want. [MaxVista](http://www.maxivista.com/multi-monitor-software.htm)
+Don't most websites use https now and are encouraged to do so. I know I had to set up SSL for two websites I manage just so we could accept payments using a payment gateway system. Reddit uses https, so does facebook, twitter, hell even google
+PhraseExpress is pretty great: http://www.phraseexpress.com/ 
+I'm pretty sure New Egg uses HTTPS too.  Why weren't they included in the  suit?  Oh that's right, they will actually fight back instead of paying you to go away. [There's a good chance you'd lose too.](http://arstechnica.com/tech-policy/2015/07/newegg-wins-tqp-patent-case-after-challenging-judge-over-delays/)  These patent trolls are a cancer.  Pure and simple.  Texas (East Texas, to be specific) needs to get their shit together and work at stopping these "law firms"(Usually just a 1 room office with a single phone in it that no one ever goes to.) from setting up shop in their state just so they can sue big companies using vague and confusing patents.  I fear there is just too much money to be had for all parties involved though so these elected judges have no motivation to reform.  Everyone involved should be ashamed of themselves.
+Sorry - I think my question was misunderstood. I'm fine with being disconnected, I was just wondering if I was safe provided I am only disconnected I am not downloading anything. Example: torrent with VPN on, when fully downloaded/torrent stopped/not seeding, can I switch it off and it will be safe to do so?
+plz visit
+Download Hiren's BootCD or F4ubcd, they provide a MiniXP environment.
+You can use AutoHotKey https://autohotkey.com/
+Barcode Scanner app from ZXing (https://play.google.com/store/apps/details?id=com.google.zxing.client.android&hl=en) has an option to automatically open the URL from scanned barcodes.  The QR code would be URL linking to some website that you set up with a page for each product (and any links, etc that you want on there).   Also, this page has a project that you might be able to adapt: http://collaborative-tools-project.blogspot.com/2013/06/writing-simple-qr-code-stock-control.html  I'm not sure how much you're willing to develop it yourself or if you're looking for something all ready to use.
+i should have mentioned im looking for it to run its own browser so it can tip away in the background
+I'm using spiceworks for inventory.  It has a customizable inventory database and there are plugins that will generate a qr code.   When the code is scanned it will open the spiceworks app on your mobile.  
+Installed the trial, doesn't work for me either.  Windows 10, whichever build was the november update.
+You can detect changes instantly. In Java you could use the WatchService of the FileSystem class: https://docs.oracle.com/javase/tutorial/essential/io/notification.html  I am sure there are alternatives in other languages as well. After that it's really just a question of how you want to notify your other devices.
+Founded! It's MacX for Windows
+I've found a AutoHotKey script to do what I want: http://pastebin.com/Jt4ykzeY
+For any problem related to Exchange EDB file there is a one stop solution and this is MailProPlus EDB to PST Converter. This software converts Exchange EDB file into Seven file formats. Refer the link for demo version: - http://www.mailproplus.com/email-conversion/edb/pst.html
+eh I just don't feel like buying anything. thanks for the suggestion though
+awesome thanks!
+You should be able to purchase an enclosure that'd turn your hard drive into an external hard drive you can access through your USB port. Why don't you do that.
+Mailbird doesn't support Googles 2FA. You need to set up a so-called "app specific" (although it isn't specific at all) password
+ REVE CHAT is a tool which can renovate your website into a brand due to its astonishing skin. It includes features like proactive chat, real-time visitor information, visitor analytics, multiple website integration, chat monitoring, chat history etc. In short it is jam packed with all the features of good live chat software.
+Any linux livecd/liveusb will work. Linux Mint should work out of the box and be simple to use. 
+I think most Linux distributiond would be able to do this and can be run live from a bootable media.
+In-Store Only Limit 1 per household
+Unfortunately, I don't know of any free program. Also, PM'd you.
+I'm happy using Pazera Free Audio Extractor. I think it's a GUI front for ffmpeg.     I just drag and drop a whole folder full of .avi .mp4 .webm or whatever other format, select the audio channel to extract (transcoding is also possible) and it just zips through it.
+FFmpeg will do the trick and is an awesome tool, but if you'd prefer something with a GUI, you can always just 'drag and drop' the .flv file into [Audacity](http://audacityteam.org/) and then go to File > Export and export as .mp3. 
+Well, I more want it in an mp4 or mkv format; imgs take a while for to upload to YouTube (and my upload speed is around 0.58 mbps), but a program like that should do for now. Are there any programs like that which are free?
+handbrake?  (not windows only, but it can change video formats) 
+I don't know if this helps you or not, but I did find that Cyberlink Power DVD 7.3 seems to play the mounted image pretty well.
+Thank you so much  :)
+https://en.wikipedia.org/wiki/Lead_generation
+I'm in recruitment and I personally use an RSS reader. Most job posting services support RSS so I get almost 100% of my leads piped in to one place. 
+I'm going to keep trying. I'll let you know. 
+[FFmpeg](https://ffmpeg.org/) can do this. For example:      ffmpeg -i input_file.flv output_file.mp3  You can use any output extension to get the format you want, or the same one as the source to prevent quality loss. 
+I'm really happy that you got it to convert, however there isn't any way to get it to only play one of the 2 angles?
+Probably a little more than 1/7. If you're happy with that, I can finish the rest.
+Thank you so much  :) . How much of the entire video was the file you sent me?
+Or if OP wants a VPN for just web browsing - use a separate machine entirely. A raspberry pi would work fine for that.
+It's a command-line program. You need to run it from the command line.
+Lead as in the metal?  Lead as in cable?  Lead as in a rope to restrain an animal?  Leads as in a clue on a police case?
+Well, if you're encrypting the folder you're gonna have to decrypt it. It seems obvious but I think it sounds like you'd rather just have a password protected directory.  Here's quite a sneaky way that just sort of hides the folder: http://www.howtogeek.com/105633/how-to-create-a-password-protected-folder-without-any-extra-software/  
+Oh, that. I'm dumb. I thought I had included it in the link. Here's the whole link with the key: https://mega.nz/#!IlYV0QCZ!cm2D2bUyKurIywZw-mq33VTOKoyFrhG4Fcb6wYd662Y
+[Mega is asking me for a decryption key.](http://i.imgur.com/XGm0sAJ.jpg)
+It's not encrypted. What I did was mount the image, then demux the separate EVO (Enhanced VOB) files with ffmpeg, e.g.      ffmpeg -i /Volumes/AARRSSTWWTSSRRAA/HVDVD_TS/HV001T08.EVO -c:v copy -map 0:0 video.264 -c:a copy -map 0:1 audio1.ac3 -c:a copy -map 0:2 audio2.ac3  This just splits the video and two audio streams into 3 separate files. I wanted to do this since I didn't know what was what. There are also 2 subtitle streams in the first EVO that don't show up in the others. According to the nfo file, these just blank out the information at the top of the screen.  Anyway, to answer your second question, the multi-angle feature was used so you can switch between AARRSSTW and WTSSRRA at any point. As far as I can tell, one of them has the scenes ordered from shortest to longest, and one is the opposite. Unfortunately, using separate "angles" makes it much harder to rip. If it were instead 2 separate titles, I think it would be straightforward. Angles are encoded in a single stream, alternating back and forth. A proper player or ripper could handle this with no problem—and such tools exist for regular DVDs—but HD-DVD–compatible tools are hard to find. If you want to see how it looks, you can watch the file I linked.
+Something must not be working right on my end. I double click the exe and nothing happens. 
+video download? what does that mean
+There are several large freelance sites where you can post what you want and people will submit bids to write it.
+plz visit
+What's the decryption key? And thank you so much! When you say it jumps back and fourth between 2 angles, how does it affect the video?
+Divx and flvto come to mind
+I've been messing around with this. I've made some progress, but I'm not sure how helpful it's been. As you've seen, HD-DVD support was never great for a lot of tools, and now it's not much of a priority. I haven't found anything that can tackle the whole image (although Apple's DVD Player seems to play it pretty well), but I did manage to demux the EVO files. They all have 1 h264 video stream and 2 ac3 audio streams. There's (at least) one problem though: I can't find any multi-angle aware HD-DVD rippers, so the video jumps back and forth between the 2 angles. The output from one of the EVO files is [here](https://mega.nz/#!IlYV0QCZ) if you want to take a look.
+[Comparison of screencasting software wiki](https://en.wikipedia.org/wiki/Comparison_of_screencasting_software)
+Browsing the internet on Tor slows down the network. 
+manual , do you know where i can find someone to write me a software to do that  ?
+You can TRY, but it won't work.
+Is this supposed to be an automated solution (i.e. take picture every 30 seconds) or manual?
+This is what I use. It lets you download any resolution (even 4k, if they offer it) and extract audio too. [Its webpage is here](https://www.4kdownload.com/products/product-videodownloader). Its free with ads, and if you purchase it you can download entire playlists. 
+I don't understand where it is intended to be used.  I wouldn't download and run random .exe from SourceForce.  Don't see a license indicated.
+General web browsing and burner email. Downloading screws the network for everyone and most torrent clients wrong respect the tor setup anyway
+What else are you supposed to do with Tor?
+**EDIT 2: SKIP THIS AND LOOK DOWN**  Install Python 3 from www.python.org, and make a note of the directory where it's installed. Then open a command line (Win+R "cmd") and type the following:      PATH=%PATH%:<YourPythonDirectory>     python <YourCopyOfYoutube-dl> --extract-audio <YourVideoURL>  I'm not sure about this because I prefer working in Cygwin, but Cygwin's completely overkill for just `youtube-dl`. This *should* work. I think. Maybe. It won't harm anything, give it a go.  **EDIT**: I know you can also install `youtube-dl` with `pip`, but I'm even less sure about that working.  **EDIT 2**: Actually, there's a [Windows .exe file](https://yt-dl.org/latest/youtube-dl.exe) available. Just download that and make sure you're in the same directory as `youtube-dl.exe` when you run it. If it goes into your Downloads, for example, do `cd Downloads`.
+What exactly isn't working?
+I want to use this but am on Win7, I'm having trouble getting it to work, mind elaborating real quick?
+you can use 4k Video Downloader, it's free
+don't be that guy who downloads stuff via TOR. it slows down things for other people.
+http://www.youtube-mp3.org/
+Yes it would disconnect you because the itinerary from your computer to the servers will change because your public IP is different.  See: http://smartunblock.com/wp-content/uploads/2013/02/vpn-diagram.png  For the server your public IP is your VPN provider. PIA is a simple vpn provider so all the traffic from your network adapter is embedded in the VPN tunnel.  What you can do to avoid that is using a virtual machine with the VPN. So the traffic from your computer and the one from the VM will coexist without disconnecting you.
+[`youtube-dl`](https://github.com/rg3/youtube-dl)` --extract-audio <YourVideoURL>` should do the trick.
+Do you have access to the program that's putting files in that folder in the first place?  If you do you could modify it to notify you as soon as it transfers a file.  You can also use email to send text messages as long as you know the domain of your cell phone provider.  For Example for AT&T you can use: (PHONE NUMBER HERE)@txt.att.net So if my number was 123 it would be 123@txt.att.net and if I sent an email to that domain, your phone would receive it as a text message.   So the existing script you have can be modified to email your phone number@yourprovider's domain.net and then bam you've got it done.   You could just update the rate by which it checks the folder to be really often and send an email to that address.  Why does it need to be instant anyways?  Is there something that needs to be done immediately with the files?  It can't possibly be your job to stare at a computer screen and manipulate some file the INSTANT it arrives...  .   Edit:  Here's a list of SMS Domains from carriers most people use:  AT&T: number@txt.att.net  T-Mobile: number@tmomail.net  Verizon: number@vtext.com  Sprint: number@messaging.sprintpcs.com or number@pm.sprint.com  Virgin Mobile: number@vmobl.com  Tracfone: number@mmst5.tracfone.com  Metro PCS: number@mymetropcs.com  Boost Mobile: number@myboostmobile.com  Cricket: number@sms.mycricket.com  Nextel: number@messaging.nextel.com  Alltel: number@message.alltel.com  Ptel: number@ptel.com  Suncom: number@tms.suncom.com  Qwest: number@qwestmp.com  U.S. Cellular: number@email.uscc.net
+I use clipconverter.cc (they have or they had a browser extension, as well).
+I can already do that but i don't check my email frequently, also i need it to be instant, as in right as it updates i need an alarm, i was sure people already created it since its such an easy concept, thanks for replying either way
+You could write a script that checks the folders contents every 5 mins and if a file is added it sends an email.  I think that would work for what you're asking, but I don't think a program exists for this.
+.... and boom goes the dynamite
+For most common VPNs it's You -> VPN -> Location you want -> VPN -> You. If you want a VPN for downloading things, you could try Tor. But yes, if you connect it while your connected to something else it will interrupt your connection. I'm sure someone can elaborate much more, but I'm on shitty mobile and typing annoys me. 
+Whoosh
+not free ( $25 ) free to try for 15 days     http://trakax.com/
+Try youtube-dl it's a command line tool and works for more sites than just YouTube.
+I use Torch browser (based off chrome) for this.
+[This](http://lmgtfy.com/?q=youtube+to+mp3+converter) might be what you're looking for.
+360 no license
+Wow nobody said anything, I thought people would be all over such a service, especially ISPs and small hosting companies that do not have the ressources to do this inhouse... Or is there any popular alternative?  I guess you can select for which software you get notifications? The signup process is also a bit confusing. I have to enter my name and email-address - where's the password? Is there an additional step..? Can I unsubscribe/delete my account? When I can not find info about these things I tend to shy away from using the site.
+nice
+How ?
+If you ask me I think its bandicam, you do have to pay for it though, so far i haven't had any problems with it and it works out great, unlike fraps which gives you a 60 gb file for every minute you record
+That is one high price. 
+CAD/CAM/CAE software development company announced launch of its free 3D model.
+https://obsproject.com/
+Outside of my area of knowledge as I'm on the other side of the table and 100% of my clients have come through referrals.
+Woah I have never heard about agile software development. Seems to be the modern way, which I natively like as a '92 born. Will definitely do more research on that tomorrow. (edit: I even have thought about how I would manage a team of hired coders, with somewhat similar ideas, but came to the conclusion that they will know best ;D)    So I've got one more question: What is more common, me contacting the team, or the team contacting me? Therefore, would I usually publish a call for proposals? Are there big websites for this?  Or would I look for the teams? If so, are there some big *market websites* where I should look on team profiles? I don't know any of these, but it seems likely to me. I lack the jargon to google it.
+In the business and organizations, it is necessary to manage files and data. For that, a large number of organizations use the file archive software to optimize their storage seamlessly and manage their information. There are many companies available that offers the file archiving software for business and organizations.
+Another vote here for youtube-dl. That thing is amazing!
+Looking at their site, definitely like that it has the simple mode and advanced mode! (And that its not a subscription model.)
+420 BLAZE IT
+Sony Movie Studio 13 Platinum will do all those things.  
+Just saw this post: https://www.reddit.com/r/Entrepreneur/comments/3uxy5j/why_nobody_will_steal_your_shitty_startup_idea/
+You can get people to sign a NDA before giving them too many details. Most real companies won't too early in the process.  I generally look at someone wanting me to sign an NDA before telling me anything as a sign that they don't know what they're doing and are going to be a pain.  Remote works but does create challenges. I generally do calls once a week with my clients for a status update and review of progress.   Spend some time researching and reading up on Agile software development. 
+Hey guys, `Vocabulary` is python module using which you can extract  - **Meaning**      - **Synonyms**     - **Antonyms** - **Part of speech** : whether the word is a `noun`, `interjection` or an `adverb` et el - **Usage example** : a quick example on how to use the word in a sentence - **Pronuciation**  - **Hyphenation** :  Breaks down the word and shows the particular stress points(if any) during  pronunciation  for a given word.   The results are returned back in `JSON` format for easy usability.  And yes it's `pip` installable. `$ pip install vocabulary`  For usage, you can refer [https://github.com/prodicus/vocabulary#usage](https://github.com/prodicus/vocabulary#usage)  Would love for some Suggestions and comments! :)
+Even though this multiply-theorem may be correct, that does not take my fear of being mugged by someone with more profession in regards to the technical aspect, while I have a Bachelor's degree on the content site. So the more details I give, the more I raise this chance. Is there anything to prevent this? Like, signed presentation and they either do the job for me or they will never do it?   I drew several mockups so far, but following your suggestion, I will do it digitally with a professional program that does fit my needs.   I really appreciate your advice, it's very helpful. Thank you for that.   What do you think how much face-to-face contact is necessary? I live in a rather small town in Germany, and there are indeed local software developers, but not too many of em. So lets take these 4 months, 4 people for granted. Is it like every other day? Or more like every other week?
+There's a free version of davinci resolve available that is very pro and not really limited in features at all (for a free version).    https://www.blackmagicdesign.com/products/davinciresolve
+I have an iPhone 4s, and it barely works for anything. 
+My ipod 5 internets like shit now, but apps still seem to work fine.
+    S S H B B Y I S O K     S H B B Y I S O I S     H B B Y I S I K S H     B B Y I S O K S S H     B Y I S O K S S H B     Y I S O K S S H B B      I S O K S S H B B Y     S O K S S H B B Y I     O K S S H B B Y I S     K S S H B B Y I S O 
+You'll have to call them and ask, most software cannot be re-sold.
+Don't worry too much about your idea.  See: https://sivers.org/multiply  With regards to proposals, start by writing up a detailed description of what you want. It would be best to do mockups and workflows.  Look at something like this: https://balsamiq.com/products/mockups/  You certainly can post here on Reddit or ask around your local tech community. Try a google search: https://www.google.com/search?q=software+development+chicago 
+plz visit
+great
+But depending on the jurisdiction you're in, an EULA may or may not carry much legal weight, even if it does then a term with surprising effects may or may not be enforceable if it wasn't prominently disclosed, and even if it is then depending on the circumstances it may be in conflict with local privacy, data protection, consumer protection or other statute law that takes precedence anyway.
+Works on a machine which originally came with XP. Denied.
+Picasa?
+I would love to see a class action lawsuit against Apple for ios on older model phones...
+???  I have heard of the privacy controversies, but not of any bad performance.  Actually I think it's been praised for the performance, as well as Windows 8.  Having said that -- the article implies that EULA's and privacy agreements make complaints of any behavior covered by the legalese moot? Isn't that one of those things that is _not_ cut in stone?
+windows is a fucking ram monster, stop crying and buy more RAM :D
+Google maps using Mymaps?
+Yeah this is just silly.
+Good to know. Never tried it. Never needed to
+Good luck to them. They are going to need it.
+"Users whining on a forum make for big headline" -Softpedia
+They're not stealing it - it's in the eula.
+I'll do that on wednesday then, I should have 5 bucks available by then.
+How to fixredirectvirus
+Where the real story should be is the personal data they are stealing from the vast majority of unsuspecting users.
+You can do, yes. That's very kind of you, thank you.
+Well can't I just subscribe and pay for the first month and then cancel it again?
+Short, no too detailed version: install linux, mount the network drives.  Then:      $ cd /mnt     $ find . -print > /tmp/file_listing.txt  To get your results:      $ grep '<filename>' /tmp/file_listing.txt  Enhancements:  * use '-ls' option to fetch more detail * write a simple sed filter that adds SQL statements and pipe the output to a database (SELECT * FROM file_table WHERE username="me" AND filesize > 1000000 AND modify_time > "2015-11-27 00:00:00") * write a less simple sed filter that puts its output in a elasticsearch database  A (linux) sysadmin should be able to do that within a day. Nice trainee project.
+That's very kind of you, thank you. I have a Patreon page (www.Patreon.com/OptiKey), but it's a monthly subscription thing, so don't worry. I appreciate your message though.
+I think if the guess is not close, it should be less. Graphics don't matter a lot and there's very few features overall. Luckily, I have access to that kind of money.   The more I think about it, the more I agree to #3. So I would hire a company that employs coders, maybe in harmonised teams? How does that work, are there websites where I can post a call for proposals? Or do I need to contact them directly? How do I make sure nobody *steals* my idea if I post it publicly?   4 seems very good. Although I don't feel qualified yet to determine what's the best fit. I hope that will be in their proposal?   So how does a call for proposals look? Database, multiple OS apps, web/PC interface, simple graphics, professional - they can not make a bid on that information I guess.
+Wow, I nearly read two words of that before the article flew off screen for some reason and I got another one in before the newsletter signup covered the whole page.
+> /r/software  > posts clickbait link to raspberry pi  why  
+I think it's only worth it if you want to experiment with electronics as well using the GPIO.  Otherwise just use it as a media center or server, and program on a normal computer that's much faster and easier to use.  Where do I buy this for $5? Anyone have a link?
+I just came across this post because I was browsing the top posts of some subreddits,  so I'm a bit late, but it's really awesome what you're doing. I net this helped thousands of people who couldn't afford anything else before and you're doing it completely for free AND open source, is there a link where people can donate you some money? I don't have that much myself right now but I'm thinking if everyone could just give you like 5 bucks you can afford something nice for yourself, which you obviously deserve. 
+I think i've tried TinyTask and its glitchy.  It doesn't always click and it lags out clicking the recorded places innacurately.  EDIT: I downloaded it again and gave it another try, and it seems to work properly this time!  Not sure what happened last time that it was unsable, but seems like its okay now, thanks again.
+http://www.voidtools.com/
+TinkTask  http://www.vtaskstudio.com/support.php
+Why buy a $5 dollar computer to learn the basics of programming when I already have a much more powerful computer that I can learn the basics of programming with?
+Already tried, does not have a loop feature.
+That was my first idea as well - Excel 2003 is quite fine. (Excel 2000 is also good, but only works up to Win XP).
+REVE CHAT is an instinctive tool which can be integrated with your website within few minutes. It makes your clients contented and gets instant customer opinion. It also provides assistance much faster than e-mails or phone calls and run multiple chat sessions at a time. The finest option for engaging your website visitors in real time.
+Our sales management software provides the essential insight, guidance, and tools that salespeople need to focus on the right customers and priorities. 
+Only one thing missing from ShareX: The ability to capture the mouse cursor as a separate object (which you can move about in Greenshot editor).
+"I imagine something like 4 people, 4 months, but that's just a wild guess."  1. Yes.  That's an absolutely wild guess.   2. If your guess is even close to correct, you're looking at roughly a $100,000 project. If you don't have access to that kind of money, you should probably shouldn't spend too much time on this.  3. Based on your lack of technical skills, I would not recommend hiring directly, unless you bring in a technical co-founder.  4. If you hire a firm: (a) Get several quotes & have several discussions.   (b) You should not be looking for the lower bidder, but rather the best fit. (c) Whatever bid you get, double it.  Software inherently has uncertainty.  
+nice
+IGATE develops mobile applications for enterprises to become more efficient through mobile technologies ensuring data security as well. 
+That'd be awesome, thanks so much :D
+Thanks for asking! I've had it working for a while on Windows 10 but I've been adding different things and been sidetracked with a new job I just started. I will try to upload a working version very shortly for you! I'll reply again soon once I have it up
+Well, when someone says to me "I need an app", the first question that springs to mind is "What can your app do that a website can't?".  One of the requirements is live updating so an Internet connection would be needed anyway.  Would it be possible to do a website instead, with a decent interface for the mobile crowd?  That would take care of iOS, Android and Windows without having to port code.  How big a database?  How many entries and how many fields for each entry?  Do you need some sort of lookup facility to check street or email addresses or confirm credit card numbers?  THE most important thing to do when starting a project is a websearch to find out if it's been done before.  If it has, find out if it's been done with a licence you can use.
+Ninite supports Greenshot. You can probably download it with that.
+Take a look at Blue Iris  http://blueirissoftware.com.   I've used it for years.   
+I don't know about IDM, but you can use [youtube-dl](http://rg3.github.io/youtube-dl/) for that. If you prefer a GUI, there's a Windows-only one [here](http://hexotic.net/software/ytdownloader/) and a cross-platform one [here](http://hexotic.net/software/ytdownloader/). I haven't tried them, but I've seen them mentioned around here.
+Yeah I'd uninstall VLC and see what happens when you install the [64bit version](http://get.videolan.org/vlc/2.2.1/win64/vlc-2.2.1-win64.exe) (assuming your system is 64bit). 
+[GhostMouse](http://www.ghost-mouse.com/)
+NICE SHARING
+I'll try to do that. Thanks for the suggestion :) 
+I tried it but i'm too stupid and lazy to config the scripts...need something easier that can just record the mouse clicks and then i can replay it in a loop ._.  I've found a few like that, but they are all paid..
+Yeah, it looks similar to that, with .EVOs. I used another converter called [Videncoder](http://sourceforge.net/projects/videncoder/), but it also didn't work, however I noticed it does the same thing as Handbreak; it sets the duration to 0:00:00, even though the video is intended to be about 2 hours long. Why is it doing this?
+Sorry, I don't know what to try next.  Does the structure look like so: http://www.doom9.org/index.html?/dvd-structure.htm ?   (But with EVOs rather than VOBs, I presume : https://en.wikipedia.org/wiki/VOB)
+Yeah, that. I just want a one-click context menu.
+this?  http://i.imgur.com/7ScgSFE.png  you define the default option in settings, the checkbox merely lets you change or add an option per capture. Iirc you can also set it to auto-take one option (my default is "upload"), but I like the option to choose whether to edit, save locally, or upload, or all 3. But I agree the options in general need streamlining, they're all over the place
+I renamed it to an ISO. It gave me a message saying:      MakeMKV v1.9.7 win(x64-release) started     Failed to open disc
+[autohotkey](https://autohotkey.com/)
+I had the same issue for days but you can still get it from CNET. Just be careful that you download/install only Greenshot. 
+I think so.  The File > Open files menu has a few file types, including IFO and ISO.  If the IMG file is uncompressed, then it is the same as an ISO, then MakeMKV should work OK on the IMG file (perhaps rename it). http://www.ehow.com/info_8075301_differences-between-iso-img-files.html
+Shame about the UI, though, if you want to manually select whether to upload, save, or copy each time. ShareX does it with this clunky big checkbox selector thing.
+I'm fine with an .mkv file. However, is MakeMKVV compatible with .IMGs?  ***EDIT***: It doesn't seem to work with .IMGs.  ***EDIT 2***: I got it to detect the disc, using /u/wolfcry0's method of using WinCDEmu, but it doesn't allow me to do anything after that. 
+Try [MakeMKV](http://www.makemkv.com/) to extract the contents of the ISO to an MKV file, then Handbrake to re-encode / convert to mp4.  Basically, MakeMKV just copies all of the DVD contents into an MKV file (it doesn't re-encode or trans-code the video), and that MKV file should be easier to deal with in Handbrake.
+There is more than one of them, and it doesn't have a lot of memory, compared to the .EVO and .BUP files. If I open that file, Handbreak would open the others?  ***EDIT***: I opened one of the .ifo files, but it did nothing. I also, tried to convert one of the .EVO files, but there weren't any audio tracks associated with it. When i opened the .img in its entirety, there was an audio track associated with it.  ***EDIT 2***: I opened the folder that contained the contents of the .img and it shot me with an error message.
+Hmm, it's been a long time since I've worked with DVD images, but I think if you open the VIDEO_TS.IFO file in handbrake it should work.
+Word! ShareX is head and shoulders better. 
+I was able to open the other file using Handbreak, and it converted without any problems. Anyways, I downloaded and installed the program, and I found that it is comprised of multiple .EVO, .IFO, and .BUP files. What do I do next? I want to convert them into a single .mp4, .avi, .mkv, or something. 
+plz visit
+I'm seeing it say there are four comments total at this time. Looks to be a shadowban? 
+Well handbrake probably can't open it because it's an image file, not a video file.  [WinCDEmu](http://wincdemu.sysprogs.org/) will mount img files so you can see what's in it.
+Well, I have nothing to mount it on (you can only to mount them to discs if I'm not mistaken, and I don't have any over 700mb (my file is much bigger)), so idk most likely some sort of video filetype. I was able to successfully convert an .img file using that program earlier. However, that file did have more than 1 "chapter" (which is what Handbrake calls them), but the one I'm have trouble with didn't. Could that have anything to do with it?
+What's inside the .img file if you mount it?  An image file is an archive like iso, rar, or zip, so likely if you just extract the files from it you'll have something usable.
+You can use [ImageMagick](http://www.imagemagick.org/) for this. For example, to center the image on a 1280x720 black background:      convert your_image.jpg -gravity center -background black -extent 1280x720 wallpaper.jpg  Doing a gradient is more difficult, but you can probably do just about anything you want with a little research. This example centers your image on a radial gradient going from the average color in your image to black:      convert -size 1280x720 radial-gradient:`convert your_image.jpg -scale 1x1\! -format '%[pixel:s]' info:-`-black bg.png; composite -gravity center your_image.jpg bg.png wallpaper.jpg  You can change the -gravity parameter if you don't want the image centered. Use 'north' for the top, 'south' for the bottom, etc. You can also do a regular gradient instead of radial, and switch (or change) the colors.  There are a ton of options. I'm not an expert, but I can try to help if there's a specific effect you're trying to get.  
+You are actually right. It WAS VLC.
+This worked perfectly, thanks!
+It's none of those. I played it on MPC-HC and it worked perfectly. It's VLC that's causing the problem. Although you may be right about the throttling, because I think VLC uses double the CPU power of MPC, right?
+I've tested it on MPC-HC and it works flawlessly. I don't know what's up with VLC lately but it has been acting up!
+Looks great, I'll check it out!
+Take a look at DatPlot http://www.datplot.com/
+It supports RAW formats ([there's a list here](https://support.google.com/photos/answer/6156099?hl=en)) and I think it processes them if you pick the unlimited storage option. If you want them to store the original it will use Google Drive space. 
+I think the most feasible solution is to run the motion capture when your phone is not detected and turn it off when your phone is connected to the computer. I don't know of an all-in-one solution, so you'll have to look at using one thing to detect your phone connected and then use that to turn the motion detection on and off.  It looks like some people have used AutoHotKey to detect connected bluetooth devices.  https://autohotkey.com/board/topic/70836-any-way-to-detect-bluetooth-device-status/    
+it's awesome, has greenshot's image editor built-in, can capture video, images, built-in uploader supporting multiple services, & free
+Oh? Imma look into this
+They are hosted on SourceForge and have gotten fairly unreliable displaying the pages. They posted a blog post update within the last week or two that explains this and also talks about the update they did recently to make the update check not hit the servers as hard. They are transitioning away from sf to resolve these issues.  Usually Refreshing (F5) the page displays your desired content.
+I'll check that out. I was really hoping for something automated as well as motion detection rather than constant video. 
+Thank you! I think this actually may be the best solution.  You know if the free version upload raw images, process them and then discard the raw file?
+My desktop has Bluetooth which I use to connect my phone and computer primarily to use unified remote so they automatically connect to each other.   Desktop is Win 8.1 pro and phone is Samsung Galaxy Note 4 on android. 
+no idea, but I switched from Greenshot to ShareX a while ago, it's a FAR better tool
+Do you normally pair your phone with your computer?  What OS on your phone? and on your computer?
+plz visit
+Google Photos has a [Mac uploader](https://photos.google.com/apps) and you can batch download them through [Google Takeout](https://www.google.com/settings/takeout). The search feature is mindblowing thanks to the AI image recognition.   You get unlimited space if your photos are 16 megapixels or smaller and videos 1080p and down. If you don't let Google compress them it uses the 15 GB of Google Drive space (you can buy more storage if you want). 
+Also, I guess it must be able to handle iPhoto and Photos libraries.
+You could try Milestone Xprotect Go, it has a dedicated server which you could turn on and off with two clicks. Up to 5 days of recording.
+Yea I bought chevolume but it doesnt seem to work at all. I have almost the same setup. Usb headset I like for games and speakers I like for everything else. I emailed and asked for a refund because it does not work in Windows 10 period. 
+plz visit
+Does it support vce? Or quick sync even?
+Transmission is really good too
+Are you talking about making drum beats and adding midi keyboards and stuff like that? People are listing notation software since you said "composition," but I assume you mean a multi-track DAW where you can write midi parts for drums and keyboards, etc.  If so, Ableton or Fruity Loops, which aren't free. You can test out Reaper for free which is a little more work to use their midi.
+Unless you absolutely unequivocally need offline access, Google Docs.
+The real issue I find with music production software is its all so diverse. Basic skills you pick up from one application will usually translate to another app, but just about everything else needs to be relearned. Thats why its sometimes better picking the software you are comfortable, and then work back to a heavily discounted edition from there.  FWIW, I think Ableton does a lot of things right for both live and prerecorded performances. Then you have CuBases and ProLogics that tend to be a little more classical arrangement editors. Anything that properly supports VST style instrument plugins is going to more or less do the trick. Just try to avoid products that lock you into proprietary synths like Reason.
+It probably depends on what kind of music you imagine writing.  Here's a relevant [wikipedia page](https://en.wikipedia.org/wiki/Comparison_of_MIDI_editors_and_sequencers) (sort by license type for free ones).
+IMO https://musescore.org has the smallest learning curve for a product of its quality. Great software. Totally free.
+If you don't mind downloading software onto your PC, [Hide Me](https://hide.me/en/software) does their job very well.  It's global VPN, so works across every network-requiring function, not just Chrome. Make a free account in like 30 seconds, and you have 3 free VPNs to use. I recommend using Netherlands.
+plz visit
+(Softmaker) Freeoffice Planmaker. I think you have to register an account for them to give you the free serial for the suite, and I think you can choose not to install the word processor and the powerpoint program in the installer. Should be compatible with both Excel and LO/OO Calc.  http://www.freeoffice.com/en/
+You could write this yourself using Windows forms pretty easily if you can't find anything else that works for you.   http://stackoverflow.com/questions/4198048/how-to-lock-folder-in-c-sharp
+Bye design's Spread32, of course. Under 1MB zipped (old versions are even smaller)  and available on almost every desktop and mobile computing platform under the sun. 
+Bittorrent hasn't ever been good, utorrent is also crap at this point, qBittorrent or Deluge are the ones worth using right now
+Bittorrent hasn't ever been good, utorrent is also crap at this point, qBittorrent or Deluge are the ones worth using right now
+It's likely a VLC specific issue, I've had VLC stutter when other players like MPC-HC play the files just fine.
+Kingsoft's offering - ~ 50MB download, Office 2007 like interface, top file compatibility. No macros in the free version, though.
+Try VisiCalc, the first spreadsheet program.  The DOS version still runs on Windows.  http://bricklin.com/history/vcexecutable.htm
+http://www.gnumeric.org/download.html  > We do not currently release or distribute Windows binaries.  
+Thank you ! We are using your translation in DeadLock 1.2 now with a couple of minor adjustments to keep the GUI neat and tidy!
+Yes, absolutely !   DeadLock can tell you which processes are locking the file or folder !   Kind regards
+plz visit
+Have you tried a really old version of excell?
+You're certainly seeing a high CPU drain. There are lots of different features the videos might have that could impact CPU performance. Determining whether you can play a video could be much more complicated than just 1080p and 10bit.  Are the 10bit videos HEVC or H.264? If they're HEVC, that's probably the reason... it's a huge CPU drain. Other potential problems include high references frame counts or certain High profile features like CAVLC, 4:4:4 Intra, high macroblock rates and more.  In any case, there might not be a lot you can do other than try to get your videos from a different source. You can try other video players or hope VLC release an update that helps your performance but the reality is that VLC is probably pretty good already, you're just trying to play overly complex video.
+Of course there is a Windows binary for Gnumeric. (But be aware that, according to my own tests, Gnumeric has an awful support for most file formats.) Other that that, I love Softmaker's PlanMaker.  Why do you want a "lightweight" one by the way?
+Perhaps:  http://portableapps.com/apps/office/gnumeric_portable  Or Google Sheets?
+The Facebook Password Stealer or Facebook Password Hacker exists, and it serves as a method by which you can crack the Facebook passwords of any account you fancy. Do you want to become a hacker yourself? Or are you a security researcher who wants to test the mettle of Facebook security measures by deploying a product specifically designed to crack or steal passwords for the sake of penetration testing and whatnot? Then this is the program for you. Of course, the makers aren’t responsible for how users are going to utilize the application. It was specifically made to address a need and demand that remains strong in the hacker community; nothing more, nothing less.
+4Media Video Converter - a universal software for encoding / decoding HD video, convert video and audio files between different formats and extract audio from video or pictures. With it, you can join multiple files into one file and apply different transition effects. The program uses NVIDIA CUDA technology to speed up the conversion factor of 5 on any computer where the processor supports CUDA.
+VLC for Android Beta 0.9.10 Crack (SSEC).apk  Requires : Android 2.2 and up .
+> EDIT: Thank you to all of you who suggested that the solution to my free vpn problem is paying for one. That was extremely helpful.  Thank God you don't feel entitled or anything.
+That's exactly what I was going to say, haha. I'm not sure if you need Chrome DEV to do it, though. I've been on DEV since release, so I end up never knowing what's on stable and what's not...
+There can be multiple issues that lead to stuttering or lagging when playing back video:  source bitrate too high with insufficient storage device bandwidth (slow hard drive vs ssd)  source MKV container codec is cpu intensive (h264 vs prores for instance(but if it's final output likely not to be prores or any intermediate codecs, which are usually easier to decode but are very high bitrate))   Afaik, You won't have the benefit of hardware decoding using nvidia or intel cpus ( http://codecs.forumotion.net/t1875-cannot-get-intel-quicksync-and-10bit-to-work-together )  The best thing you can do is probably narrow down the issue as I suggested to another user having issues with laggy decoding. https://www.reddit.com/r/thinkpad/comments/3lp56p/t440p_with_4k_video_jumpy/cva0xwo  maybe your cpu is being throttled, is your computer on power saving mode or high performance power profile?
+I haven't exhaustively searched, but I believe most hardware decoders don't have support for anything other than 8 bit, and no more than 420, which means you can't use it in VLC or MPC, though you can check for sure if it's enabled in MPC with Ctrl+J 
+Where do you think vlc gets its codecs? The answer may surprise you.
+Convert Lotus Notes file in Outlook PST, HTML, CSV, MSG, PDF, TIFF, EML in just few simple steps with Lotus Notes to Outlook Migration Tool. This tool also uses as Email Forensics, Email Archiving and many more. http://www.mailproplus.com/email-migration/lotus-notes/outlook.html
+I enjoy frostwire
+B2B lead generation generates interest in a product or service in order to drive sales, often using digital channels. Aruhat is keen to offer most promising b2b lead generation tools for many businesses. You can easily develop and execute hundreds of B2B lead generation campaigns.
+I would highly recommend [KCP](http://haruhichan.com/forum/showthread.php?7545-KCP-Kawaii-Codec-Pack) as it offers better quality and performance than VLC and is more recently updated then the aforementioned CCCP.
+Qbittorrent is the best I've seen recently.
+Tried toggling the hardware acceleration option?
+Aruhat is offering standard software which will help in highly configurable Price Intelligence solution provides retailers detailed, real-time view of the competition. You will easily manage it with our Price Monitoring Software at best price
+Deluge is the one I've been using for a while now. 
+If you google, you can find the uTorrent version 2.2.1 which is before they started adding all the bloat into it. It's what I use. It's only like 300kb or something.
+You have tested the same file on separate video players, right? That'd make it easier to make sure it's a VLC- specific issue or not. If the same files plays fine on other players, check if you have the 64bit version maybe? Not sure though
+try [CCCP](http://www.cccp-project.net/) with MPC-HD if not using VLC is an option
+That has always struck me as a attitude that stems from the open source community. People i work with and the education i got both were really helpful in explaining the matter in layman's terms.
+I think a lot of the confusion about "real programmers" comes from people equating knowing the syntax of a language to a strong computer science background.  You can get a job and do great just by knowing how to program, but it is more vocational than getting a degree in computer science. The degree should give you the skills to work in the field for a lifetime. 
+Can it tell you who/what is locking the object?
+I bought adobe audition.. now i need some kind of guide to do what i want to do lol..   the music is too loud, we are at a bar, the software can't understand my and her voice from the crowd..
+Programming is like painting a specific picture but with many painters telling you how and when to hold the brush correctly.... According to them.  Sometimes its good to listen to a true expert. However, a true expert of the craft isn't going to tell you are wrong. They will explain how he would of approached the problem and why.  Sometimes you just have to practice putting paint on the canvas and be creative or you will never paint anything waiting on the perfect technique.  I am a C# developer, self taught, and know enough to know I don't know anything.  If you ever have questions getting started fellow redditors feel free to ask here or on my website [bytemedev.com](http://WWW.bytemedev.com/). In the spirit of anti-elitism.
+Plex is also perfect for music, plex has an app on all big platforms, and a webinterface
+You can use some pretty advanced EQ or compression techniques to isolate the vocals from background noise sometimes. It's not full proof, there will always be a degradation in quality and it takes some experience.  There is no solution to just click a button and it isolates the vocals.
+I use [OnPaste](https://www.onpaste.com) 
+You responded to the thread rather than his comment meaning he wasn't notified of it. 
+Bring that to the EU! Bring that to Germany!!! Damn how I would love to tinker with the software of my Volvo... so many cool things to... roast...
+The last few years I've been independently learning to program and the thing I've noticed most about the programmer community is a philosophy that can almost be summed up by the phrase learn it the hard way or don't bother. Obviously the whole community isn't like this I've got a lot of helpful people but there's still a lot of people who suggest newbs just start with c++ and go from there. Which is fine for people that are driven but it's just going to frustrate and drive away a lot of people. 
+snipping tool is built in
+https://www.facebook.com/BrotherPrintertechsupportphonenum/
+https://youtu.be/OVqLfLVJGRY
+https://youtu.be/Nnd5C2B2_uU 
+https://www.facebook.com/1866.899.8159nortonantivirusphonenumber
+Chrome had a screenshot extension that worked for the entire desktop space that I remember was easy to use.
+Greenshot is still my favorite
+Thanks! ShareX look's awesome!
+You can use Gyazo also
+Best software for systems.
+plz visit
+ShareX does this.
+Video are the less important. The more important is music (mp3 or flac).
+If you want to share videos then use plex. You can then use Bubble Upnp and vlc to view your content anywhere even outside your house with careful port forwarding. 
+Look at this, it might be helpful. http://en.audiofanzine.com/computer-music/editorial/articles/how-to-extract-or-isolate-vocals-from-a-song.html
+I've edited the file according to your answer. Link should not have changed.  
+Thanks man, I'll give it a try as soon as I'm at my computer. You really helped me out
+Download it and rename the file to .zip instead of .crx then unpack it so you get a folder with all the files in it, move that folder somwhere where you won't delete it then open the Extensions tab in Chrome and enable Developer mode and after that click Load unpacked extension and point it to where you put the folder.
+Unpack it? Using an archiver? And how do I run it then? 
+You can unpack the .crx file and run it in developer mode.
+I thought Chrome no longer allows you to just drop in extensions unless they're on the web store? Or is there some sort of work around that I'm not aware of? 
+Ever wondered how free VPNs can be free? I'll help you there: because they monitor all your traffic and monetize it any way they can, the dodgier the better. I'm much more comfortable paying for a VPN at a company that has a brand name to protect and a nice cute privacy policy and correspondingly nice jurisdiction. But it might just be me that likes those things.
+I've been using MediaHint for free forever! There's an old build of the Chrome extension that works flawlessly without the login details. I'm watching US Netflix right now, actually.  Here you go: https://www.reddit.com/r/mediahint/comments/226hs7/solution_ive_figured_a_way_to_get_back_to_media/ 
+Sorry? I don't get it. What do you mean by "goofed" it? 
+ReveChat is one of the finest live help chat software gives information to website visitors regarding their waiting time and many more services.
+Sorry? I don't get it. What do you mean by "goofed" it? 
+Why do you not want to pay for a vpn when you use it so much?
+Cyberghost, although it also changes your IP address for all other applications.
+Thank you very much !   The &HELP etc. Are there for menu items. So for example &HELP in French: &AIDE. The ampersant symbol must be the first character followed by the translation in capital letters ;).   Again thank you for taking your time to do this !
+Did you try it? I said if you disagree that it's the best software, not if you think their site looks fishy
+I've translated it to French. The only thing I'm not sure of is the &HELP &TOOLS items. Do they need to be translated, or is it part of the code ?
+Same here! It's such a great tool.  The whole command-line interface puts a lot of people off, though. Myself included, actually. XMR is great because it goes fairly in depth about the abilities ffmpeg has. Unfortunately this means the interface is a little clunky.
+I use alltoavi for files less than 3.7gb when I NEED them to be in avi format.
+Good to know. I love to recommend ffmpeg, but for gui-only people, I'm often at a loss.
+Three of us disagree, by my mathematics, that's three hats you have to eat.
+Primarily me but I might share larger documents too.  I could use a small and fast program for my personal documents and a readable program to share.  I am not a fan of Adobe's bloat.  The primary use I have for KeyNote is compiling the short .txt which might flood the computer otherwise.
+You're welcome. Since /u/unclenoriega mentioned ffmpeg, I'd like to mention that XMR is a GUI for just that. :)   Although there doesn't appear to be a Mac version.
+Check my post history - do I look like I'm some spammer? I prob have more karma than most of you. I just came across this program and thought it was awesome. Yeesh, tough crowd. Here, trust PCMag if you don't trust me:  http://www.pcmag.com/article2/0,2817,2487070,00.asp
+Why does the web site give you the feeling that all their software is spyware?
+~~advert.~~  edit: ok i had a quick mess around with it in a VM it seems pretty decent actually
+plz visit
+I guess the big question would be:  Does this need to be shared with other people?  Or is this for you only?  I create large process docs on a regular basis and just use Indesign and Acrobat (Acrobat DC allows full page structure editing and text editing). These documents are shared with a small org (30-40 people) and has to be readable on pretty much any device you can think of.
+Thx I'll try it
+n...no
+nice
+http://www.androidpure.com/es-file-explorer-adds-bloatware-and-spams-users-with-your-device-needs-cleaning-notifications  Edit: They're also releasing a paid version./
+ES File Explorer spams notifications?  I haven't seen one besides when I am transmitting/sharing a file.
+iFFmpeg looks decent, never used it though http://www.iffmpeg.com/  I'd just use the command line, much less hassle.
+plz visit
+[ghacks](http://www.ghacks.net/) is a blog I subscribe to that has many posts about software, mainly browsers but not exclusively.  
+plz visit
+I irregularly blog about software I use or even wrote. The problem is that I probably have a decent software for everything I do, so I'm not into looking for alternatives all day anymore. 
+I know of [Datura](http://datura.sourceforge.net). I can't vouch for it, but it does support stream copying. I just use the terminal. Maybe someone else will know of a good GUI to recommend.[[[[[[[[[[
+Is there a good GUI for FFmpeg for Mac, preferably free? If not, I can use the above command from the terminal right?
+Thanks for suggestion. Using https://cloudconvert.com/ I just converted them successfully to pdf.
+[FFmpeg](https://ffmpeg.org/) can do this. For example:      ffmpeg -i input_file.mkv -vcodec copy -acodec aac output_file.mkv 
+Thanks!
+OP tried to respond to you but goofed it. Thought I should let you know so you get the notification. 
+sorry. im running windows 10 pro. 
+[Xmedia Recode](http://xmedia-recode.de/en/) can do this.
+Yes perhaps, but it depends on the operating system you're talking about. See the sidebar. 
+Well, no, not exactly. As I said, I don't need (or want) all those fancy multi-media functions that are offered by OneNote and Evernote. I've used OneNote in the past, but I want as little to do with Microsoft and their recent plunge into information hoarding as possible. Same goes for Google, and to some extent, Apple (which is why I'm looking for a Notes.app replacement).  To list the big ones:  * Apple (Notes.app): yes, the functionality here is what I'm aiming at. "Trust" online is relative. * Microsoft (OneNote): No. A good program (OSX version is a bit lacking, though), but it is more than what I need, and Microsoft have completely lost my "trust". * Google (Docs): not at all what I'm looking for. Never trusted them to begin with. * Evernote: tried it. Did not like it. Too many functions and thingymabob.  The Notes.app is more or less just what I want, but I'm interested in a program that does not make me dependant on iCloud for syncing.  Google Drive/Docs have never even been considered an alternative, imo, since that would be about as practical as a bunch of Word docs (I've tried something along those lines), but I've seen that many suggests this for some reason.
+So you're looking for the Google, Apple, Microsoft, Evernote functionality but without the name?
+Our SMS software is designed for professional users, companies that are looking for an easy way to integrate two-way SMS messaging into their IT system. Aruhat is offering most precise sms gateway software for your business.
+My apologies, I must have described it wrong. It was when you highlighted a file, didn't need to right-click or anything, it just gave really in-depth information, artist information for music, etc. Instead of just name, date length and size.
+A large scale disaster probably also leads to a breakdown or at least overload of vital communication systems. How should smartphones/apps work in such a case? 
+Is your website hosted on Joomla CMS and want to integrate live chat software on it? Then follow these steps to install live chat widget and assist more sales, customer satisfaction and convert more clients.
+Possibly. I personally use either diskcryptor or luks
+To what link? And what does it do?
+http://prnt.sc/
+Have you tried to add &dl=1 at the end of the link?
+Are we back to TrueCrypt being the reliable one, not VeraCrypt? 
+Because Evernote is "too much". I'm looking for something simple, much like the Notes.app, just not *the* Notes.app. I want to be able to sync it on my own via a simple database file I can put in my cloud/sync of choice.
+What is wrong with Evernote? You seem to have eliminated every major player in this space without stating your objection to them, which makes this a hard problem to solve. 
+Engage with website visitors in real-time and improve customer satisfaction and online sales. Cloud based live chat software for website.
+There's also a great utility called [tcplay](https://wiki.archlinux.org/index.php/Tcplay) which can be combined with kpartx to mount drives containing several partitions within the same encrypted volume (full disk encryption).  With a bit of work it's possible to boot linux on a drive using truecrypt full disk encryption. (The truecrypt bootloader works well enough for grub to load the kernel, after that you'll need a ramdisk containing tcplay and kpartx to decrypt and mount the root filesystem)
+nice
+Inventory management software helps a lot in streamlining the operations and goes beyond in house inventories. Nowadays, they help you to track whether the products have reached your customers and even give you an idea of what items are selling more than the other.  Here I recommended top Inventory Management software for small business http://www.softwaresuggest.com/inventory-management-software I hope it's all tools helpful for your business needs.
+Iirc veracrypt has made sone rather suspicious changes and might not be trustworthy. 
+IGATE's Infor ERP/Baan expertise spans across implementation, integration and optimization of Baan and Infor ERP products, to automations, country-specific localization, and maintenance, among others.
+You can't really do this. You want to provide internal mappings of buildings and also provide a path from current location to nearest exit. Good luck with that. Not only can I not imagine how you're going to get these building maps, you're going to want to provide minute details of location down to a couple feet which is not easy/possible especially because the quality of that service is going to be super super reliant on the quality of service that you can't control  Going beyond just the tech into the actual use experience: You don't want people looking down at their phones in buildings during scenarios like this as the top comment mentions. People are trained in this as is. The app complicates it and is likely not going to be the first thing someone will look at in an emergency.   Also, you have the issue that for large scale scenarios, you're already behind the curve to facebook notifications. You'll never beat them out on that use case.
+The hallmark external program back in the day was GSpot, but it sounds like you may be thinking of [MediaTab](http://mediatab.mediaarea.net/)
+The only potential issue I see is the backlash from a glitch or malfunction and someone dies. A carefully worded disclaimer may save you later if it ever ended up in court
+You can use TrueCrypt. [Linux has native support for it.](https://wiki.archlinux.org/index.php/TrueCrypt#Accessing_a_TrueCrypt_container_using_cryptsetup) I know a lot of people rag on TrueCrypt lately but it's the best cross-platform option for now. If you don't want to use TrueCrypt due to its issues, I think VeraCrypt might still work with Linux's native facilities.
+I cant seem to find it unless it's something different
+What problem is this solving?
+Did you try to convert it to other format.. As you probably know, chm is just container for html files 
+It looks like Winamp is being worked on a bit, and the last version available (5.666) was from back in 2013. I'll have a look into AIMP, though not too apprehensive at the GUI. What's the difference between a player and a manager?  Mobile device is an android (S5)
+plz visit
+PGP/GPG I use GPG Tools and GPG4Win.
+What about a smart watch with voice assistance then? Also, another useful thing is people could see the flow of people on an indoor map, and also see people which are suck.
+Sometimes I think I'm the only gamer on the planet that uses a controller and a mouse at the same time to play.  Nice to see at least one more.  Here's what I use.  [JOYTOKEY](http://joytokey.net/en/)  I make the game think I'm using a keyboard, so that I can use the mouse as well.  ***Edit*** Duh, just read your post again, and you're looking for the exact opposite to what I just said.  I think this will do what you want.  [Vjoy](http://headsoft.com.au/index.php?category=vjoy)
+I don't know how imaginative you are but you are pretty much wrong in this case. Emergency management can go both ways in this case with information coming from people and to people in need. Just watch any documentary on 9/11, there are hundreds of people making calls and wanting information. Large scale disasters are even more problematic and information intensive ("crisis informatics")
+I think that if there is an emergency such as fire, the last thing people should be doing is mucking around with apps on their phone.
+it is free but no updtraes or email support so your fine.
+This turned out to be perfect. Thanks so much. 
+This is perfect
+But I'd have to sit and wait for it to read the text in real time, right?  I'm trying to avoid that.
+Any progress on Windows 10 support? I noticed the last edit was 3 months ago.
+It does. Once configured, i prefer mpv to MPC-HC+MadVR. I use livestreamer over youtube-dl, but that's only because I can't get Crunchyroll to work on yt-dl.
+plz visit
+http://festvox.org is another resource, works well on Linux.
+If it's only the player that you don't like, you can use an external player with Kodi (XBMC's new name). Of course you would still be using Kodi to browse the library...  http://kodi.wiki/view/External_players
+https://www.svp-team.com/wiki/SVPtube  I use this with a minimalist MPC-HC config.
+plz visit
+With growing e-market website just gives their contact information to contact them. To resolve the communication gap between the visitors and website owners live chat customer support has become an essential part of the website.
+Online: http://accesstechnology.org.uk/tts  Balaboka is good for offline use. Download a good voice though. 
+VLC can play youtube links, just press ctrl+n and paste the link
+Got an article in regard to [movie maker alternatives](http://www.apowersoft.com/windows-movie-maker-alternative.html). See if you can find the program you like. 
+nice
+nice
+Windows has revolutionized the overall technology by providing amazing user experience. With each new version, it has some added functionalities that makes the day to day work of any employee easier. Thanks to Windows. 
+I didn't even need this application and now I love it, thank you.
+Foxit reader can help your cause.
+You can try mpv + youtube-dl  https://www.reddit.com/r/linux/comments/35botl/tip_use_mpv_youtubedl_as_streaming_audio_player/?sort=confidence  Not sure whether it works on Windows 
+You should be able to download it without paying, and it is free software licensed under GPL 3: https://github.com/flaviotordini/minitube/blob/master/COPYING
+The say command included with OS X can do this.      say -f file/to/say.txt -o /output/file/audio.aiff You can select a voice with -v. You can get a list of voices with:      say -v '?' or, to get only US English voices:      say -v '?' |grep en_US According to the man, some voices may support audio formats other than aiff.
+This looks really, really good. Any free alternatives? 
+Could you please be more specific. Coz there are lot of printscreen programs are out there. For Desktop i would recommend getgreenshot.org but if you were looking only for browsers then i would recommend lightshot screenshot tool. Simple yet super cool extension.
++1 for Minitube. 
+http://flavio.tordini.org/minitube   I just know about it and didn't get around to trying it out because Debian GNU/Linux has an old version which doesn't work.
+Crack Download is providing you best software's that helps its users in accessing various software's and so much more.
+Thank-you!  I was beginning to think no one could/would help me!  I really appreciate it!
+[Microsoft Narrator](http://windows.microsoft.com/en-ca/windows/hear-text-read-aloud-narrator#1TC=windows-8) comes with Windows, right? All you need is a program to capture your audio and record it in whatever format you want, there's dozens of those.
+Ask this question over at Videohelp.com.  One of the most recommended amateur level programs for this has been Adobe Premiere Elements, but they may come up with more suggestions over at Videohelp.
+http://soundoftext.com/
+plz visit
+http://www.cross-plus-a.com/balabolka.htm
+From a software standpoint Windows provides this information through management instrumentation (WMI). You can query the hardware list and MSAcpi_ThermalZoneTemperature to read temperatures. If you want to look into source code you can visit http://openhardwaremonitor.org/
+not yet. I'll take a look at it, although from what I heard it's mostly aimed at digital painters. anyway, I'm considering switching from pirated Photoshop to something like Paint.NET, as I do simple photo editing now and then. on the other hand, I had to make some posters some time ago... 
+plz visit
+Ever tried Krita?
+I fucking love you
+All modern CPU's and motherboards have one or more temperature sensors build into the hardware.  Relevant wikipedia piece with proper names and terminology so you can do further research:   https://en.wikipedia.org/wiki/Thermal_diode#Electrical_diode_thermal_effect_or_function
+You might try [movie collector](http://www.collectorz.com/movie/?from=google&keyword=movie%20collector&gclid=CKOQt9T-qMkCFUUYHwod5AEC_Q)
+QuickBooks related any query can be answered with a reliable solution.
+If you don't get an answer here, try /r/datahoarder
+plz visit
+foobar2000 for music, MPC-HC for video. 
+I wish someone made a free Photoshop clone. sadly, probably won't ever happen. 
+Bubbles.cc is a live chat software that can help you listen, respond and have 360 cycle of Customer Care 
+nice
+IGATE's SAP application solutions enable enterprises across the globe to benefit from improved performance and swiftness.
+If you have a website, introduce live chat service on your website wherein you sell a product or a service to your customers & talk to your customers in real time and convert leads to business efficiently as it serves as a guide to the customers and helps them feel they are not being ignored by the company.
+pcplace.org.all kinds of pc windows full verson software with serial key,registration key,crack,keygen,activetor download place. 
+Personally I kind of found the lack of a right click menu annoying.  Yeah it has stuff like rectangular selection, but I can't modify my selection like I can in gimp. With gimp once I make a selection, I can actually resize it and adjust it. I don't want to have to redo the entire selection.    Didn't see a clone tool, which I more often use for image editing, especially for photos that might need repairs.  No sicissors select tool that I saw. http://docs.gimp.org/en/gimp-tool-iscissors.html  The lack of a right click menu is kinda annoying. I don't want more painting tools, I want to be able to copy and paste and do other image things.  Like I said Krita looks like a great artist program, but it's a completely different workflow then I'm used to.  Gimp has always had a horrible UI, but I don't use it for the UI, I use it for the tools.  Like I said I actually use paint.net more often, except when I need better selection tools, which Gimp's are far closer to photoshop's then Paint.net's are.  
+uhhh, pretty sure it's got most if not all of the same selection tools. plus it has actual development being done on a consistent basis driven by kickstarters. People vote with money on new features, then shit gets made.
+Personally I see Krita as more of an "artist" editor. If you're doing a lot of drawing or artwork I could see using Krita, but for image editing in general I prefer gimp over krita.  I usually use paint.net until I need better selection tools, then I use gimp.  That said I will pay a little more attention to Krita just to see if it would work for my purposes.
+Giving it a go now, thank you!
+Cyberlink power director... It has more of a pro interface without the pro prices like final cut and premiere
+plz visit
+I highly recommend greenshot
+^ ^ This is the best answer you will get.
+I second Remote Desktop Manager. The application is constantly improving and their support and user community is top notch.
+GIMP is dead. Just use Krita, it's built on the remains of GIMP and has an actual desire to be well designed. There's still a lot of crap from GIMP they need to replace, but overall it's not bad.
+Windows Server Core has a stripped down interface unlike the other versions which have a GUI.
+That's much easier than restoring the default tool pallet... don't you dare close those windows...
+That's because it wasn't conceived to be a Photoshop replacement.  Seriously. That's how they dismissed my requests :(
+Download it
+Maybe OneNote in [pinned mode](https://support.office.com/en-ca/article/Create-Quick-Notes-0f126c7d-1e62-483a-b027-9c31c78dad99) ?
+they should call it 2.4.8.16. 
+If you have Windows, just press the Windows key + print screen. That i'll save the screenshot on the 'my images' folder.
+I recently discovered the wonders of OSX's "Preview" tool which can do pretty nice vector graphics it turns out.   SMT A page documenting all the tools that were not intended for professional image processing that never the less do it better than this pathetic excuse for software.
+I wanted to make a venn diagram, with blending on the overlaps. After over an hour of experimenting, googling, and crying, I switched computers, fired up Paint.NET, and had it all done in about five minutes. I'm versed in Photoshop, which isn't exactly an *easy* tool, but it feels like the devs of Gimp have gone out of their way to make it unintuitive and impossible to use.
+plz viist
+Check out the latest review on SoGoSurvey at PCMag.com  http://www.pcmag.com/article2/0,2817,2494735,00.asp
+... And it's still impossible for first time users to figure out how to change the size of the brush.
+plz visit
+https://getsharex.com/  http://getgreenshot.org/
+Holy cow! I've never thought that it was such an old (respectively) software.
+It was for me atleast. And the 1/2 is for old python2. 
+Keeping your customer happy is the key to successful business. Adding instant chat windows on website allow customers to connect with customer support at any time of the day and even during nights.
+http://www.filefixutility.com/eml-file-to-pst-converter/ advanced tool to convert eml to pst here download
+MusicBee should be able to play anything you throw at it. Those files are most likely protected by old iTunes DRM or Spotify DRM. You'll have to find a way to strip them or just replace the songs with clean ones.
+Media Monkey, have been using for years, Would recommend.
+thanks! 
+Very intuitive for non programmer:       >>> 1/2       0       >>> 1.3-1.2       0.10000000000000009      >>> sqrt(4)      Traceback (most recent call last):      File "<stdin>", line 1, in <module>      NameError: name 'sqrt' is not defined      >>> 011 + 2      11  
+VLC has speed playback and a decent leveler.   Audacity also has speed playback and can do a lot more editing, leveling, and scrubbing too.  
+Python.  It's stupid simple to use it as a calculator
+GNU [Octave](https://www.gnu.org/software/octave/), [Mathomatic](http://www.mathomatic.org/), GNU [dc](https://www.gnu.org/software/bc/manual/dc-1.05/html_mono/dc.html) ... there's a [Wikipedia page on this](https://en.wikipedia.org/wiki/List_of_computer_algebra_systems) topic.
+plz visit
+You really dont have to be with python3! Syntax is very intuitive.      >>> 1+2/(12313*0.01)      1.0162429952083165      >>> variable = 1+2/(12313*0.01)      >>> variable * 1000      1016.2429952083165 
+how's Karen's Calculator, heard a lot of good things about and it's high precision  also i have speedcrunch, it can't deal with really high precision...
+[SpeedCrunch](http://www.speedcrunch.org/) is a pretty decent calculator. However, for maximum flexibility I would second the suggestion by /u/jarrah-95. A REPL client for a programming language would give you the most options.
+My two suggestions are Foobar2000 which allows you to make it look like literally anything by downloading a skin for it, or MediaMonkey which is great for managing massive libraries and looks kind of like old iTunes.
+I'm no programmer....
+Python....
+Yep, I ditched foxit. 
++2 for Sumatra. It's awesome if you just need a lightweight reader.
++1 for sumatra. It's extremely light weight. Remembers your place in a document. Highly recommend. 
+Foxit reader kicks butt :)
+as previously mentioned Sumatra is excellent
+I ran a survey on video editing software. I have collected a long list of software here: https://docs.google.com/forms/d/16zEdMh-GqrJUGGxItabMttmhDe23lPdU39PGheSPri8/viewform  Personally I use Movavi video editor. Brilliant and renders without much effort.
+plz visit
+Just have a look at the poll results in a survey. The results are visible once you vote (you have the option to select "I do not use any video editing software".): https://plus.google.com/+RobertSababady/posts/1gWLAnrG2v6  Personally I use Movavi video editor. It allows you to do a classical edit - cut and paste. So you will achieve what you are looking for.
+I am really surprised at the results so far. In spite of MS Project being the most used, The vast majority of its users are not likely to recommend MS Project to friends, colleagues or even family!  Check out the results - they appear after you votes. 
+UB reader
+SumatraPDF does and it's not bloated unlike Foxit imo
+The Windows Store version of VLC has the library functions you're after, though I've found the stability of the player itself to be hit or miss.   If you want to go all out overkill, there's always Kodi. 
+[Here's a spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AgrreMlF5qoRdGVXTlRmUzNlUGUxc2lvTjdTT240NWc#gid=0) I found a while back for encoding recommendations. I didn't make it myself so I can't attest it's accuracy but at least it's a good starting point. 
+I really like bluebeam for many reasons, try the free trial and see if it works for you.
+Try Foxit Reader 
+Avoid All looks like total crap to me
+plz visit
+I agree they all look really dodgy. 
+I guess most have been discussed. WMP, VLC, iTunes(quicktime?), and MPC-HC are probably the top players known out there. None of them seem to be full featured, especially with file management on mobile or otherwise.  Perhaps you'd be interested in something more like [Kodi](http://kodi.tv/) or [MediaPortal?](http://www.team-mediaportal.com/)
+Ok so what I asked for (5 months ago) was an editing function with regex support.  Basically notepad++'s search-replace features ripped into a background process that functions on any highlighted text in any program. 
+ How do you mean that you can't use the clipboard? Do you mean when windowspy or ^c, or other command would not be able to store the text in the clipboard? How is this different from what clipboard replace does (with some minor AutoHotkey tweaking)? I use clipboard replace in combination with Ditto (for storing the clipboard and some other features). 
+First time I heard of them, but most of what they do can already be done with freeware or open source software like format factory, handbrake, fast stone image viewer...
+Can anyone comment as to the quality/trustworthiness of these? Free software on a site with poor English always puts me off.
+Winamp and AIMP are audio players. Musicbee is an audio manager. VLC is a video player.   Nowadays any video player can play all types of formats. If you want features, I have not seen anything more feature rich than Potplayer but do remember that features and friendly UI are often inversely proportional.  If your mobile device is IPhone, MediaMonkey (I don't recommend this) and MusicBee can sync music with IPhone. On Android, you don't need any of this.
+I use Microsoft's [Remote Desktop Connection Manager](http://www.microsoft.com/en-us/download/details.aspx?id=44989) to connect to 10 servers that I manage and it works pretty well
+> something not so windows  What?  About VLC: IMO VLC's sound engine is inferior. It's great for video streaming though. Winamp might be a good choice (although we still wait for a new release since Radionomy who bought it from AOL has not made a new version yet). If you are impatient, try [AIMP](http://aimp.ru) which resembles Winamp in some ways but uses a different sound engine (BASS).
+This is fantastic player, you can even rip to other formats. It will not sync with an mobile device such as an any IOS devices but it is great. http://getmusicbee.com/ 
+nice
+The pictures aren't working? Also I scanned it on a site and found a trojan gen, so the answer is no, the shit isn't safe.
+Start with Windows Movie Maker if you're on a PC, iMovie if you're on a Mac. 
+This is free and though it's a little dated it works fine.  Note that if it disconnects when you resize the window, there are fixes for that available.  http://www.mremoteng.org/download
+plz visit
+The IBM History Flow is described in their paper: http://alumni.media.mit.edu/~fviegas/papers/history_flow.pdf  Also this page, https://www.research.ibm.com/visual/projects/history_flow/explanation.htm, says  > Our application is written in Java 1.4 and runs as a standalone program. Further details will appear in a forthcoming paper and are also available upon request (see our contact page)
+Maybe a powerpoint type thing ?   But I'm interested in knowing if there's better suggestions too
+I would like to visualize the way edits are made to an article, which edits continue, which get deleted, and the frequency of edits.   [This page](http://infodisiac.com/Wikimedia/Visualizations/) has examples of visual analyses of wikipedia. The sort of thing I would like to do is the something like one shown on top and done by a team at IBM http://imgur.com/hGJtIxG  But I can't any articles or tools on how to achieve this on the linked page or anywhere else.  Edit: To be more specific, an example of the kind of data I want to visualise is [here](https://en.wikipedia.org/w/index.php?title=Baroque_violin&action=history) I think the data is probably in xml form and I need something to convert it into a nice visual. 
+That's a configuration issue, if you set it up right it can use the same encoder as shadowplay
+I use cloud convert lots, but my upload speed is 0.1MB/s and cloud convert doesn't let you have very long sessions so that's a big problem for converting whole albums at once. I'll check out the FFmpeg thing though.
+I'm pretty sure you want graphical streaming but if you or anyone else was looking for command line too, you can tmux running pretty easily on Windows.  Download [Babun](http://babun.github.io/) and just install the tmux package. It's honestly the best Windows shell you'll ever use.
+DLL Files Fixer Crack+Activation Keygen 2015 Free Download   Information: DLL Files Fixer Crack+Activation Keygen 2015 Free Download is best software for operators and professionals, very easy to download and easily manage them. These software’s features provide you a wide-range of files store library in which you can transfer and copy them in a single button…
+Look for rdcman, used to be a internal Microsoft program but is now available to the public 
+I use remote desktop manager, fantastic solution for a windows shop
+Any video editor ever? 
+[Remote Desktop Manager](http://remotedesktopmanager.com/)  [MobaXTerm](http://mobaxterm.mobatek.net/)  I prefer mobaxterm since it has better support for SSH connections, but remote desktop manager has a ton more features for windows based systems.
+It's entirely dependent on how much your drivers "enhance" your audio. If the drivers are good, they should sound the same as if you're using WASAPI/ASIO.
+not sure really, too many contradicting statement all around. Some say wasapi bypass windows audio so it sounds way better, some say windows improved their audio. So I post here to ask.
+nice
+It's using the exact same encoder as ShadowPlay if you select NVENC. Set the bit rate the same as ShadowPlay and it should be no different.   If you're losing 30fps that's ridiculous even for x.264 encoding, OBS by default runs at a low CPU priority and should start dropping frames of it's own before it makes a large impact in other processes. Still, NVENC 
+Why do you think it would sound different?
+Nope, for some reason Windows 10 BSOD me every time I try to play something... Some stupid ntoskrnl.exe BSOD that I could not fix :/ So I came back to Win 7
+Are you on Windows 10? Have you tried GameDVR? 
+I'm not sure it will fit your request, but there's cloud based [CloudConvert](https://cloudconvert.com/) which is great to convert multiple formats. If you're using Mac OS X, I recommend [Adapter](https://www.macroplant.com/adapter/).  If you want to go deeper and automate things, there's always command line software [FFmpeg](https://www.ffmpeg.org/).
+I5-2500k 4Ghz, GTX 970, 8gb RAM, 500gb HDD. I actually didn't change anything with bitrates etc., because I don't know what numbers to put in so I guess it's on default 1k or something. I wasn't looking into it because after I saw such FPS drop I gave up :P I'll try different encoder then. Thanks! :D
+I was using [mremoteNG](http://www.mremoteng.org/), but project seems dead. You can look at [Terminals](https://terminals.codeplex.com/). But if you don't mind paying a little, best option is [RoyalTS](http://www.royalapplications.com/ts/win/download), which is awesome, if you have to manage several servers. I bought it rather than [Remote Desktop Manager](http://remotedesktopmanager.com/), but you can try it too.
+What's your hardware specs? There's probably something wrong with your settings. If you have a supporting CPU you can try using Quick Sync instead of x264, or since you have an nvidia gpu you can use NVENC.   The quality is definately because of your settings. What bitrate are you using?
+Sadly, I lose like 30 FPS with OBS and quality isn't that great...
+OBS can do that, and it's free.  https://obsproject.com/forum/resources/how-to-use-the-replay-buffer.103/
+Jitbit Macro Recorder is your friend:  https://www.jitbit.com/macro-recorder/  It's MUCH easier to use than AutoHotKey, and it can turn pretty much any problem you have into a straightforward thing to do. You have screenshot software? You have file upload software? Jitbit Macro Record is the glue that puts it all together.   The only downside is that it pretty much owns the computer, but there are ways around that. For example, I use both Jitbit Macro Recorder and AutoHotKey, and when I want them to do something without totally dedicating a PC to it, I have them freeze the mouse and keyboard, switch to the window they need, do their thing, and then release the mouse and keyboard. It interrupts me only as long as they need to do their job.  Another downside is that AutoHotkey is free, but Jitbit Macro Recorder is not free. It's worth the money though. I've tested a lot of such things, and it's by far the best. Plus, if you have a blog or some other semi-important website, it's still possible to get a free copy of Jitbit Macro Recorder just by linking back to them:  https://www.jitbit.com/macro-recorder/free-macro-recorder/  I'm guessing it must be better than paying for advertising, which makes sense.
+thank you
+ViceVersa is the best backup software I have found, specifically because it does a great job of exactly the use case you have. It will automatically detect when files change, back them up, and timestamp or "archive" all versions. It's very powerful, but the company doesn't respond well to bug reports, and they don't even allow screenshots to be posted on their forum. Fortunately, you have to push the software hard to like I do to find a bug, because it's very polished. I don't pay for much of my software, but ViceVersa is worth every penny:  http://www.tgrmn.com/  Backup is useless without data integrity checks, and ViceVersa is one of the few that can at least do a checksum to verify the file was copied correctly. I won't even bother with backup software that can't do a simple checksum. That rules out all but maybe 5 or 6 of them. Get MultiPar and Corz Checksum too, they're handy.  Get the latest version of MultiPar here:  https://www.livebusinesschat.com/smf/index.php?board=396.0  Corz Checksum here:  http://corz.org/windows/software/checksum/
+Not really about noticing, more like, not caring anymore, when a developer takes a year to release a revision version, people tend to either uninstall, or forget about checking for new versions and continue using the software if it is stable. I stopped at 9.25, checking the log, 9.30 came out a year later and it wasnt even a major version, just a small revision, I simply rolled with 9.25 and didnt bother to check anymore after a while, I assumed the software was done as is i.e fulfilled the dev's needs, and I wasn't having any issues so...   Then looking at the history, 9.33 took 6 months from 9.32, then 9.35 6 months from 9.34 and the here and there 6 month gaps. I guess it's safe to say that, it's been more than a year and a half since I discarded checking the website.
+I personally use "Disconnect" on Chrome, I don't think they are on other browsers. They are more transparent than ghostery ,at least from what I read.
+Am still using chrome, with 40-100+ tabs open sometimes.   However recently(like the past month) , I noticed chrome sometimes are covered with black boxes all over(even with just 4 tabs open), and I need to scroll up down to make pages look normal again(I gt 16gb ram,and I never use more than 12gb ram at any time).   Been considering switch to other browsers, but not sure firefox or Opera. Seems like both of those browsers have problems of their own too..
+Now you have a lifetime of regret of not having purchased MSFT stock instead with the same money. 
+People don't give them enough credit in this area. MS has always blown away everyone else on support and backwards compatibility. Hell, did you know you can still compile and run some DOS programs on current Windows? I can't even run some java or mac programs from last year!   People automatically write off all of Microsoft's success in the 90's as dirty tricks. That definitely was a big part of it, but they also courted developers like crazy and have the best dev tools in the business. Anyone who has used VS can back me up here.  We still have 2 programs running Windows Forms with components I wrote in 2005. Literally. The new customer form I added is sill the original when I first started the program.   Meanwhile, our java programs break with every update. We just had all our java client programs break bc Java removed the medium security setting which was the default before. The update before that they changed the way security was done so it required all jars to be signed and some of our dependencies weren't so it broke all our java clients that time also. The time before that, a java update broke the default Glassfish class path. Netbeans won't properly open my swing program gui bc swing app framework is dead. Seriously? Already? One fucking thing after another with java.   Apple wont let you even add apps or updates to the store that aren't fully compliant with the latest versions.  Everyone knows the python 2 -> 3 debacle.  JavaScript looks like someone shattered a window with all the pieces that don't work together. ES6? ES7? TS? CoffeeScript? Wtf  Meanwhile, the first form in the first program I ever wrote in Windows Forms keeps chugging along.  That is why MS was so popular in the 90's, and still is today.   They have always had long term support. Other companies are only now catching up by offering 10 year LTS. MS has had 10 year LTS from the beginning.  Edit: Formatting
+calendar.google.com  Edit: you can create reoccurring events and also receive emails and notifications when you need to be reminded  (a period of time before the event). Also, a more "intrusive" method can always be disabled or ignored, there isn't an app for motivation
+thnks! knew the file hippo, the alternative one is great
+It's always best to update the drivers from the official manufacturers website but if you just want some quick piece of software there is "snappy driver"  http://snappy-driver-installer.sourceforge.net/en/index.php or driver pack solution http://drp.su/uk/  They mostly work well but with Windows 10 now most drivers are auto installed anyway.
+Sorry I can't help you more, but you haven't given much info.  
+Hmmm then I'm not sure how to stop said program from freezing, ;(
+If you can open them in any image viewer, then they are probably ok.
+You need to be more specific about what aspect of the history you want to visualize.  i.e. visualizing just the dates of edits, the amount of data added/removed, how many different editors, etc
+I was thinking military but yeah, I could see banking too.
+Maybe patches for Y2K on some weird "this big bank never bothered to upgrade" software?
+Sure, but because they've been releasing those interim builds it's obvious the project wasn't abandoned. 
+Some people don't want to use alpha or beta software.
+I use WinRAR with the professional theme, icons look super nice.
+I came to post the same thing.  I'm having a hard time wrapping my head around that.  Seriously?  They still supported 1.0 in ***2000*** ???
+I tested several times Google Chrome (all channel of development), but nothing I do not like it.  Using Firefox on all operating systems without addons and no flash player (not surf on sites with flash player).  I noticed that at parity of open pages, counting all the processes of Chrome, Chrome uses much more RAM than Firefox.
+I'm glad no one told me that 10 years ago.
+> Unsupported as of December 31st 2001  14 years ago, MS was supporting their first version of Windows?
+30 years is a good time to stop.
+What more do you want? It's about as barebones as it gets, which I think is a good thing.
+Yes. That is correct mainly because Windows makes it hard to access partitions directly, especially when not an admin. Windows doesn't treat it like a normal file line Linux does.
+No clue, sorry.
+I remember buying it as soon as I could because ... for a limited time ... it was bundled with an extensive library of free software: notepad, paint, calculator, solitaire, etc.  With a deal like that - all that free software - you've got to act fast or live with a lifetime of regret.
+Not yet.  
+>7-Zip now can extract solid WIM archives  WIMs? Oh boy!
+is there a windows version...link?
+is ghostery similar to https everywhere ?
+This is the best tl;dr I could make, [original](https://medium.com/@brendawambui/corruption-in-the-silicon-savannah-9e393a00aa0e) reduced by 90%. (I'm a bot) ***** > Two weeks ago, it became public knowledge that the founders of Angani, a cloud services company, had left the company under what seemed to be hostile conditions, and this sent the online Kenyan world, especially on Twitter, into a frenzy.  > The two founders still wanted to give feedback on how they felt the company should work, and when this was disregarded by the board, Brian resigned.  > In this information age, one wonders, how was this supposed to play out? Were people meant to stay silent? Was this terrible event going to join the list of terrible things that happen in the tech community that are spoken of in hushed tones? How about the politics of this situation? How does it look when white investors team up with a privileged non-black Kenyan against the black founders of the company? Are there racial politics at play? Are black founders incapable of running startups? Currently, the Angani platform is being run by foreign consultants, which says a lot about the faith of the management team and board in Kenyan tech talent.   ***** [**Extended Summary**](http://np.reddit.com/r/autotldr/comments/3tkhme/deception_in_the_silicon_savannah/) | [FAQ](http://np.reddit.com/r/autotldr/comments/31b9fm/faq_autotldr_bot/ "Version 1.6, ~15895 tl;drs so far.") | [Theory](http://np.reddit.com/r/autotldr/comments/31bfht/theory_autotldr_concept/) | [Feedback](http://np.reddit.com/message/compose?to=%23autotldr "PMs and comment replies are read by the bot admin, constructive feedback is welcome.") | *Top* *five* *keywords*: **company**^#1 **found**^#2 **how**^#3 **people**^#4 **Angani**^#5  Post found in [/r/tech](http://np.reddit.com/r/tech/comments/3tjmn8/deception_in_the_silicon_savannah/), [/r/technews](http://np.reddit.com/r/technews/comments/3tjrzk/deception_in_the_silicon_savannah/), [/r/technology](http://np.reddit.com/r/technology/comments/3tgd55/corruption_in_the_silicon_savannah/), [/r/software](http://np.reddit.com/r/software/comments/3tgevc/corruption_in_the_silicon_savannah/) and [/r/technology](http://np.reddit.com/r/technology/comments/3ta9zt/how_does_it_look_when_white_investors_team_up/).
+Oh, that explains it. I was just thinking... "huh, seems like I haven't updated 7 zip for years."
+The ext* thing is pretty awesome considering the other ext* software I've tried on Windows has been really buggy in the past.  Although from my first look in 7z, it looks like you need the filesystem to be in an image file?  There's no way to open a HDD partition directly?
+I guess you never noticed all those alpha and beta releases? 
+[Rainmeter](http://www.rainmeter.net/) is probably what you're looking for. It has tons of options and skins, and is completely customizable, with a little work.
+Yeah, Free Download it to your computer.
+[Mother of God](https://media0.giphy.com/media/xHX546S4pQBPy/giphy.gif)
+A company owner constantly wonders what they can do to influence the buyer to buy from them instead of their competitor. If you also have this concern, then incorporate web chat software on your web site and resolve their queries online and track them on real-time basis. 
+Well if it was at least functional. But it isnt. 
+That was my reaction after noticing that the new version still does not unpack .tgz in one go - see the [epic thread](http://sourceforge.net/p/sevenzip/discussion/45797/thread/5eb1b8d5).
+Live chat service features on business website help you grow your online business and provide cutting edge customer support. Provide on the spot support to all the doubt and random issues that one can come across in any industry.
+Like
+ Know all about live chat support, its features, password recovery options and various other tools before you buy Customer Support Software for your website. 
+There's a whole lot in there if you haven't bothered with alphas or betas, given how long time it was since last release.  Here are some big things I found (since 9.20):  * Defaulting to LZMA2. This has arbitrary multithreading support for compression and decompression as its main feature, besides handling partially incompressible files much better. Combined with speed optimizations for large archives, this is bound to cause noticeable speed improvements for multicore systems. * The GUI can now move files to archives + corresponding option in the Add dialog reachable via context menu. * Multivolume self-extracting 7z archive support. * WinRAR 5 (RAR5) archive support. * WinZip .zipx support (with xz compression). * > 4 GB file support in ISO's. * Better 7z compression in Max/Ultra for EXE/DLL's. * Console version uses stderr for errors = more usable logging / scripting. * Besides ext2, ext3, ext4, vmdk image support, also WIM, GPT, single file QCOW2, VDI images.  Edit: Another one!  * CRC-32, CRC-64, SHA-1, SHA-256 calculation for files via the context menu! That'll be useful for me.
+Add a live chat on your website and stay connected with your customers & understand the customer and get familiar with their requirements. Live chat support services ensure a greater convenient for business owner to consumer communication.
+IGATE's Oracle Business Applications are complete, pre-built enterprise solutions that deliver intuitive, role based intelligence for everyone.
+There must be some unwritten rule in software, that when tools get overripe, theming support is added.
+WinRAR 5 is way prettier and quite a lot faster than 7zip.
+The file icons are literally folders from windows 95 with an ugly 7 overlay.
+The interface is horrible, but do you really need an eyecandy to extract an archive? It should be functional, first of all. Beauty comes later.
+nice
+Auslogics have one. Not free though.
+That's one of the nice things about it. No bullshit, only performance. Like when WinAmp got all crazy with all the skins in WinAmp3 and people switched to Foobar.
+No brotli support yet? :)
+Literally never seen the GUI for this app. Entirely use through the context menu.
+my reaction after categorizing 7zip year and a half ago as an app that was probably abandoned or that the dev didnt give a crap anymore, but was still nicely useful, http://i.imgur.com/kePjL5R.gif
+Oooh, I didn't even notice that!
+Sorry, I totally missed that your platform was Windows7. That is a shame.
+Http://www.filehorse.com
+Yeah, plz upgrade the interface. Its horrible.
+It took 5 years and it still looks like it was made for Windows 95.
+Yeah I was going to say. I never really thought the stable version was ever going to update.
+Just update them yourself? Also don't use avg
+Not bad. Two more that I'm familiar with that are pretty good:  http://alternativeto.net/  http://filehippo.com
+You're welcome!  No idea if this helps, and maybe you've done this already...but if you log the input you get and you go to the dev(s) who wrote the code that generate that input, you could show them the logs. It might wery well be that seeing the differences in the input will allow them to deduce what's going wrong in their code. Even if you can't fix it yourself...just by documenting what is going on you are helping. The better you can document what is going on - even if you don't fully understand it - the easier it will be for them to figure out the underlying issue.   And generally speaking...yes, you will more than likely be expected to do these things in your future career as software developer. To which extent depends on your job. To expand on what I said... there's jobs where this is basically all you do all day. There's jobs where you have to do it every now and then. Then there's jobs where you're really only expected to do the first part...you get assigned an issue, and if you find the underlying problem originates from a different part of the code you pass it on to the person responsible for that code (who in turn may do the same, until the underlying issue is found and fixed). There's also jobs where you only do this with the most critical of issues because your time is so valuable that someone else will be assigned to fix these things, and possibly even your own (less critical) bugs - but these kinds of jobs you won't get unless you're on a very good senior level.   You could also venture into a more architecture heavy role, where you're more concerned with designing complex systems on a higher level and leave the actual implementation to others - but it's generally a good idea to focus on pure development first and gradually move to architecture if this is something you find interesting. To be a good software architect you better be a good developer as well, at least that's what I found.   If you're good and the company is growing (or there's some turnover), you may be offered a team lead/technical lead type position. Then you'll be the one deciding who gets to work on what on your team ;) And from there it's not a far jump into middle management if you're so inclined - but this is a whole different ballgame, with its own set of challenges and rewards.   So if you ever do get stuck in a position where you hate what you're doing most of the day...don't let it get to a point where you begin to hate software development. Software development is a huge field and all companies are different. If you ever get to that point and your situation allows it, don't be afraid to jump ship and find a job at another company (which incidentally can also be a great salary booster). You'll find that most companies will want to instill a sense of loyalty - but don't be fooled. Of course they do this for their own benefit, which is fair enough if the loyalty goes both ways. You should find out quickly if that's the case. Sadly, most of the time it is not...but don't let that dishearten you. Instead, use it to your advantage. After all, why should you be loyal to an entity who is not loyal to you?  Just don't be an ass about it (unless you want to...I mean, if upper management is your eventual goal then being a ruthless asshole can be quite an asset). But if you're professional, honest, competent and a good communicator you can go a loooong way while still maintaining your integrity. I guess it's all about what you want out of this career!  Didn't mean to rant on there, sorry...but I'll post it anyway, maybe you can get something out of it. 
+Fun fact: Last *official* release was 5 years ago plus a day on top of that (not counting beta versions, etc).
+Oh shit! Opening ext2, ext3, ext4, and vmdk images?! That's awesome!
+Defiantly a Scam  * First it presents you with the Option to Express install, or you can do Custom Install. Which you are then presented with this: http://i64.tinypic.com/15dw39s.jpg    * Then if you try to Uncheck any of them it gives you this silly Box:   http://i63.tinypic.com/vpkpzc.jpg    * If you manage to Uncheck all those boxes, you are then presented with.......You guessed it. More "Offers". Hence this:   http://i63.tinypic.com/55fja9.jpg    * After all that, this pops up in your taskbar:   http://i66.tinypic.com/2ltq0jo.jpg    After it's all said and done. It just quits...Nothing is then "Installed" (If you cancelled all the Offers), No Icon, Nothing at all. It is basically a Junk Installer. I tried "Installing" the one that's Exampled here: https://www.youtube.com/watch?v=-gKN0DyUaLs    So just like nlweb said. If it's to good to be true, it usually is. 
+Thanks for the response!  I'm certain my code is working, the problem isn't that the results are incorrect, it's that the other code puts in what *should* be the same info multiple times, but it doesn't get the same info out.   As for whether he's being an ass, I do not think he is. Many, many interns have all worked on this project, which is great, but that also means there's essentially a shit storm of code everywhere. For instance, there is a function that is a purposeful misspelling of another function, and it returns the result of executing that other function, because someone was too lazy to fix their misspelling somewhere else in code.  I think nobody knows what's going on and nobody feels like/has the time to fix it due to other things. I'm expected to fix it by Monday.... eh. I'm pretty certain that I will not be able to fix it, there is so much going on in it that I have no experience with. It's like trying to defuse a bomb as a chef.  My main purpose in asking this question, I guess, is that I want to know what to do if I get in this situation later down the road. Once I've worked on a few projects and have some experience, vs "this will totally be a good learning experience!", am I still going to be expected to do these things?   But you've answered that. Thanks again
+> Who's responsibility is it to fix?  Short answer: generally, whoever is responsible for the code that contains a bug is responsible for fixing that bug.  Loger answer: If you can demonstrate that your code is correct (for example, by writing unit tests that show your code meets whatever requirements you were given) then this is a case of "bullshit in, bullshit out". If your code gets incorrect input then it will produce incorrect output.  If this is the case (which it may not be...there's still a chance you missed a bug in your code), someone needs to find the place where the bullshit input ultimately originates from and figure out why it's bullshit. Who is responsible for this kind of debugging work really depends on the way your team is set up. Sometimes there'll be one or two devs who know the codebase really well and would be able to find the bug much quicker than anyone else on your team. Sometimes everyone is super busy with other higher priority tasks so it's left to a junior to have a crack at. And so on...there's so many ways this could go depending on the severity of the issue, current workload, your team, company, individual people, etc.  In this case, it seems you'll be stuck with it no matter what so your next step would be to narrow this down (how exactly depends on details that I cannot deduce from the information you gave here) and find out who wrote the code from which the bullshit input emerges. If you understand why the input is bullshit and know where it is coming from, it will be that much harder for the responsible developer to argue that you're responsible for fixing it.   If he's still asking you to fix it, then...well... do you think he's asking you to do it because he's an ass and you're "just" an intern, or because he thinks this will be a good learning experience for you and allow you to get a deeper understanding of the overall codebase?  Then there's the question of are you even able to fix it? It might be such a tricky bug that the fix would require knowledge about his code or the whole codebase that you lack, and that you cannot acquire on your own in a reasonable amount of time given your experience and position.  Personally, I would use this as an opportunity to practice your debugging and troubleshooting skills - an excellent developer not only writes "good code" but is also an expert in debugging and troubleshooting code, both his and that of others. Just see how far you get. If you fix it, great. If not, tell your boss(es) you gave it your best shot but were unfortunately unable to fix it.
+Changelog for the curious:  http://www.7-zip.org/history.txt
+All the weather apps only tell me chance of precipitation. There is never any info like "4 inches of snow expected tonight". 
+What about streaming the program window using Open Broadcaster Software to an unlisted Youtube Live Stream with a really low FPS?
+just go into google play and type in weather, then look for an app made by a weather network you trust.
+Sounds like something like Crashplan would work, or an equivalent.   [Website link](http://www.code42.com/crashplan/)
+Tried it, ["Volume2"](http://irzyxa.deviantart.com/art/Volume2-version-1-1-4-347-Release-498038518) is the best I've found.  The OSD is really all I need though. 
+Here at my work what we do is use a Crystal Report to pull data directly from the database every 5 minutes and the generated PDF is put into a network share accessible from any PC.   You don't necessarily need to use CR for this. Setup read only credentials on the database and have a custom application pull the data in real time if you want. Or use existing credentials - just make sure the app is secure with HTTPS even if it is internal because what it connects to is sensitive information.   Getting a screenshot would work but it's not the most intuitive way of doing it. 
+Ah,  always interesting to hear specific needs.  You could use the AHK method,  but it would require that window to be in focus.   I'm sure there is a way to script it,  but that's a little out of knowledge 
+I literally came here wanting some suggestions of a good one too, haha wth.  Have you tried 3RVX? Doesn't always seem to work, but when it does it is quick, and it has some cool skins.  I used to use Intellitype Pro by Microsoft but it doesn't seem to be supported for 64 bit OS. :(
+Cool. I'll use this for future reference. I'm glad I bought it and all, but I just went ahead and torrented audio files so i could listen to it on my computer.  I wish audible would just upgrade the windows program instead of ignoring what i imagine would be a large part of its customer base.
+I have a CAD (computer aided dispatch) program that I have a few licenses for. I'd like to screenshot the program and put that screenshot out onto the intranet for others to see. That way, everyone can see the call, location, status, and unit assigned without having the program on the computer. It's not for mission critical users (thus the 30 or 60 second screenshot), just for ones to know whats going on if they wanted to look. I don't think its violating any licenses or terms, we're just sending a screenshot of the program out to a network drive. 
+You could set up an Auto Hotkey to do this,  but I have to ask,  why? 
+I don't think such a madness.
+Yeah, easily the biggest impact in recent era.
+Does that Reddit extension allow you to hide posts based on keywords on a per-subreddit level?
+You can also try mpv for something with even more minimal interface than mpc-hc
+What about when the world was almost destroyed (or at least a large part of it) due to faulty Russian radar software during the cold war? http://www.washingtonpost.com/wp-srv/inatl/longterm/coldwar/shatter021099b.htm  The software was supposed to filter out alerts when the sun reflected off clouds. Instead it reported 5 missile launches, and luckily someone was smart enough to realize it wasn't a real attack.
+Download trial F-Secure Freedom VPN and try to download it again.
+Heartbleed? 
+Was Y2K really a bug?  It seemed more like a design choice when systems had limited memory and speed.   Then governments and companies did what they do best: wait until the last minute to spend money on necessary infrastructure upgrades
+I would hardly call these 5 the most infamous...  I mean the windows 98 thing, BSOD's can happen when you have bad hardware... There are many bugs out there that were in my opinion far worse. I think the author just chose those that are the easiest to understand and so that he can get an opportunity to bash windows
+APLUS1 is a back office software, Gas Station software, SSCS software and PDI Software solution provider to the retail petroleum and convenience store industry.
+It's a question of personal preference, I think. I like the layout, vecor graphics, consitent fonts within plots of TeX, but I also like to actually see a table or a formula while editing. LyX reasonably limits what you can do (e.g. it is not possible to put two spaces between words, multiplie line breaks, etc.), so you really apply the tex-logics in a more visual way. If you want to include some raw tex code at some place, you can to that anywhere within your document (I used that for a \resizebox for example).
+Seconded. Tried every windows editor I could find, have used this one for every document I've written since starting grad school. 
+Using a wysiwym editor for LaTeX is like asking to order off the menu at a Chinese buffet. I mean, you *can*, but if that's what you want to do you probably shouldn't be there (using TeX) in the first place. 
++1 on the PotPlayer. The first 5 seconds I've used it I knew it was love. 
+Chrome *is* a good browser, I like it a lot. That said I switched back to FIrefox a couple of years ago because Chrome's memory usage was getting out of control and my aging laptop was having trouble with many tabs open. I'm not sure if they've improved things since but I'm staying with FF for the foreseeable future if only because I subscribe to the notion that Google are getting a bit too big for their boots and I'd prefer to use something open source.
+The life of many online brands has become easier with the introduction of online live chat software enhances the customer service experience and minimize voice support. Online chat windows are a great way to connect to any customer instantly and economically.
+>teams who controlled the probe from Earth used parameters in imperial units  What kind of scientist would use imperial units? That's the real bug.
+[Vivaldi](https://vivaldi.com/) looks good.
+As tough as the daily grind is, it's kindof nice that if I screw up the user is peeved, and not dosed with factors of 10 higher than healthy radiation doses.
+polished concrete Melbourne 
+You win by being the first one to post a reply.  Tried it, it worked great.  Was easy to use and did exactly what I wanted.
+I'd add Reddit Enhancement Suite (/r/Enhancement) and personally I can't live without FireGestures (quickly open/close/navigate tabs and websites with mouse gestures).
+nice
+It never was.
+Thank you!
+Ublock (if you don't like ads), Flashblock (if you don't like Flash), and there's one called Nuke Anything Enhanced, where you can right click on something in a web page and select 'remove this object' - handy for when there's floating crap you want to get rid of. Also, Tabmix Plus for enhanced tabbed browsing (though I haven't used this one in a while).  Ghostery for privacy, but I don't use it.
+I was thinking of switching to firefox as well. Are there any add-ons you recommend?
+Depends on who you ask. Some people say they jumped from Chrome to Firefox because Chrome was getting too bloated, and some went the other way for the same reason. I personally prefer Firefox myself, if for no other reason than it is a bit more configurable out of the box. And there's always Safari on Mac, but I'm a Windows user so wouldn't know anything about that.
+Ah, you can do that without any third party software  http://www.howtogeek.com/112050/how-to-turn-your-windows-8-laptop-into-a-wireless-access-point/
+I need to make a hotspot on my laptop so my iPhone can get WiFi.
+No [Therac-25?](https://en.wikipedia.org/wiki/Therac-25) It's a classic when discussing safety in embedded engineering. 
+The iOS app does this too. Options are 0.75x, 1x, 1.25x, 1.5x, 2x, 2.5x, and 3x. I usually stick to 1.25 or 1.5, depending on how slowly the narrator speaks, and if I'm going to be listening for a long time I tick the speed up a notch every so often until it's maxed out. It's kind of amazing how your brain gets accustomed to the speed changes. 
+Doesn't iOS have a built in hotspot like android?
+nice
+You might get more ideas from  /r/Android 
+Depends on the tool. Each one works differently
+The Audible app for Android has a setting where you can change the speed.  See http://audible.custhelp.com/app/answers/detail/a_id/4795/~/how-can-i-adjust-the-playback-speed-in-the-audible-for-android-app%3F for more details.
+OmniPage can do this.
+so you are saying there may be a.... gap in the market ?   lol   It's a Shame as ACDSee pretty much nails it, but it keeps crashing, don't think it's fully compat with Win 7/8 and the latest ACDSee have lost the plot.
+Why do you _need_ it free? Who owes you that favour? Just buy CheVolume.
+That is getting to a pretty specific use case that might be hard to find software that does.  If I was trying to solve this, I would probably write a script or simple program in PowerShell, PHP or such that monitored the folder and then called some image viewer program to actually display the images. But, that wouldn't get you the thumbnail view of all images.
+Yeah, in a word.   Don't need editing feature, it's more monitoring/viewing.   I tried Xnview again, it actually does it to a certain extent there is option for selecting newest file, but I can't put my finger on what I don't like about it It may have been some kind of compatibility thing in previous testing. Maybe just the general interface , it needs a 'light version'.  Anyway yeah, the ideal would be thumbnails, and a 'preview' window of the newest files added. major extra bonus points if the preview can show the most recent file x2 i.e. left and right pages.
+I believe Microsoft OneNote would be able to do this.
+I agree with other poster. This seems pretty niche so not sure you'll find something premade (unless you try to adapt a work scheduling or doctor scheduling system).  I would think at a minimum a spreadsheet would be better that word document so you could at least auto add the minutes up and possibly make use of the built-in charts.
+So, you mention a lot of different things and features you like of different viewers, but am I correct in that what you are looking for is a program that will display the most recent image added to a folder, with regex rules applied?  Or are you looking for a great image viewer/editor/etc that also does the above?
+Powerful and cost-effective web based helpdesk application for small and medium enterprises.Prioritize your customer enquiries and improve customer satisfaction with ease.Sign up for a free 30 days trial.
+A website is unfinished without live chat support. Live chat software is a tool that has the potential to keep customers happy and improve conversion rates.
+best
+Do want to improve the customer support of your company? Then track down the daily support requests from the customers with customer support software.
+Nice clickbait title.
+Have checked out fastpicture viewer, and blimey It is indeed fast. Throws around 50 MB + tiffs like they are 20KB jpgs.   Doesn't really do what I need though in this case, but could be very useful for image review.  As for lightroom, could be too much weight, really just a basic monitor app, don't need (or want) The heft of LR behind it.
+nice
+A technicality I guess.  I'm not a lawyer, but if someone pushed the definition hard enough, who knows  I don't think the law has been tested in that capacity.....Then it goes by case law.  Best not to test those waters.  There are "in a nutshell" type guides that summarize what you can and cannot do.....
+i actually started doing it a lot recently, after purchasing a bunch of dvd's recently.  still, not expecting to do so on regular basis in the future.
+Don't worry, we won't be displaying names.  At the moment it is going to be "Now seeing number 5" etc.
+Thanks! I will check this out tomorrow. 
+Ripping a dvd. Their is something I haven't done in a long time. 
+I used to use [SharePod](https://www.getsharepod.com/) before it went paid.   Haven't used either one of these:   [DuperCopy](http://www.dupercopy.com/)   [YamiPod](http://www.yamipod.com/main/modules/home/)
+Look up Senuti, I used that a while back, might be able to do the job
+nice program! I can open my blu-ray in MPC-HD!
+Sounds like you need a simple mail merge. You can have the data set in an excel spreadsheet and have a word document with the field names. It will take a bit of work to set it up, but once you have it done, it is a couple of clicks in Word and you have the form all filled out. Just do a google search for mail merge. I think you can even do them in Google sheets and Google docs for free. 
+both look interesting indeed.  Hadn't considered using Lightroom before in the work flow.
+plz visit
+Have a look over at /r/dnd's map-making/generation section [here](https://www.reddit.com/r/DnD/wiki/world_and_map_generation).  Lots of good options.
+I've had horrible luck with dvdfab for a while now. It used to work great, now I'm lucky if it can read 1/10 discs. I've tried with old discs, new discs, three different drives, two computers and vm.   Plus I had them randomly cancel my (lifetime) license saying I had asked my bank to cancel the transaction. My bank had never heard of that request, I didn't remember making it, and even though DVDFab said they gave me a refund, my bank account didn't reflect it. They were horrific in their "help."
+Thanks everyone! I'll check these all out later.
+> They're dumbed down to the level of someone that would do something like use a male-male cable to record audio from a computer.  That's meee!!!   Thnks
+No, scroll down that page I linked and you'll find the download link.  You'll have to give them a valid email address to send you the key, but that is all you need to do.  I did this with the last offer they had, back in the summer and got the full program.  I used a secondary email address I have at GMX.com
+YMMV.  Will these help?  http://www.fastpictureviewer.com/  http://regex.info/blog/lightroom-goodies/folder-watch if you're a Lightroom user.
+This is a chance to win, not a guaranteed giveaway just to be clear.
+If you don't mind MP3 format, there is a program called MP3MyMP3 that records audio from your computer.  Free to use.
+There's VoiceMeeter with a better UI and less fuck-ups
+Cromosys develops Custom Mobile, Cloud and Web Solutions for its clients. Cromosys is highly expertise in iPhone App Development, Android App Development and iPad App Development Services. Cromosys is being foremost in iOS, Android, Windows Phone, HTML5, JQuery, PhoneGap, Appcelerator Titanium, PHP5, Zend, .NET, Azure, Silverlight, Amazon AWS, NoSQL, MongoDB, Software as Service (SaaS). 
+http://www.howtogeek.com/howto/windows-vista/create-a-shortcut-or-hotkey-to-turn-off-the-monitor/  set xbox button to press the combination (xpaddr)
+Wouldn't it just be the same as when the nurse calls your name into the waiting room? Like the program wouldn't have any access to records, just a text box for the secretary to change what's displayed on screen.
+Hmm. I'm pretty sure there's more than one. 
+The software is called "virtual audio cable", But it's a cunt.  You have to buy a licence otherwise it will scare the fuck out of you and potentially render any audio work you're doing useless by pumping the word "SAMPLE" poorly rendered, at max volume through ALL output devices. 10/10 devs. 
+At one time there were audio drivers out there which would simply tee an audio out to an audio in. But I haven't looked in a while. 
+>I would simply plug the headphone jack into the microphone jack and then hit record in Audacity.   >>in Audacity. [^^^Toppest ^^^of ^^^^all ^^^keks](https://img.4plebs.org/boards/o/image/1403/23/1403233223539.gif)  Haha, what the fuck?   Depending on hardware you should have a stereo mix option available. You're going to want to follow these instructions to find out if you do. They're dumbed down to the level of someone that would do something like use a male-male cable to record audio from a computer.   1. Use the *mouse* to *right click* with the *cursor* on the *windows audio icon*.    ^right ^clicking ^is ^like ^clicking, ^but ^with ^the ^button ^on ^the ^*other* ^*side*.  2. *click* on **"Recording Devices"** (without quotation marks.)  3. *right click* on the middle area where devices are listed and ensure you are also viewing disabled and disconnected devices. When these are selected, a *tick* will appear on the *right click menu*.   4. Now might be a good time to take a break and maybe get some more tea. This computering business is pretty difficult.   5. If "Stereo Mix" is listed, right click it and press enable. (**TIP**: This will be our third right-click of the session. If your finger starts to tire, perhaps consider using a different one.)  6. you can now use Stereo mix as a recording device the same as any microphone. Select it as your default in windows or in whatever program you're using.    Also, if you're using audacity, it has this fucking feature built in. hit the fucking dropdown literally to the left of playback and recording device selection and hit windows wasapi. you can now select your playback device as a recording device. 
+Guys like you make the world go 'round. God Bless 
+I haven't heard of anything like this, probably easy to make though. Look into paying someone to make it.   Anything that tracks something of monetary value won't be free. Usually at least
+Did you escape the ampersand?  like so www.example.com/forum=x\&page=number
+DO NOT display names.  That would be a violation of HIPAA Rules.  Only display and store anonymous information.    You can store PatientID, but nothing more as that would mean nothing to anyone without access to the patient system
+Every successful organization experiences growing pains, and one of the most common challenges that growing companies face is the problem of data storage.
+Well my bad. I just found it easier to say flow chart to get my point across. Sorry. 
+plz visit
+Don't hesitate to contact I Deliver Solutions the best website development firm in Bhopal, for getting our different services like Website Designing, Software Development, search engine optimization, digital marketing and website development. We are accessible 24*7, since customer satisfaction is our significant need.  http://www.ideliversolutions.com/contact.php
+Our specialists, at I Deliver Solutions, are completely experienced in giving back office bolster and give one of the best targeted based marketing solutions to our client.  Software Development in Bhopal, Website Designing Company in Bhopal, Web Design in Bhopal, SEO Company in Bhopal, Web Designing Companies in Bhopal, IT Company in Bhopal, Software Development Company in Bhopal, Web Development in Bhopal, Best SEO Services in Bhopal  http://www.ideliversolutions.com/targeted_marketing_solutions.php
+I Deliver Solutions offer best training services at one spot. We Provide Training for Web Development and Designing, SEO, PHP, JAVA and Digital marketing. The software for project management gave by us will help you a great deal because it is highly easy to use, functional and customized.  Software Development in Bhopal, Website Designing Company in Bhopal, Web Design in Bhopal, SEO Company in Bhopal, Web Designing Companies in Bhopal, IT Company in Bhopal, Software Development Company in Bhopal, Web Development in Bhopal, Best SEO Services in Bhopal   http://www.ideliversolutions.com/training_solutions.php
+Submit your Resume at our Portal, we are one of the best website development company in  Bhopal, for permitting us to more closely examine your project and its requirements. Your Recruitment will be explained out rapidly alongside getting more focal points Like website Design and development, digital marketing, SEO and much more. http://www.ideliversolutions.com/recruitement_solutions.php
+ Description:  I Deliver Solutions have confidence in giving services that are modified as per particular necessities of business, which is the reason they're specialists take part in intensive investigation/analysis of the customer's business objectives and procedures.  Keywords: Software Development in Bhopal, Website Designing Company in Bhopal, Web Design in Bhopal, SEO Company in Bhopal, Web Designing Companies in Bhopal, IT Company in Bhopal, Software Development Company in Bhopal, Web Development in Bhopal, Best SEO Services in Bhopal  http://www.ideliversolutions.com/software_solutions.php
+I Deliver Solutions Provides The Best Web Designing Solution in Bhopal. We give most expert web design services and we are an ideal web development, advancement organization in India, we do site planning which is easy to use, user friendly, functional and elegant.  Software Development in Bhopal, Website Designing Company in Bhopal, Web Design in Bhopal, SEO Company in Bhopal, Web Designing Companies in Bhopal, IT Company in Bhopal, Software Development Company in Bhopal, Web Development in Bhopal, Best SEO Services in Bhopal   http://www.ideliversolutions.com/designing_solutions.php
++1 for ShareLaTeX (for the occasional LaTeX document), Emacs otherwise.
+Have a look at LyX. It is a WYSIWYM editor (what you see is what you mean), somewhere between TeX-code and full WYSIWIG. I use it all the time. You get the nice rendering of LaTeX but a nicer interface, much easier tables, formulas, etc. LyX can generate LaTeX code, however the other way round is not working too well. 
+good
+woww
+Porn panic button?
+:  We expect to give our clients, a one stop search for everything their needs, so that their wastage of valuable time is minimized and it gives them sufficient space to concentrate on more esteem expansion exercises. While conveying differed services under one umbrella, the need is to give most extreme significance to quality and greatest satisfaction to our Customer, and in addition to our People.   Software Development in Bhopal, Website Designing Company in Bhopal, Web Design in Bhopal, SEO Company in Bhopal, Web Designing Companies in Bhopal, IT Company in Bhopal, Software Development Company in Bhopal, Web Development in Bhopal, Best SEO Services in Bhopal   http://www.ideliversolutions.com/vision_mission.php
+I Deliver Solutions support designers/developer of web site pages to consider the full range of visitor to their destination page. For guaranteeing complete adequacy, we take after a fundamental sorted out plans from the beginning to the end of our customer's project. We immovably take into utilization, efficient execution and planning.  Software Development in Bhopal, Website Designing Company in Bhopal, Web Design in Bhopal, SEO Company in Bhopal, Web Designing Companies in Bhopal, IT Company in Bhopal, Software Development Company in Bhopal, Web Development in Bhopal, Best SEO Services in Bhopal   http://www.ideliversolutions.com/resource.php
+(y)
+:  I Deliver Solutions give complete web development, Designing and SEO services in Bhopal, India. What's more, we offer best SEO services in Bhopal.  SEO Company in Bhopal, Top Rated SEO Company, Best SEO Services, SEO services India  http://www.ideliversolutions.com/seo_solutions.php 
+I use Sublime Text with the LaTeXTools package for editing, SumatraPDF for viewing, and a TeX Live install providing the toolchain. I have Sublime configured to run the build command on save and additionally to save when it loses focus. The plugin will compile the document whenever the document is saved and display it in a Sumatra window (reusing the open instance if one is available), and will additionally seek to the area of the document that you were just editing.  I lay out [my screen like so](http://i.imgur.com/VOygyBP.png), edit my LaTeX source on one side and when I save, the window on the other side will show me what I just changed.  If this doesn't appeal, you could look into Gummi. I've had success with it in the past, but I haven't kept abreast of its development of late.
+We offer Complete Website solution and Website Development/Designing Solutions at one spot. We build and design inventive, imaginative and noteworthy Web sites that are W3C validated, quick stacking and very usable.  Software Development Company in Bhopal, Website Development Company in Bhopal, web designing companies in Bhopal  http://www.ideliversolutions.com/website_solutions.php
+great
+I use TeXMaker because it works great for both OSX and windows in case I needed to revise anything on either platform. They also are coming out with an iOS and Android app for those crazy people who use those devices as their main computer.
+An innovation driven Software Development Company from India, giving a dynamic mix of programming/software application re-designing and improvement services to help associations overall plan and construct their business in the new economy.  Software Development Company in Bhopal, Website Development Company in Bhopal, web designing companies in Bhopal   http://www.ideliversolutions.com/technical_expertise.php
+I Deliver Core values are our culture, as they guide our thoughts and actions. Below four pillars of our value set represent the foundation on which IDS is formed.  Software Development Company in Bhopal, Website Development Company in Bhopal, Web Design in Bhopal  http://www.ideliversolutions.com/corevalues.php 
+I Deliver Solution - Fastest growing multi solutions providing firm, with a growth model oriented towards providing our customers, a one stop shop for all their needs.  http://www.ideliversolutions.com/about.php 
+So you need a panic switch for games?
+nice
+You need to break up your text into paragraphs if you want them to...you know, show up as paragraphs.  Like this:      line 1      line 2      line 3  Not this:      line 1     line 2     line 3  Anyway, MacBooks don't have DVD drives...
+apologies for the shit layout of text post.
+Both really. I want to see what genuine options are available.
+Yeah it may be too much.  Maybe i'll give it a try by hand. Thanks!
+Most maps in books are drawn either by hand or with art/design software. I'd go with vector art so Inkscape would be a good choice.  Maps in the real world are drawn either in vector art packages or with GIS software, but isn't GIS overkill for what you need? 
+I use TexStudio. I haven't used LaTeX on Linux, so can't compare, but I've tried quite a few windows LaTeX editors and it seems like the best one. 
+overleaf.com
+I think this is the third time I've given the same answer to three different problems on this sub today by Autohotkey could do that.  https://autohotkey.com/board/topic/35848-xinput-xbox-360-controller-api/
+My question would be what information you plan to display.  There might be HIPPA issues to consider.
+plz visit
+Still nothing 
+Are you looking for software to just render your markup? Or a full on WYSIWYG editor?
+I apologize if I sounded condescending, that was not at all my intent.  Personally I'm all for using re-purposed old technology that would otherwise end up in a landfill; which is why I have a pile of old laptops in my studio.  I appreciate your reply.    The solution from /u/StoleAGoodUsername looks like it is going to work for me. 
+Here at the college I work for we use a software called Qless. Sounds just like what you're looking for: http://www.qless.com/
+No need to be condescending. And I don't think you understand what I am suggesting if you don't think this kind of setup can be "managed from their Macs". The laptops serve as essentially dumb terminals, their only purpose is to run the display on the TVs. Where the images they display come from, who cares. Could be a server, could be software, whatever. And they are hidden behind the TVs, so I don't see what this has to do with what the office looks like.  How you build the image that gets displayed is totally up to you. I suggested a Windows option because it's what I'm most familiar with, but you can use whatever software and formats you want. The laptops are just the display driver, they can run whatever OS and software you want.  If you want to waste money paying for sleek little boxes or Smart TVs, it's your budget, go for it. The concept is exactly the same. Or if you want to get a bunch of long HDMI cables run from one central computer, then go ahead and do that. But I figured that was no-go since you said nothing was allowed on the walls.
+You rock!  
+www.lucidchart.com
+That is really not going to fly at this office. [Here are some photos from inside the clinic.](http://www.spaceandstory.com/biomorphic/)  While I understand what you are suggesting, they are going to want something that they can manage from their Macs, not a hacked up version of something.  
+[Have fun](https://github.com/CPCookieMan/takeanumber)  Interface is just HTML and CSS, so add stuff, remove stuff, whatever you like. This could also easily be modified to allow for the next patient's name to be displayed, just let me know.
+ohh, lol. I totally misunderstood things.
+If you can get your hands on some cheap (free) laptops that are otherwise useless, [you can probably do something like this](http://lifehacker.com/5919619/mount-your-laptop-to-your-tv-for-a-truly-hidden-home-theater-pc). The laptops should have WiFi, so networking is taken care of. You can set up VNC or remote desktop or whatever so that you can manage them more conveniently. All you'll need is a way to connect the power adapter and a short display cable to the TV.  After that, it's just a matter of configuring each laptop to display the data you want on screen in a loop, and pull the number you need from whatever server you need to pull it from. This might be as simple as running the powerpoint presentation like you already do, or a looping video, or something equally straightforward. Then add a simple utility like [customdesktoplogo](http://customdesktoplogo.wikidot.com/) to display an image in the corner with the "Now serving: x" number you want. The laptops don't need to be the same specs or anything, it's not like they need to do any heavy lifting computationally.
+That model supports scan-to-network which is by far the easiest way to handle it.  Make a share on your computer or a network server and point the printer at it; everything you scan shows up as a PDF.  Easy.  If you don't want to handle it that way, you can tell windows about your scanning device and then it will show up in the windows scanning software to handle.  [Lexmark's site](http://support.lexmark.com/index?page=content&segment=SUPPORT&locale=en&userlocale=EN_US&id=HO3780&productCode=LEXMARK_CX410&modifiedDate=05/15/14&actp=TOP_DOCS) has the instructions for that printer.
+Right.  That is exactly the sort of thing that I am looking for.
+Precisely.  
+https://en.wikipedia.org/wiki/Queue_management_system
+All of the receptionists are sitting behind iMacs and your simple solution sounds like exactly what I'm looking for. 
+Links to software to be able to do this would be great!
+I'm curious about this as well. I'd like to achieve the same results as OP. 
+To do this you will have to reconnect the TV to a PC, allow that to be the master to stream to it, running cables or using something like a Chromecast to broadcast to the TV. once you do this you need to make sure that whoever is running it is trained in how to reconnect to the TV when it goes down, etc. Not a huge issue, but puts the human factor into the equation. 
+    google dictionary     live http headers     pushbullet     screenshot.co     point     json formatter     nothub     postman
+Because the clinic is shared by three docs, there is a desire to keep everyone happy. There is also a strict "nothing affixed to the wall" policy; hence why I want to avoid using a numbering system.  Really what I am thinking about is an RSS feed with the number of the next patient discreetly in the corner of the screen.  
+I could easily write something like this. If all of the receptionists will have the computer nearby, I can have them press the space bar to advance the number and make a chime sound. Otherwise I can do a slightly more complex web system where they can press a button on their computer to advance it.
+There are a number of systems and software out there, most likely the two you would look at would be a physical spool with numbers and a separate board that keeps track, or you would have to use the entire TV to broadcast the software based versions. I personally would look into the first and not worry about using the whole TV for it. 
+I'm sure the power point isn't a take a number system. It's probably just information about the office doctors, etc. 
+LINK Development Customer Care Suite is a customer service management multi-source platform that focuses on customer needs, expectations and service improvement 
+That would not be a flowchart. You're looking for something like GNU Bugs where there's a [previous and next link](https://debbugs.gnu.org/cgi/bugreport.cgi?bug=21918), which is similar to a linked list.
+Fair enough, thanks for your help!
+They are free.. Try them out.   Your experience will always be more valuable than a forum post. 
+plz visit
+Thanks, all three have free services but no solid description for me to know whether it can do what I want it to do. Are you sure all 3 can do what I need them to do?
+So a business social network. Plenty around. Try things like slack, Basecamp, Trello. They can all active very similar things, but really it would be more important to hear why 
+There are few [open source projects time tracking softwares.](http://www.findbestopensource.com/tagged/time-tracking). You can try Kimai. 
+Well, this seems like similar database software I've tried with through alternatives like Microsoft and LibreOffice.   I've tried using both, and I'm not particularly good at it; moreover, between my inability to create awesome looking forms yet, and the lack of a polished end-user interface, the school is unwilling to try and implement it.   :/ 

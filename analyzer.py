@@ -21,29 +21,28 @@ def hinsi(sentence):
 		node = node.next
 
 def analyze():
+	global raw, target
 	r = praw.Reddit(user_agent='word_freq_jp by /u/purinxxx')
 
-	'''
-	user = r.get_redditor('purinxxx')
-	comments = user.get_overview(limit=1000)
-	'''
-	subreddit = r.get_subreddit('newsokur')
+	subreddit = r.get_subreddit(target)
 	comments = subreddit.get_comments(limit=1000)
-	#'''
 
 	for i, comment in enumerate(comments, start=1):
 		if i%100 == 0:
 			print i
-		if isinstance(comment, praw.objects.Comment):	#レス
-			hinsi(comment.body)
-		else:	#スレ
-			hinsi(comment.title)
-			if comment.is_self:	#テキスト投稿のコメントだよ
-				hinsi(comment.selftext)
+		if str(comment.author) != 'TweetsInCommentsBot' or str(comment.author) != 'AutoModerator':
+			raw.append(comment.body.replace('\n',' '))
+			if isinstance(comment, praw.objects.Comment):	#レス
+				hinsi(comment.body.replace('\n',' '))
+			else:	#スレ
+				hinsi(comment.title)
+				if comment.is_self:	#テキスト投稿のコメントだよ
+					hinsi(comment.selftext.replace('\n',' '))
 
 #def main():
+target = 'newsokurMod'
 start = time.time()
-data, result = [], []
+data, result, raw = [], [], []
 url = re.compile('\[.*\]\(.*\)')
 quote = re.compile('^> .*$')
 analyze()
@@ -51,9 +50,14 @@ counter = Counter(data)
 #print counter.most_common()
 for word, cnt in counter.most_common():
 	result.append(str(word) + '\t' + str(cnt))
-f = open('result.txt','w')
+f = open(target + '_result.txt','w')
 for x in result:
+	f.write(str(x) + '\n')
+f = open(target + '_raw.txt','w')
+for x in raw:
 	f.write(str(x) + '\n')
 elapsed_time = time.time() - start
 print format(elapsed_time) + ' sec'
-print os.path.abspath(os.path.dirname(__file__)) + '/result.txt'
+print os.path.abspath(os.path.dirname(__file__)) + '/' + target + '_result.txt'
+print os.path.abspath(os.path.dirname(__file__)) + '/' + target + '_raw.txt'
+

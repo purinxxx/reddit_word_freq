@@ -1,0 +1,995 @@
+Swift始めてみるか～  windowsだからクラウドIDE使うけど
+いい話やった…
+22行目でそういうことだったのか。納得
+マジだ22行目cwdになってた ありがとう
+そこはコピペミスってたわ申し訳ない   とりあえず~/じゃなくて$HOMEにした   次なんかあったら報告しますありがとう
+      19 if has('vim_starting     20 set runtimepath+=~/.vim/bundle/neobundle.     21 endif     22 call neobundle#begin(expand('./.vim/bundle/'))  * 19行目、「')」がない。 * 20行目、「set runtimepath+=~/.vim/bundle/neobundle.vim」で良い。 * 22行目、「call neobundle#begin(expand('~/.vim/bundle/neobundle.vim'))」とカレントディレクトリじゃなくてホームディレクトリにすべき。（ここが根本的な原因）
+vim の設定はさっぱりわからないので外してたら黙殺してほしいのだけど      if has('vim_starting         set runtimepath+=~/.vim/bundle/neobundle.     endif  ここがたぶん      if has('vim_starting')         set runtimepath+=~/.vim/bundle/neobundle.vim/     endif  あと NeoBundleCheck は filetype plugin indent on の後みたい  参考: https://github.com/Shougo/neobundle.vim
+ッッターン！！！ が最高に捗るな
+試してみたけどなかなか気持ちよかった   Intellijでも誰か作って
+面白い
+アホやな(褒め言葉)
+天才だな
+Emacsかと思って開いた(´･ω･`)
+atom導入不可避
+早速試した   テーマによってエフェクトに差があるけど，いちいちダイナミックでなかなか面白い   気合いを入れてコーディングしたい時にぴったり！
+https://github.com/JoelBesada/activate-power-mode  これです   atomのパッケージだよ
+es2015実践投入したいなぁ  現状ie8対応さえなければトランスパイラもうまく動くみたいだし  
+あー、これは助かるなあ(IEが対応してくれれば)
+reddit内でアドベントカレンダーやるやつとかおらにょ？
+midiを思い出す
+というか最近のhtml5はプッシュ通知も出来るのか   これとかWeb Audio APIとかこの辺の技術がmobileで難なく使えるようになるのは何時だろか
+FileAPIもそうだけどブラウザ間の足並み揃わないことには使いたくても使えないのがもどかしいところ
+fetch()だと現在のドメインへのPOSTでcookieが送られていなかったので調べたら   どうもオプションでcredentialsの指定が必要っぽい   MDNの記述が薄いのでポリフィルのページを参考にした  https://github.com/github/fetch#sending-cookies
+$.ajax 的なものか ただちょっと冗長な気がする
+これはありがたい  試しにFirefox/jQueryでPOSTしてたところをfetchで書き直したら問題なく動いた
+ちょっとした通信するときにXMLHttpRequestを使うのがひじょうに怠かったので  ライブラリにも頼らずに手軽な書き方できるfetchの登場はありがたい
+SMSやメール送信ジョブが面白いですね。
+    　 　　　　 ∧＿∧　　三途の川の渡り賃だ     　　　　 　 (`･ω･´)　　ｼｭｯ     　　　　　　（つ 　　と彡 ./     　　　　　　　　　　／ 　./     　　　　　　　 　／　 　./     　　　　　　　／//　　/     　　　　　 ／　⑩　　/     　　 　 ／　 　　　　/
+仕事仲間が彼の死に気がついたのは半月後だった。
+顧客のデータ吹っ飛ばすとかクラッカーの所業
+kumar-asshole.sh はさすがにやりすぎ。危ないだろ。
+githubに公開されててワロタ
+天才と糞やろうの合わせ技
+想像してたのと違った。もっと酷い。 
+天才ってこういう奴の事言うんだなって凄く感動した
+なん…だと……   期待したのに
+違いが感じられなくて泣いた
+うーんこの  集金能力は買うけど
+DNSちゃん可愛い  ただし全体的に愛が感じられん なんか色々ごっちゃになってるな
+立 ち は だ か る 環 境 設 定 の 壁
+圏論までやると偉い
+JavaでRPGを作ろうとしてたな  今じゃ当たり前に利用しているThreadやらEventHandlerやらも恐る恐る使ってた
+number, err := Secret() が単なる代入に見えてしまうと、シャドーイングが発生するようには見えないんでしょうね。
+まあよく使う言語が冗長に見えて仕方がない時はあるよ  でも他の言語を使うとやっぱり向こうの方が良かったって気がつくんだ
+思ってたのと違う…
+変数のシャドーイングはGoの挙動で正しいと思えるんだけど…。
+ヌルポちゃん！マングリングちゃん！と思ったけど、"ネットワーク入門書"なら出てこないか
+これ自分も投資しようと思ったけど、キャラクターに特徴が無さすぎて魅力ないんだよなあ   ネットワーク系なんだし衣装を差別化してもっと装飾をゴテゴテつけてほしいな 後説明ももっとマニアックなこと書いてほしい感   あくまで個人的な意見。現時点でだが   金集まってるんだしその辺が豪華になるのであれば買う
+これは手抜きなのでは・・・
+MPEGとJPEGとHTTPが同じ白制服とか酷いと思います。   動画フォーマット、画像フォーマット、プロトコルとそれぞれ別カテゴリなんだから、3人とも衣装は分けないと。
+まだWindowsも流行る前でDOSかなんかで   BASICでゲーム作ってたのが初めてだったか   作ったプログラム保存するのもフロッピーディスクだったな
+SMTPちゃんがPOPちゃんを捨ててIMAPちゃんと仲良くなるところまで妄想した
+もうちょっと「らしさ」があれば良いんだけど、HTTPらしさとかDNSらしさって難しいか・・・
+このスレッドはredditの他の場所からリンクされています。  - [/r/xpost_ja] [IT専門用語の萌えキャラ化を行うプロジェクト、1日で50万円以上を集める (xpost\_ja)](https://np.reddit.com/r/xpost_ja/comments/3txebg/it専門用語の萌えキャラ化を行うプロジェクト1日で50万円以上を集める_xpost_ja/)  [](#footer)*^(リンクを辿って行くときはredditの規則を尊重し、また投票)^\(UV/DV)もしないでください) ^\([情報](/r/TotesMessenger) ^/ ^[お問合せ](/message/compose?to=/r/TotesMessenger) ^/ ^[エラー？](/message/compose?to=/r/TotesMessenger&subject=translation%20error%20(Japanese\)))*  [](#bot)
+https://s3-ap-northeast-1.amazonaws.com/static.makuake-ca.com/upload/project/1330/detail_1330_1446789675.jpg   &nbsp;   擬人化絵のセンスが……。衣装でもっと差別化すれば良いのに。
+あれ デバックがないだと…
+軽くていいね IDEは重くて敬遠してたがこれからはこれを使うことにするよ
+表示だけできるけど、IMEが死亡するのでASCIIしか入力できなくなる   あとコンソールアプリはAPIだけUNICODE化しても、   実際に表示すると端末ごと落ちる文字がある 
+haskellとplsqlください
+フォントと文字コードを変更するとUTF-8に対応させられるみたい Windows7以降で  http://qiita.com/yui/items/86a455f948a3e1c0ef97 
+ちがうんだMS,　ちょっとずれてる。斜め上方向だ。    node.jsやgoの環境を整えるなら統合環境以前に   コマンドプロンプトと基本コマンドをUTF-8に対応させなさい 
+TypeScriptに移行する気がなくても、素のJSを書く時にライブラリーの型定義だけ持ってきて使う、とかできてすっごい便利
+洋物エディタは日本語の扱いが雑なんだよな  Ctrl+→←で単語ごとにカーソルスキップできないやつはゴミだわ
+Adobe Bracketみたいなデザイン
+最近はVS codeよく使ってる。   シンプルで好きだ。
+Sakura Editorから乗り換えようか悩む 
+lua      a = {}     for i=1,10 do       a[i] = io.read("*n")     end     table.sort(a)     for i=10,8,-1 do 	  print(a[i])     end  何か懐かしい感じがする
+googleに引き抜かれてからベンチャーに転職する天才プログラマーって多い気がする
+[ActiveBasic](https://ja.wikipedia.org/wiki/ActiveBasic)でダイスロールプログラムとかタイマーとか指定フォルダのファイルリスト出力プログラムとか作った覚えがある。
+javaで     if(value=="unko")     とか
+95かも。 NICもモデムも持ってなかった。
+まじでポインタが何者かわからなかった。何でchar配列をコピーするのにイコールでできないのかとか。
+それでjava使ってた俺がいる
+> Windows98  95じゃない？
+`DEFINT A-Z:SCREEN 3,0,0,1:CONSOLE 0,25,0,1:WIDTH 80,25:COLOR 7,,,,2:CLS 3`
+ループ抜ける条件作るのめんどかったからエラー処理でループ抜けるようにしてた。 
+Javaを独習したときサンプル通りに入力しても通信プログラムのエラーが取れなかった。  そもそも俺のWindows98にはTCP/IPなんて高級なものがインストールされていなかったのだ。
+ブックオフで昔のC言語の参考書を買って勉強した。   コンパイラが10万円もすると知って学ぶのを諦めた。  探せば無料のもあったのに。
+よりシンプルに書きなおした      # longest_siritori3.py     from collections import Counter     from functools import lru_cache     from itertools import product               class Signature:         def __init__(self, word):             self.head, self.tail = word[0], word[-1]         def __repr__(self):             return "{}->{}".format(self.head, self.tail)         def does_match(self, word):             return self.head == word[0] and self.tail == word[-1]         def does_succeed(self, char):             return True if char is None else self.head == char               class Vocabulary(Counter):         @classmethod         def from_words(cls, word_list):             return cls(Signature(w) for w in word_list)         def without(self, signature):             return Vocabulary(self - Counter([signature]))         @property         def size(self):             return sum(self.values())         def __hash__(self):             return hash(tuple(self.items()))               def longest_patterns(word_list):         return _longest_patterns(Vocabulary.from_words(word_list), begin_with=None)          @lru_cache(maxsize=None)     def _longest_patterns(vocabulary, begin_with):         patterns = [             [begin] + succ             for begin in vocabulary if begin.does_succeed(begin_with)             for succ in _longest_patterns(vocabulary.without(begin), begin.tail)         ]         patterns.append([])  # null pattern         length_max = max(len(p) for p in patterns)         return [p for p in patterns if len(p) >= length_max]               def instances(pattern, word_list):         match = [filter(signature.does_match, word_list) for signature in pattern]         return [list(instance) for instance in product(*match) if len(instance) == len(set(instance))]               word_list = ["abc", "cde", "cdf", "cdg", "exy", "fa", "gpr", "rae"]     patterns = longest_patterns(word_list)     instances = [i for p in patterns for i in instances(p, word_list)]     print("Longest shiritori(s):\n{}".format(instances))
+Perlで書かれたCGIスクリプトの改造だった。いじりまわした結果、HTTP 500。   なにが悪いのかわからず死んだ。   PHPをはじめたとき、エラーメッセージの親切っぷりに驚いた。   そのせいか、始めてすぐの頃にありがちな、エラーメッセージを軽んずるってことはあまりなかった。
+VBでMIDIのドレミ鳴らした
+Web系のプログラミングって大昔のBASICに戻ったかんじがする   順次処理して出力して終わりみたいな
+私の初めての開発はRPGエディターでした  当時は関数の使い方がわからずすっごく長いコード書いてた 今思えばあれでよくやれてたなと
+よくあるような枝刈りと、各単語の始まりと終わりだけの情報（Signature）を利用して手数を減らしたつもり。Pythonなのに再帰呼び出ししちゃってるのが微妙ポイント      # longest_siritori.py     from collections import Counter     from itertools import chain, product     from copy import copy               class Signature:         def __init__(self, word):             self.head, self.tail = word[0], word[-1]              def __repr__(self):             return "({}->{})".format(self.head, self.tail)              def does_match(self, word):             return self.head == word[0] and self.tail == word[-1]               class SiritoriPattern(list):         def __init__(self):             self[:] = []             self.counter = Counter()              def appended(self, signature):             clone = copy(self)             clone.append(signature)             clone.counter = self.counter.copy()             clone.counter[signature] += 1             return clone              @property         def end(self):             return self[-1]              def instantiate(self, word_list):             match = [filter(sig.does_match, word_list) for sig in self]             return [list(inst) for inst in product(*match) if len(inst) == len(set(inst))]               def construct_vocabulary(word_list):         return Counter(Signature(w) for w in word_list)               def get_successors(vocabulary, pred):         if not pred:             return list(vocabulary.keys())              tail_of_pred = pred.end.tail         successors = [             sig for sig, occ in vocabulary.items()             if sig.head == tail_of_pred and occ > pred.counter[sig]         ]         return successors               def longest_patterns(vocabulary, pred=None, atleast=0):         if pred is None:             pred = SiritoriPattern()         successors = get_successors(vocabulary, pred)              if not successors:             if len(pred) >= atleast:                 return [pred]             else:                 return []              longests = []         for s in successors:             longests_new = longest_patterns(vocabulary, pred=pred.appended(s), atleast=atleast)             if longests_new:                 atleast_new = max(len(c) for c in longests_new)                 if atleast_new > atleast:                     atleast = atleast_new                     longests = longests_new                 else:                     longests += longests_new         return longests               word_list = ["abc", "cde", "cdf", "cdg", "exy", "fa", "gpr", "rae"]     vocabulary = construct_vocabulary(word_list)     patterns = longest_patterns(vocabulary)     result = list(chain(*[p.instantiate(word_list) for p in patterns]))     print(result)
+これはありがたい  > ただし，広辞苑規模の辞書の場合，名詞だけを取り出しても15万語以上の単語があり， > 単純な列挙では現実的な時間内に最通解が得られません．  総当たりの列挙からの絞り込みという入力が小さいときにしか通用しないコードを提出したことに   多少の良心の呵責はありました（自白）
+どうやって解くんだろうって不用意に調べたらコレ（PDF）  [最長しりとり問題とその解法 ](http://www.orsj.or.jp/~archive/pdf/bul/Vol.50_03_175.pdf)
+練習を兼ねて Clojure で書いてみる。組み合わせを作る箇所がやや強引。      (use '[clojure.math.combinatorics :as combo])          (defn shiritori-ok?       {:test #(do                 (assert (= (shiritori-ok? ["hello"]) true))                 (assert (= (shiritori-ok? ["hello" "world"]) false))                 (assert (= (shiritori-ok? ["hello" "ocaml" "lisp"]) true)))}       [words]       (letfn [(link?                 ([] false)                 ([word] true)                 ([w1 w2] (= (last w1) (first w2)))                 ([w1 w2 & more] (and (link? w1 w2) (apply link? w2 more))))]         (apply link? words)))          (let [words ["abc" "cde" "cdf" "cdg" "exy" "fa" "gpr" "rae"]           len (count words)]       (->> (for [x (combo/permutations words)                  n (range 1 len)]              (take n x))            (filter shiritori-ok?)            (sort-by count >)            first))     ;;=> ("cdf" "fa" "abc" "cdg" "gpr" "rae" "exy")      
+書き直した      (defun collect-words (words first-char)                                            (remove-if-not (lambda (word)                                                                      (char= first-char (aref word 0)))                                              words))                                           (defun shiritori (dict)                                                            (let ((words-list))                                                                (labels ((f (words dict word-so-far)                                                         (if (null words)                                                                      (push (reverse word-so-far) words-list)                                          (dolist (word words)                                                               (f (collect-words dict (aref word (1- (length word))))                               (remove word dict :test #'string=)                                               (cons word word-so-far))))))                                  (f dict dict nil))                                                              (iter (for words in words-list)                                                        (finding words maximizing (length words)))))                       
+無駄が多かったので再提出      def f(words)       return [] if words.empty?       words.size.downto(1).each do |size|         temp = words.permutation(size).select do |perm|           perm.each_cons(2).all?{|pair| pair[0][-1] == pair[1][0] }         end         return temp if temp.any?       end       []     end      
+全パターンを試して最後に吟味するのが一番簡単そう
+Rust 1.6.0      #![feature(str_char)]      use std::collections::{HashMap, BinaryHeap};      fn main() {       let xs = vec!["abc", "cde", "cdf", "cdg", "exy", "fa", "gpr", "rae"];         println!("{:?}", f(xs));     }      fn f<'a>(xs:Vec<&'a str>) -> Vec<&'a str> {       let table = xs.iter().map(|a| (a, xs.iter().filter(|b| a.ends_with(b.char_at(0))).collect::<Vec<_>>())).collect::<HashMap<_,_>>();       let mut stack = xs.iter().map(|x| (0, x, vec![])).collect::<Vec<_>>();       let mut results = BinaryHeap::new();       while !stack.is_empty() {         let item = stack.pop().unwrap();         let nexts = table.get(&item.1).unwrap().iter().filter(|&x| !item.2.contains(*x)).collect::<Vec<_>>();         if nexts.is_empty() {           results.push(item);         } else {           for next in nexts.iter() {             let mut p2 = item.2.clone();             p2.push(next);             stack.push((item.0 + 1, next, p2));           }         }       }       results.pop().unwrap().2     }  
+Ruby      def f(words)       return [] if words.empty?       (1..words.size).flat_map do |size|         words.permutation(size).to_a       end.select do |perm|         perm.each_cons(2).all?{|pair| pair[0][-1] == pair[1][0] }       end.group_by(&:length).max.last     end          words = ["abc", "cde", "cdf", "cdg", "exy", "fa", "gpr", "rae"]     f(words)  #=> [["cdf", "fa", "abc", "cdg", "gpr", "rae", "exy"]]  定年になったらちゃんとアルゴリズム勉強するんだ・・・
+辞書のリストと次の単語の候補が似てて混乱するかも
+途中まで考えたけど挫折した。むずかしいお
+Common Lisp      (defun last-char (string)       (aref string (1- (length string))))      (defun collect-words (words first-char)       (remove-if-not (lambda (word)                        (char= first-char (aref word 0)))                      words))      (defun longest-words (words-list)       (let ((length (loop :for words :in words-list                       :maximize (length words))))         (remove-if-not #'(lambda (words)                            (= length (length words)))                        words-list)))      (defun shiritori (dict)                                                             (let ((words-list))                                                                (labels ((f (word dict word-so-far)                     (let ((next-words (collect-words dict (last-char word))))                           (if (null next-words)                           (push (reverse word-so-far) words-list)                           (dolist (word next-words)                                                           (f word                                                                              (remove word                                                                              dict                                                                              :test #'string=)                                                          (cons word word-so-far)))))))                                (dolist (word dict)                                                                 (f word                                                                              (remove word dict :test #'string=)                                                (list word))))                                                             (apply #'values (longest-words words-list))))         (shiritori '("abc" "cde" "cdf" "cdg" "exy" "fa" "gpr" "rae"))       ; => ("cdf" "fa" "abc" "cdg" "gpr" "rae" "exy") 
+ここ数日こういう投稿が無かったから立ててみた   しりとりに使う文字列のリストはもうすこし長く複雑なものにしたほうが良かったような
+最近ネットで見た活動で唯一感動したのがこれ 深く感じ入ってこの人のtwitterもフォローしたけど 女子高生と付き合いたいとかばっかりで真顔になりました
+遅ればせながら関数型風味のpython      # cambridge.py     # Usage:     # $ python cambridge.py SENTENCE          from sys import argv     from random import shuffle               def cambridge(word):         characters = list(word.decode('utf8'))         redundant = characters[1:-1]         shuffle(redundant)         characters[1:-1] = redundant         return "".join(characters)               readable = " ".join(         cambridge(word)         for word in argv[1:]     )     print(readable)
+イントロしか見てないけど良さそうな資料だ。紹介ありがとう
+こういうの探してた
+中学レベルの数学知識しかないから読むのもキツイ
+[第一回　イントロダクション](http://nineties.github.io/math-seminar/1.html)  面白い   数学のいろんな分野がつながっていくのがすごく気持ちいい   好きになれそう
+このスレッドはredditの他の場所からリンクされています。  - [/r/programming_jp] [Webで読めるJavaScript関係の本や記事いくつか - @peccul is peccu : programming\_jp](https://np.reddit.com/r/programming_jp/comments/3s9xpn/webで読めるjavascript関係の本や記事いくつか_peccul_is_peccu/)  [](#footer)*^(リンクを辿って行くときはredditの規則を尊重し、また投票)^\(UV/DV)もしないでください) ^\([情報](/r/TotesMessenger) ^/ ^[お問合せ](/message/compose?to=/r/TotesMessenger) ^/ ^[エラー？](/message/compose?to=/r/TotesMessenger&subject=translation%20error%20(Japanese\)))*  [](#bot)
+(　･∀･)人(･∀･　)ﾅｶｰﾏ 
+JavaScript  めっちゃくちゃゴリ押しやぞ      function main(){     	var input = `35     	             1     	             20     	            `;     	var output = input.trim().split(/\n/g)     	                  .map(s => parseInt(s.trim()))     	                  .map(sumOf4Integers)     	                  .join('\n');     	console.log(output);     }     var range = n => Array(n).keys();     function sumOf4Integers(n){     	var count = 0;     	for(let a of range(10))     		for(let b of range(10))     			for(let c of range(10))     				for(let d of range(10))     					if(a+b+c+d == n)     						count++;     	return count;     }     main();
+アルゴリズムが同じだと少し味気ないね 他の方法も探してみるのもいいかも
+jsonで配信して再生とかその場で作曲とか夢が広がりング
+ゆとりRuby      $ ruby -ne 'puts (0..9).to_a.repeated_permutation(4).select{|a|     > a.inject(:+) == $_.to_i }.size' < input.txt
+f#      open System      let rec p depth n =       match depth with      |_ when (n<0)||(n>depth*9) ->0      |0 ->1      |_ -> Seq.sum (seq{for i in 0..9 -> (p (depth-1) (n-i))})      Seq.initInfinite(fun _->Console.ReadLine())|>Seq.takeWhile ((<>)null)|>Seq.iter (fun s->printfn "%d" (p 4 (int s)))  ゴリ押しでは芸がないと頑張った結果がこれ
+これ元ネタあったのか   ありがとう！
+正弦波の最後がぶった切られてるせいで音符の最後にブチブチノイズが発生している  これを解決するためには、周波数あるいは音符長さを微妙に（最大1波長分）だけ調節して、正弦波の節で音符が終わるようにすれば良い
+モナドの力      module Main where          import Control.Applicative     import Control.Monad          main :: IO ()     main = do         ns <- map read . lines <$> getContents :: IO [Int]         forM_ ns $ \n -> print $ length $ filter (== n) $ map sum $ replicateM 4 [0..9]
+このままだと.play()って書くのが辛すぎるんでMML記法のパーサーがつくと更に楽かなあって思った
+http://www.nicovideo.jp/watch/sm11509720  この曲だね
+これは使えそう。
+おもしろい   職人とかでてきそう
+common lisp        (ignore-errors      (loop        (let ((x (read))              (cnt 0))          (loop for a from 0 to 9            do (loop for b from 0 to 9              do (loop for c from 0 to 9                do (loop for d from 0 to 9                  do (if (= x (+ a b c d))                       (incf cnt))))))          (format t "~d~%" cnt))))  スーパーゴリ押しパワー
+この曲楽しい
+C:      #include <stdio.h>     int main(int argc, char** argv) {         char i, n[51], a, b, c, d, r;         for (i = 0; i < 50 && (n[i] = -1) && scanf("%u", &n[i]) != EOF; i++);         for (i = 0; n[i] != -1; i++) {             for (a = 0, b = 0, c = 0, d = 0, r = 0; d < 10; (++a, a %= 10) || (++b, b %= 10) || (++c, c %= 10) || (++d))                 if (a + b + c + d == n[i])                     r++;             printf("%u\n", r);         }     }
+このシリーズの頻度を減らすんじゃなくて他のネタをもっと出したほうが良い気がします  Common Lisp      (defun sum-of-4-integers (n)       (labels ((f (depth sum)                   (if (<= depth 0)                       (if (= n sum) 1 0)                       (loop for a from 0 to 9 sum                         (f (1- depth) (+ sum a))))))         (f 4 0))) 
+このシリーズのサブミだらけになってきたので   今度から３～４日に一回のペースにしたいと思います
+スマホ版に表示されなかったからフレアそのものに気が付かなかった
+ありがとうございます。  一度スパム判定されるとリンク差し替えてもダメみたいですね・・・  変わりのURL http://bit-part.net/blog/2014/11/multiplerepository.html
+コメント内のリンクにhatenablogが含まれているのでスパム判定となり周りには見えてないと思います(ログアウトして確認してみて下さい)   見えるようにするにはリンクを抜いて再作成しかないようです(mod)
+まだUnityみたいな定番がないんだよな   enchantjsは使ったけど日本製で使いやすかったな
+自分は軽量ライブラリの方が好みだなぁ。まぁ大きなもの作るならまた話し変わってくるんだろうけど。
+Unityみたいな強力なフレームワークの方が開発しやすそうだが実際はどうなんだ？
+でもこのシリーズはプログラミングサブレっぽくて良いと思う。
+なにこの乱立は    まあ過疎スレだからいいけど
+こういうの！すばらしい。
+これ系の広告って『n週間でマスター！』とか書いてあったりするからなぁ   やっぱ現実はこんなもんなのね
+微妙に修正。Doubleで計算して結果をIntにキャストした方が見た目すっきり      func debthell(n: Int) {         var debt = 100000.0         for i in 1...n {             debt += ceil(debt/1000 * 0.05) * 1000         }         print("\(Int(debt))")     }
+fromIntegralという便利関数      module Main where          import Data.List (foldl')          main :: IO ()     main = do         let c = 100 :: Int -- 100k             r = 1.05 :: Double -- rate         n <- readLn :: IO Int         print $ (*10^3) $ foldl' (\b _ -> ceiling $ fromIntegral b * r) c [1..n]     
+表示の部分はこんな感じにしたらいいと思います      {-# LANGUAGE OverloadedStrings, QuasiQuotes #-}     module Main where          import           Control.Applicative   ((<$>))     import           Control.Monad         (forM_)     import qualified Data.Text.IO          as TIO     import           Text.Printf           (printf)     import           Text.Shakespeare.Text (st)          main :: IO ()     main = do         pairs <- map (map read . words) . lines <$> getContents         forM_ pairs $ \[m, n] -> formatByShakespeare m n -- or formatByPrintf m n          formatByPrintf :: Int -> Int -> IO ()     formatByPrintf m n = printf "%d %d\n" (gcd m n) (lcm m n)          formatByShakespeare :: Int -> Int -> IO ()     formatByShakespeare m n = TIO.putStrLn [st|#{gcd m n} #{lcm m n}|]     
+Haskell.      module Main where          main :: IO()     main = do       n <- readLn :: IO Int       print.ceiling $ (iterate explode 100000) !! n          explode :: Float -> Float     explode v | v == 0 = 0               | otherwise = realToFrac . (*1000) . ceiling $ v * 1.05 / 1000   型の制約が厳しすぎて泣きそうだった。   だいぶ悩んだすえに *realToFrac* の存在を知ったのでゴリ押した。   「こう書くと綺麗だよ or オシャレだよ or Haskellらしいよ」っていうのあったらぜひ教えてください。
+common lisp        (let ((x 100000))       (loop repeat (read)         do         (setf x (* x 1.05))         (multiple-value-bind          (q r)          (floor x 1000)          (if (> r 0)            (setf q (+ q 1)))          (setf x (* q 1000))))       (format t "~d" x))  もうちょっとまとめられそうだけどこれで   アドバイスあればお願いします
+Swift 2      func debthell(n: Int) {         var debt = 100000         for i in 1...n {             debt += Int(ceil(Double(debt/1000) * 0.05) * 1000)         }         print("\(debt)")     }
+f#      open System     let cut x = (ceil (x/1000.0))*1000.0     let main x = Seq.fold (fun i j -> cut(i*1.05)) 100000.0 {1..x}     printfn "%f" (main (int(Console.ReadLine())))
+Common Lisp      (defun debthell (n)       (let ((val 100000))         (loop repeat n do           (incf val                 (* (ceiling (* val .05) 1000)                    1000)))         val)) 
+Python      def reverse_str(s):         return s[-1] + reverse_str(s[:-1]) if s else ""          print(reverse_str("win32nimda"))     print("win32nimda"[::-1]) # 普通はこっち
+全部一つのリポジトリにまとめる方が無難ですね
+gitの操作は基本的にローカルで完結できるよ サブモジュールは以下に詳しい http://cdn8.atwikiimg.com/git_jp/pub/Documentation.ja/chunked/ch08.html  ただgitのサブモジュールは面倒くさいので出来るだけ使わない方がいいと思う
+F#      printf "%s" (Console.ReadLine()|>Seq.toList|>List.rev |> String.Concat );;  ちょっとズルっぽいコードだな
+f#      let rec gcd m n =      man tch n with       |0 -> m       |_ when m<n -> (gcd n m)       |_ -> (gcd n (m%n));;       let lcm m n = (m*n) / (gcd m n);;  入出力メンドイの関数だけ
+common lisp        (defun my-reverse (lst)       (if (null (cdr lst))         lst         (append (my-reverse (cdr lst)) (cons (car lst) nil))))              (format t "~A" (concatenate 'string (my-reverse (concatenate 'list (read-line)))))  これもreverse関数があってあっけなかったので自分でreverse関数っぽいのを作ってみた
+そういえば Computer Modern に飽きるということはありますね
+それで調べたらサブモジュールというのが出てきました  これは外部リポジトリ限定っぽくて   bitbucketやgithubにおいてそれを取ってくる遠回りをしないと駄目でした  ともかくやりたいことは出来ました ありがとうございました
+サブリポジトリのことか？
+texで書かれた論文って、どれも似てるんですよ。どれも
+はてブとかTwitterとかスラドとかでどう言われているか知らないけど、当のブログに書かれているコメントは特にネガティブなものではないし、炎上という表現は適切ではないと思う。   じゃあなんと言えばいいんですかと言われると困ってしまうのだけれど。      書いた本人としてはもう全方位からマサカリが投げられることを覚悟して書いたんでしょうから、そういう意味では炎上にあたるのかもしれない。   ま、それに、自分のやっていることを「そんなのプログラミングって呼べねえから」って言われた時の気分を考えると、ちょっと感情的に言う人がいたとしても別におかしくはないしね。
+RoRとかCakePHPは決まりきった作業を簡略化するためのものだから、何かを新しく作りたい人には向いてないね。記事自体は初心者の当然の感想だと思うけどなんで炎上してるのかわからない。  
+フレアは自由につけられますよー 
+Haskell.          module Main where     import Prelude hiding (gcd , lcm)          main :: IO()     main =  (fmap (go . map read) $ fmap words getLine) >>= \(a,b) -> (putStr $ show a) >> putStr " " >> (putStrLn $ show b) where       go :: [Int] -> (Int, Int)       go [m, n] = let (a, b) = if m > n then (m, n) else (n, m) in (gcd a b, lcm a b)          -- suppose: m > n     gcd :: (Integral n) => n -> n -> n     gcd m n = let r = m `rem` n in if r == 0 then n else gcd n r          lcm :: (Integral n) => n -> n -> n     lcm m n = (m * n) `quot` gcd m n      同じようにユークリッドの互除をググって書いた。   教養を問われるととても辛い。表示に持ち込むとこが雑。   //与えられるデータの大小が決まってないの忘れてたので直した。
+(´；ω；｀)ﾌﾞﾜｯ
+ユークリッドの互除で求まるのは*最大公約数*であって、関数名は*gcd*じゃないでしょうか。
+common lisp        (defun my-gcd (a b)       (if (>= a b)         (if (= 0 (mod a b))           b           (my-gcd b (mod a b)))         (if (= 0 (mod b a))           a           (my-gcd a (mod b a)))))          (ignore-errors      (loop        (let* ((a (read))               (b (read))               (x (my-gcd a b))               (y (/ (* a b) x)))          (format t "~d ~d~%" x y))))  lcm関数とgcd関数があってあっけなかったのでググッてユークリッド互除法というのを見つけてmy-lcmを作ってみた。アドバイスあればお願いします
+チュートリアルで作ってるようなサイトに17万かけたってことか   それはやりきれないだろうな
+最近プチプロコンなサブミ増えてるし、そういうフレアがあればいいなって思った
+> Railsで作られたサービスって、どれも似てるんですよ。どれもツイッターみたいな感じの見た目です。これだけで「ああこいつまともにディスるためのWebの基礎もないのな」と分かる秀逸な一文RoR叩くなら「互換性のないバージョンアップで対応が大変」「ぶ厚いFWだからFWの想定を外れたことをやろうとするとつらい」「DBとモデルが密結合過ぎてつらい」とかその辺じゃないかなあ
+なんだ初心者かと思えばステマじゃないか
+アイディアが凄いな 普通ならそんな考え出てこない マゾの本気を見た
+awk      awk '{printf ("%.3f %.3f",(($3*$5-$6*$2)/($1*$5-$4*$2)) , (($3*$4-$6*$1)/($2*$4-$5*$1)));}' input.txt  シンプルイズベスト
+あらためてHHVMすごい
+Python      import sys     for numList in [[float(num) for num in l.split(' ')] for l in sys.stdin]:         y = (numList[0]*numList[5] - numList[3]*numList[2]) / (numList[0]*numList[4] - numList[1]*numList[3])         x = (numList[2] - numList[1]*y) / numList[0]         print '%.3f %.3f' % (x, y)  THE・ゴリ押し
+三平方の定理を解くためにGPU使ってるのかｗｗｗ
+青木さんの文章ひさびさに読んだけど相変わらず面白くて元気出た   それにしても6割がついてったってさすがにレベル高い
+このスレッドはredditの他の場所からリンクされています。  - [/r/programming_jp] [夏のインターン講義「1営業日で書くJavaScriptコンパイラ」の設計と実装 - クックパッド開発者ブログ : programming\_jp](https://np.reddit.com/r/programming_jp/comments/3rc7bm/夏のインターン講義1営業日で書くjavascriptコンパイラの設計と実装/)  [](#footer)*^(リンクを辿って行くときはredditの規則を尊重し、また投票)^\(UV/DV)もしないでください) ^\([情報](/r/TotesMessenger) ^/ ^[お問合せ](/message/compose?to=/r/TotesMessenger) ^/ ^[エラー？](/message/compose?to=/r/TotesMessenger&subject=translation%20error%20(Japanese\)))*  [](#bot)
+はてブロ使ってるみたいでスパム扱いになるので、二重に投稿してみる
+Haskell.      module Main where     import Control.Monad     import Text.Printf          main :: IO()     main = forever $ resolve . map read . words <$> getLine >>= out where       resolve :: (RealFloat n) => [n] -> (n, n)       resolve (a:b:p:c:d:q:_) = (x, y) where         x = (p*d - q*b) / (a*d - b*c)         y = (p*c - q*a) / (b*c - a*d)       resolve _ = error "unknown"       out :: (Float, Float) -> IO()       out (x, y) = printf "%.3f %.3f" x y  EOFと四捨五入の要件が満たせず。   四捨五入は自分で書くしかないらしい。   標準入力のEOFってどうやって処理したらいいんだろう。
+なるほどなーそんな技があるのかー
+common lisp        (loop for a = (read *standard-input* nil :eof)           for b = (read *standard-input* nil :eof)           for c = (read *standard-input* nil :eof)           for d = (read *standard-input* nil :eof)           for e = (read *standard-input* nil :eof)           for f = (read *standard-input* nil :eof)           until (or (eq a :eof) (eq b :eof) (eq c :eof)                     (eq d :eof) (eq e :eof) (eq f :eof))           do            (let* ((x (/ (- (* c e) (* b f)) (- (* a e) (* b d))))                  (y (/ (- c (* a x)) b)))             (format t "~,3F ~,3F~%" x y)))  相変わらず入力の所がわからない
+Common Lisp      (defun tes ()       (ignore-errors        (loop          (destructuring-bind (a b p c d q)              (loop repeat 6 collect (read))            (format t "~,3f ~,3f~%"                    (/ (- (* p d) (* b q))                       (- (* a d) (* b c)))                    (/ (- (* a q) (* p c))                       (- (* a d) (* b c)))))))) 
+同じくHaskell          {-# OPTIONS_GHC -fno-warn-type-defaults #-}     module Main where           import Control.Applicative     import Control.Monad     import Data.List           main :: IO ()     main = do         n <- readLn         replicateM_ n $ do             [a,b,c] <- sort . map read . words <$> getLine             putStrLn $ if c^2 == a^2 + b^2 then "YES" else "NO"
+へー（鼻ほじほじ） Emacsユーザー
+荒し対策としては効果的なのかもしれないですが、なかなかエグイ仕様ですよねｗ
+Python      def checkDataSet(dataSet):         numList = [int(num) for num in dataSet.split(' ')]         if len([num for num in numList if num < 1 or 1000 < num]) > 0:             return 'The dataset "' + dataSet + '" contains some unprocessable numbers.'         numList.sort()         if powTwice(numList[0]) + powTwice(numList[1]) == powTwice(numList[2]):             return 'YES'         else:             return 'NO'     def powTwice(num):         return num * num      dataSetNum = input()     if dataSetNum > 1000:         print 'Please input a number less than 1000.'     else:         print '\n'.join(map(checkDataSet, [raw_input() for i in range(dataSetNum)]))
+shuffle上手く出来てるなと
+なんかものすごく大掛かりなコードだな
+おーありがとうございます
+CUDA C      #include <stdint.h>     #include <sys/types.h>     #include <sys/stat.h>     #include <sys/mman.h>     #include <fcntl.h>     #include <unistd.h>     #include <error.h>     #include <errno.h>     #include <stdio.h>     #include <stdlib.h>          #include <cuda.h>     #include <cuda_runtime.h>          #define THREADS 1024 /* threadの数 */          /* errorが起こす倍 */     void handleError(cudaError_t err) {         if (err != cudaSuccess) printf("%s\n", cudaGetErrorString(err));     }          // GPU内のコード     __global__ void _CUDA_right(             unsigned int total,             unsigned int* a,             unsigned int* b,             unsigned int* c,             unsigned int* r)     {         unsigned int tid = threadIdx.x + blockIdx.x * blockDim.x;         unsigned int numLoops = total / THREADS + (total % THREADS ? 1 : 0);         for (unsigned int i = 0; i < numLoops; ++i)         {             unsigned int curA, curB, curC;             curA = a[i * THREADS + tid];             curB = b[i * THREADS + tid];             curC = c[i * THREADS + tid];             // a^2 + b^ = c^2             r[i * THREADS + tid] = ((curA * curA) + (curB * curB) == (curC * curC));         }         __syncthreads();     }          // ホスト内のコード     void CUDA_right(unsigned int* a, unsigned int* b, unsigned int* c, unsigned int total) {         unsigned int *dev_a, *dev_b, *dev_c, *dev_r;         unsigned int allocateSize = total + (THREADS * (total % THREADS ? 1 : 0));              // GPUのメモリを取ります         handleError(cudaMalloc((void**)&dev_a, allocateSize * sizeof(unsigned int)));         handleError(cudaMalloc((void**)&dev_b, allocateSize * sizeof(unsigned int)));         handleError(cudaMalloc((void**)&dev_c, allocateSize * sizeof(unsigned int)));         handleError(cudaMalloc((void**)&dev_r, allocateSize * sizeof(unsigned int)));              //ホストからGPUでコピーをします         handleError(cudaMemcpy(dev_a, a, total * sizeof(unsigned int), cudaMemcpyHostToDevice));         handleError(cudaMemcpy(dev_b, b, total * sizeof(unsigned int), cudaMemcpyHostToDevice));         handleError(cudaMemcpy(dev_c, c, total * sizeof(unsigned int), cudaMemcpyHostToDevice));              // GPUコードを実行します         _CUDA_right<<<total / THREADS + (total % THREADS ? 1 : 0), THREADS>>>(                 total,                 dev_a,                 dev_b,                 dev_c,                 dev_r);              // GPUが終わるまで待ちます         cudaDeviceSynchronize();              // GPUからホストまでコピーをします         handleError(cudaMemcpy(c, dev_r, total * sizeof(unsigned int), cudaMemcpyDeviceToHost));              // GPUのメモリをfree         cudaFree(dev_a);         cudaFree(dev_b);         cudaFree(dev_c);         cudaFree(dev_r);              // 答え         for (unsigned int i = 0; i < total; ++i) {             if (c[i])                 puts("YES");             else                 puts("NO");         }     }          // エラが起こす倍     const char* ERR_MACHIGAI = "input.txtは間違っています";     void Perror(const char* string, int line) {         fprintf(stderr, "%dのlineで%s!\n", line, string);         exit(1);     }          int main() {         int fd;         size_t fSize;         struct stat s;         char *buf, *curPos;         unsigned int total;         unsigned int *a, *b, *c;              // input.txtを開きます         if ((fd = open("input.txt", O_RDONLY)) == -1)             error(errno, errno, "input.txtの開くの時、エラが起こした");              // input.txtの大きさを取ります         if(fstat(fd, &s) == -1)             error(errno, errno, "input.txtをstatの時、エラがおこした");              fSize = s.st_size;              // input.txtをmmapをします         buf = (char*)(mmap(NULL, fSize, PROT_READ, MAP_PRIVATE, fd, 0));         if (buf == MAP_FAILED)             error(errno, errno, "input.txtをmapをする時、エラが起こした");              // input.txtは大きの倍OSにアクセスパターンを教える方が良い         if (madvise(buf, fSize, MADV_SEQUENTIAL | MADV_WILLNEED) == -1)             error(errno, errno, "OSをadviseの時、エラが起こした");              curPos = buf;              // totalを構文解析します         total = strtoul(curPos, &curPos, 10);         if (errno == EINVAL || errno == ERANGE)             error(errno, errno, "sizeをよめません");         if (*curPos != '\n')             Perror(ERR_MACHIGAI, __LINE__);         if (++curPos - buf == fSize)             Perror(ERR_MACHIGAI, __LINE__);              // aとbとcのメモリを取ります         if ((a = (unsigned int*)malloc(sizeof(unsigned int) * total)) == NULL)             error(errno, errno, "メモリを取る時、エラが起こした");              if ((b = (unsigned int*)malloc(sizeof(unsigned int) * total)) == NULL)             error(errno, errno, "メモリを取る時、エラが起こした");              if ((c = (unsigned int*)malloc(sizeof(unsigned int) * total)) == NULL)             error(errno, errno, "メモリを取る時、エラが起こした");              // aとbとcを構文解析します         for (unsigned int i = 0; i < total; ++i) {             a[i] = strtoul(curPos, &curPos, 10);             if (errno == EINVAL || errno == ERANGE)                 error(errno, errno, "sizeをよめません");             if (*curPos != ' ')                 Perror(ERR_MACHIGAI, __LINE__);             if (++curPos - buf == fSize)                 Perror(ERR_MACHIGAI, __LINE__);                  b[i] = strtoul(curPos, &curPos, 10);             if (errno == EINVAL || errno == ERANGE)                 error(errno, errno, "sizeをよめません");             if (*curPos != ' ')                 Perror(ERR_MACHIGAI, __LINE__);             if (++curPos - buf == fSize)                 Perror(ERR_MACHIGAI, __LINE__);                  c[i] = strtoul(curPos, &curPos, 10);             if (errno == EINVAL || errno == ERANGE)                 error(errno, errno, "sizeをよめません");             if (*curPos != '\n')                 Perror(ERR_MACHIGAI, __LINE__);             if (++curPos - buf == fSize)                 Perror(ERR_MACHIGAI, __LINE__);         }              // 終わりをします         if (munmap(buf, fSize) == -1)             error(errno, errno, "bufをunmapをする時、エラが起こした");              if (close(fd) == -1)             error(errno, errno, "input.txtを閉める時、エラが起こした");              // GPUコードを実行します         CUDA_right(a, b, c, total);              // 終わりをします         free(a);         free(b);         free(c);              return 0;     } 
+Goの練習  思ってたより冗長になってしまった  EDIT:よくみたらもうちょっと短くできたので修正      package main     import (     	"fmt"     	"math/rand"     	"strings"     	"time"     )     func main() {     	s := "こんにちは みなさん おげんき ですか わたしは げんき です" // 入力文字列          	rand.Seed(time.Now().UnixNano())     	words := strings.Split(s, " ")     	text := strings.Join(cabmridgeConv(words), " ")     	fmt.Println(text)     }     func shuffle(subword string) string {     	r := []rune(subword)     	for i := range r {             j := rand.Intn(i + 1)             r[i], r[j] = r[j], r[i]         }         return string(r)     }     func cabmridgeConv(words []string) []string {     	var res []string     	for _, word := range words {     		r := []rune(word)     		l := len(r)     		if l > 3 {     			a := string(r[0]) + shuffle(string(r[1:l-1])) + string(r[l-1])     			res = append(res, a)     		} else {     			res = append(res, word)     		}     	}     	return res     }
+Clojure      (defn kenbri [s]       (->>         (clojure.string/split s #" ")         (map #(if-let [w (not-empty (rest (drop-last 1 %)))]                  (str (first %) (apply str (shuffle w)) (last %));;真ん中だけシャッフル                  %))         (clojure.string/join " ")         prn)) 
+F#      open System     let parse (x:string) =      match Int32.TryParse(x) with      |(true,int) -> int      |_ -> 0      let c i =      let a= Console.ReadLine().Split ' '|>Seq.map parse|>Seq.sort|>Seq.toArray      if (a.[0]*a.[0] + a.[1]*a.[1] = a.[2]*a.[2])then "YES" else "NO"      let main =      let x = parse (Console.ReadLine())      seq{for i in 1..x -> c i}|>Seq.iter (printfn "%s")     main;;  ごめんなさい やり方分からなかった
+表示が崩れてて、読めない… (>_<)  各行の行頭に半角スペースを4つ入れると、ソースコードが <pre><code> で表示されますよ。  
+     #!/bin/bash     f="$(echo -e {1..9}x{1..9} | tr \  \\n)" ; paste -d= <(echo "$f") <(echo "$f" | tr x \* | bc)
+見直してみるとtextいらんかなこれ。
+     #!/bin/bash     tr \  + | bc | while read a ; do echo ${#a} ; done 
+     #!/bin/bash     read n ; for i in `seq $n` ; do head -n 1 | tr \  \\n | sort -n | xargs | { read a b c ; [ $[$a*$a + $b*$b] -eq $[$c*$c] ] && echo YES || echo NO ; } ; done 
+Haskell.      module Main where     import System.Environment(getArgs)     import Data.List(sort)          main :: IO ()     main = f . drop 1 . lines . head <$> getArgs >>= p where       f :: [String] -> [Bool]       f(x:xs) = isT (sort $ fmap read $ words x) : f xs       f [] = []       p :: [Bool] -> IO()       p bs = mapM_ (putStrLn . g ) bs where g b = if b then "YES" else "NO"       isT :: [Int] -> Bool       isT (a:b:c:_) = c^2 == a^2 + b^2       isT [] = False       isT _ = error "unknown pattern"       sort がとても天下り的.    // edit: 表示がYES/NOになってなかったのをなおした.
+仰るとおり，`return`を忘れてました…   これで期待通り動くようになりました！ありがとうございます
+     #!/bin/bash     echo $( tr \  \\n | while read line ; do case $line in ????* ) echo ${line:0:1}$(echo -n ${line:1: -1} | sed -e 's/./&\n/g' | shuf | tr -d \\n)${line: -1} ;; * ) echo $line ;; esac ; done )
+Clojure      (doseq [line (repeatedly (Long/parseLong (read-line)) read-line)]       (let [[a b c] (sort (map #(Long/parseLong %) (clojure.string/split line #" ")))]         (println (if (= (* c c) (+ (* a a) (* b b)))                    "YES"                    "NO"))))
+return忘れてNone返してない？  > expected string or Unicode, NoneType found    stringかUnicodeのはずなのにNoneTypeなんだけど？って怒られてるように見える
+F#  open System let parse (x:string) =  match Int32.TryParse(x) with  |(true,int) -> int  |_ -> 0  let c i =  let a= Console.ReadLine().Split ' '|>Seq.map parse|>Seq.sort|>Seq.toArray  if (a.[0]*a.[0] + a.[1]*a.[1] = a.[2]*a.[2])then "YES" else "NO"  let main =  let x = parse (Console.ReadLine())  seq{for i in 1..x -> c i}|>Seq.iter (printfn "%s") main;;  長いな
+Python      import random     def shuffleWords(theWord):         shuffledWord = theWord.decode('utf-8')         wordSize = len(shuffledWord)         if wordSize < 4:             return shuffledWord         wordList = list(shuffledWord)         slicedWordList = wordList[1:wordSize-1]         random.shuffle(slicedWordList)         wordList[1:wordSize-1] = slicedWordList         shuffledWord = ''.join(wordList)         if theWord.decode('utf-8') == shuffledWord:             return shuffleWords(theWord)         else:             return shuffledWord      with open('input.txt', 'r') as file:         print ' '.join(map(shuffleWords, file.read().split(' ')))  ~~シャッフルしても同じ並びの場合が割とあるから再帰的に関数よびだそうと思った（コメントアウトしてるところ）けど，~~  ~~    TypeError: sequence item ランダムな数値: expected string or Unicode, NoneType found~~  ~~が出てきてダメだった…   map()中はできないのかな？~~  **EDIT:`shuffleWords(theWord)`の前に`return`を忘れていただけでした！修正！**
+Haskell.      module Main where     import System.Environment(getArgs)     import qualified Data.Text as T     import Data.Text.IO as TIO     import Control.Monad.Random     import System.Random.Shuffle(shuffleM)          main :: IO ()     main = getArgs >>= f >>= p where       f :: [String] -> IO [T.Text]       f ws = sequence $ map cambridge ws       p :: [T.Text] -> IO()       p ws = mapM_ (\x -> TIO.putStr x >> putChar ' ') ws          -- ケブンリッジ化.     cambridge :: (MonadRandom m) => String -> m T.Text     cambridge word = cambridge' word $ length word          cambridge' :: (MonadRandom m) => String -> Int -> m T.Text     cambridge' word l | l > 3 = shuffle word                       | otherwise = return $ T.pack word          -- 単語の最初と最後の文字以外を返す.     intermediateOf :: String -> String     intermediateOf text = let l = length text in drop 1 $ take (l-1) text          -- 最初と最後以外の文字をシャッフルした文字列を返す.     shuffle :: MonadRandom m => String -> m T.Text     shuffle word = do       body <-  shuffleM $ intermediateOf word       return $ (h `T.cons` (T.pack body)) `T.snoc` l       where w = T.pack word             h = T.head w             l = T.last w  Usage:      stack exec cambridge `cat ./sample.txt`  数時間におよぶ苦行だった。型だけが頼り。アドバイス歓迎。日本語まわりよくわからない。   [text](https://hackage.haskell.org/package/text) と [random-shuffle](https://hackage.haskell.org/package/random-shuffle) に依存します。
+あーlist使えば入力したやつのリスト作れるのか   あとexptとか完全に忘れてた
+同じくCL      (defun tes ()       (loop repeat (read) do         (let* ((nums3 (list (read) (read) (read)))                (max (apply #'max nums3))                (nums2 (remove max nums3 :count 1)))           (princ (if (= (expt max 2)                         (+ (expt (first nums2) 2)                            (expt (second nums2) 2)))                      'YES                      'NO))           (terpri))))  計算を一つにまとめてみたら汚くなった気が
+C      #include <stdio.h>       int main(int argc, char* argv) {           unsigned long i, a[1000][3], limit;           scanf("%i", &limit);           for (i = 0; i < limit; i++)               scanf("%lu %lu %lu", &a[i][0], &a[i][1], &a[i][2]);           for (i = 0; i < limit; i++)               printf("%s\n", (a[i][2] * a[i][2]) == (a[i][0] * a[i][0]) + (a[i][1] * a[i][1])? "YES": "NO");       }  
+C#      using System;     using System.Collections.Generic;     using System.Linq;      namespace AizuOnlineJudge0003     {         class MainClass         {             public static void Main(string[] args)             {                 var dataCountStr = Console.ReadLine();                 var dataCount = int.Parse(dataCountStr);                  Enumerable.Repeat(1, dataCount)                     .Select(_ => Console.ReadLine().Split(' '))                     .Select(x => IsRightTriangle(x) ? "YES" : "NO")                     .ToList()                     .ForEach(Console.WriteLine);             }              static bool IsRightTriangle(string[] sidesStr)             {                 var sides = sidesStr.Select(int.Parse)                     .OrderByDescending(x => x)                     .ToArray();                 return (sides[0] * sides[0] == sides[1] * sides[1] + sides[2] * sides[2]);             }         }     }  どうしても長くなるしメソッド部分だけ転記したほうがいいかな
+common lisp        (loop repeat (read)           do           (let ((a (read))                 (b (read))                 (c (read)))             (cond                ((= (* a a) (+ (* b b) (* c c)))                (format t "YES~%"))               ((= (* b b) (+ (* a a) (* c c)))                (format t "YES~%"))               ((= (* c c) (+ (* a a) (* b b)))                (format t "YES~%"))               (t (format t "NO~%")))))  なんか穴がありそうだけどでけた。入力の所なんかないかな     アドバイスあればお願いします 
+編集してもスパム認定食らった後だと復活しないっぽいので、貼り直しで  ログアウトするまでは本人には削除されてることが分からないようにできてるんだね  *****  * 「セカンドゴロ製造機大島洋平さんは本当に二ゴだらけなのか」 (手作業で集計) * 「中日の大島は本当にセカンドゴロ製造機なのか (2015年の打席結果データを作りました)」 (Excelで集計)  という2つのエントリーを受けて書かれた、データをRで解析&可視化してみた記事  やっぱ統計解析向け言語って強いわ 
+多分、`中日の大島は本当にセカンドゴロ製造機なのか (2015年の打席結果データを作りました) (Excelで集計)`のほうがhatenablogなのでスパム判定で自動削除され、承認してもスパム解除できません…。 hatenablog抜いてみるのはどうでしょうか(mod)
+長い三行で
+変数名ｗｗｗ
+Common Lisp       (defun tes (text)       (dolist (word (split-sequence #\space text))         (format t "~a " (shuffle word :start 1 :end (1- (length word))))       (terpri)) 
+C#      using System;     using System.Collections.Generic;     using System.Linq;      namespace CmabrigdeCopipe     {         class MainClass         {             public static void Main(string[] agrs)             {                 var wrods = Console.ReadLine()                     .Split(' ')                     .Select(Cmabrigde)                     .ToArray();                 var txet = string.Join(" ", wrods);                  Console.WriteLine(txet);             }              public static string Cmabrigde(string ipunt)             {                 if (ipunt.Length <= 3)                 {                     return ipunt;                 }                  var r = new Random();                 var innerChras = ipunt.Substring(1, ipunt.Length - 2)                     .OrderBy(_ => r.Next())                     .ToArray();                 var inenr = new string(innerChras);                  return ipunt[0] + inenr + ipunt[ipunt.Length - 1];             }         }     } 
+これは強い
+Rubyで入力は標準入力から      print $stdin.read.split(/\s/).map{|w|       w.size <= 3 ? w : w[0] + w[1..-2].chars.shuffle.join + w[-1]     }.join(" ")
+レコード処理フィルタやらせたらかっこいいよね
+awk最強伝説
+awk なら `+` が数値を、`length()` が文字列を期待するはずだから   `awk '{ print length($1 + $2) }' < input.txt` でいけるんじゃないかな
+面白そうだ だが俺nano派なんだ
+C#      using System;     using System.Collections.Generic;     using System.Linq;      namespace AizuOnlineJudge0002     {         class MainClass         {             public static void Main(string[] args)             {                 string input;                 while ((input=Console.ReadLine())!=null)                 {                     var sum = input.Split(' ')                         .Select(int.Parse)                         .Sum();                     Console.WriteLine((int)Math.Log10(sum) + 1);                 }             }         }     }  なんかもっとスマートな書き方ある気がしてる
+安定してセカンドゴロを供給する大島、セカンドゴロの伸び代が期待される岡田。
+C#      using System;     using System.Collections.Generic;     using System.Linq;      namespace AizuOnlineJudge001     {         class MainClass         {             public static void Main(string[] args)             {                 Enumerable.Repeat(1, 10)                     .Select(_ => Console.ReadLine())                     .Select(int.Parse)                     .OrderByDescending(height => height)                     .Take(3)                     .ToList()                     .ForEach(Console.WriteLine);             }         }     }  スクリプト言語と比べるとどうしても長ったらしくなるけど、やってることの分かりやすさなら負けてない(と思いたい)
+寄付しよう   https://salt.bountysource.com/teams/neovim
+なるほど！   無事しっかり出力できました！ありがとうございます
+関連サブミ   [Neovim 0.1.0 : neovim](https://www.reddit.com/r/neovim/comments/3r4ciu/neovim_010/)    最初の[コミット](https://github.com/neovim/neovim/commit/4a0c0fd32153e1f65aa720b558c6ff2943b9ad4e)でバージョン番号付け間違えちゃって、このサブミ表題のコミットで修正した様子
+試しに実行してみました。うん、入力大丈夫ですよー
+Ctrl+Dを押すと、「\^D」が表示されるが、print placeNum で「\^」が上書きされる…って感じじゃないかな。   だから「\^D」が「1D」「2D」「3D」とかになってしまう。   ちなみに、stty -echoctl でコントロール文字のエコーを無効にできます。
+桁数出すにはlog10使う方法もあるよ   CLはわからないけどrubyならこんな感じで    http://ideone.com/cHPg9K
+Rust   オンラインジャッジ使えないから入力がこれで良いのかわからないけど  　      #![feature(iter_arith)]       use std::io;     use std::io::prelude::*;      fn main() {       let stdin = io::stdin();       let lines = stdin.lock().lines().collect::<Vec<_>>();       for x in lines.into_iter().map(|line| (line.unwrap().split(" ").map(|x| x.parse::<i32>().unwrap()).sum::<i32>() as f64).log10().floor() as i32 + 1) {         println!("{}", x);       }     } 
+ありがとうございます。書きなおしてみます
+Haskell      module Main where          import System.Environment(getArgs)     import Data.List(sort)          main :: IO()     main = print =<< (fmap (take 3 . reverse . sort . fmap read) getArgs :: IO[Int])
+Python      import sys     for numList in [l.split(' ') for l in sys.stdin]:         sumData = (int(numList[0]) + int(numList[1])) / 10         placeNum = 1         while sumData > 0:             placeNum += 1             sumData /= 10         print placeNum あまり綺麗じゃないし出力にDがくっついてくるんだけど何だこれ…
+Ctrl+dでeofになる   readではふたつ目の引数がeof-error-pでデフォルトがtだからこれをnilにすれば   ３つめの引数でeofの時の値を指定できてこれはデフォルトでnilになってる
+Clojure      (doseq [line (take-while seq (repeatedly read-line))]       (let [[a b] (map #(Long/parseLong %) (clojure.string/split line #" "))]         (println (count (str (+ a b))))))  個人的には reduce/fold のほうがいいんだけどね      (doseq [line (take-while seq (repeatedly read-line))]       (let [sum (reduce + (map #(Long/parseLong %) (clojure.string/split line #" ")))]         (println (count (str sum)))))
+それがよくわからなかった＞＜   eofてファイルの読み込む時に出てくるやつじゃないのかってレベルだから
+    cat input.txt | awk '{print $1 + $2;}' | awk '{printf("%d\n", length()) }'
+*mapM* は *sequence . fmap f* らしいので、*p2 . p1* のところが書き換えられそう。
+圧縮jsonではダメなのか gzip使えばそこそこの容量そしてかなり手軽な気がするが
+[`mapM_ ::  (Foldable t, Monad m) => (a -> m b) -> t a -> m ()`](http://hackage.haskell.org/package/base-4.8.1.0/docs/Prelude.html#v:mapM_) もアリかしら？
+問題文によるとeofでloop抜けないと駄目なような
+ひねりだした。 ~~問題読み間違ってた。~~ なおした。  addition.hs      module Main where          import System.Environment          main :: IO()     main = f <$> getArgs >>= p2 . p1 where       f :: [String] -> [Int]       f [] = []       f [_] = []       f (x:y:r) = read x + read y : f r            p1 :: [Int] -> [IO()]       p1 is = fmap (putStrLn . show . length . show) is            p2 :: [IO()] -> IO()       p2 = sequence_  実験はこう: numbers.txt      10 20     20 30     100 10     1000 234  からの      stack runghc addition.hs -- `cat ./numbers.txt`  結果:      2     2     3     4  *「型に従えば書ける」*という感覚はわかりつつあるんだけど、そうして型に従って書いたものが正しいかというとまた違うよなあ、と思うこの頃。まだまだ精進しないと。
+かっこつけてHaskellで書こうとして死んだ。   print のかわりになる IO [Int] -> IO() を誰か…。       module Main where     import System.Environment          main :: IO()     main = f <$> getArgs >>= print where       f :: [String] -> [Int]       f [] = []       f [_] = []       f (x:y:r) = read x + read y : f r
+桁数どうやって出そうかと思ったけどなんか数字を文字列にできたので   文字列の長さを出すようにしてしまった。あと勝手に数字以外が入力されたら終了するようにした。アドバイスあればお願いします     common lisp        (loop       (let ((a (read))             (b (read)))         (if (or (null (numberp a)) (null (numberp b))) (return))         (format t "~d~%" (length (write-to-string (+ a b))))))  改訂版        (loop       (let ((a (read *standard-input* nil :eof)))         (if (eq a :eof) (return))         (format t "~d~%" (length (write-to-string (+ a (read))))))) いいんだろうか・・・
+書いてあったのか！ありがとうございます
+自分もどっちかなーって思ったんですがルールで標準入出力使えって決まってるみたいです。  http://judge.u-aizu.ac.jp/onlinejudge/introduction.jsp
+ありがと！ 普段オプション無しの sort しか使わないから man 見た甲斐があった
+そんな書き方があるんですね…すごい  一括で文字データとして来るのか，それとも1行1行読み込んでいくのか，わからなかったんですよね      1819     2003     876     2840     1723     1673     3776     2848     1592     922  ↑こういう文字データだと思ってました…
+素晴らしい
+シェルスクリプト      sort -nr input.txt | head -3
+ input() 以外に標準入力は import sys; sys.stdin から取ったりする   普通のファイルなら open(filename)  Python      import heapq, sys     print "".join(heapq.nlargest(3, sys.stdin, key=int))
+おぉ！同じ行数でもスッキリしてますね
+listがビルトイン関数だから上書きはまずいのと３つをスライスしたほうがいい感じになった      L=[input() for x in range(10)]     L.sort(reverse=True)     for x in L[0:3]: print x 
+参考になりますm(_ _)m
+Common Lisp      (mapc #'print           (subseq (sort (loop repeat 10                           collect (read))                         #'>)                   0 3))  同じ言語は一つのツリーにあったほうが見やすいかも
+自分も勉強中の身だからあまり上手く言えないけど面白いよ！   こんなこともできるんだーっていうのが多くて新鮮
+Python      p= [("%dx%d=%d"%(x,y,x*y))      for x in range(1, 10)      for y in range(1, 10)]     for s in p :print s  今さっき入門した
+f#     open System    let parse (x:string) =     match Int32.TryParse(x) with     |(true,int) -> int     |_ -> 0      let main =     seq{for x in 1..10 -> Console.ReadLine()}      |>Seq.map parse      |>Seq.sortBy (~-)       |>Seq.take 3      |>Seq.iter (printfn "%d")  ライブラリがあると便利かな
+Pythonすごいな 勉強してみようか
+ガチャじゃなくてもこのテストやってないゲームは多いね。  表記通りのクリティカル率じゃなかったりとか。
+Common Lisp      (loop for i from 10 to 99               for (x y) = (map 'list 'digit-char-p (write-to-string i))               when (and (/= x 0) (/= y 0))               do (format t "~dx~d=~d~%" x y (* x y)))      無理やり一つのループでやってみた   
+BinaryHeap (・∀・)ｲｲﾈ!!
+Clojure      (doseq [n (->> (repeatedly 10 #(Integer/parseInt (read-line)))                    (sort #(compare %2 %1))                    (take 3))]       (println n))
+Rust        use std::io;     use std::collections::BinaryHeap;      fn main() {       let mut buf = String::new();       for x in (0..10).map(|_| {         buf.clear();         io::stdin().read_line(&mut buf).unwrap();         buf.trim().parse::<i32>().unwrap()       }).collect::<BinaryHeap<_>>().iter().take(3) {         println!("{}", x);       }     }
+ふむ・・・これは興味深いな・・  ユーザー側で確認する話じゃないだろうけどｗ
+Python      list = [int(x) for x in input.split('\n')]     list.sort()     print str(list[9]) + '\n' + str(list[8]) + '\n' + str(list[7])  入力がよくわからない…
+アドバイスあればお願いします   common lisp        (defun aoj001 ()       (let ((hoge nil))         (dotimes (i 10)           (push (read) hoge))         (setf hoge (sort hoge #'>=))         (dotimes (ii 3)           (format t "~d~%" (nth ii hoge)))))          (aoj001)  
+この会社いっつも買収されてんな  元Delphi勢としてはちょっと悲しい
+C#      using System;     using System.Linq;     using System.Collections.Generic;      namespace Console2     {         class MainClass         {             public static void Main(string[] args)             {                  Enumerable.Range(1, 9)                     .SelectMany(a => Enumerable.Range(1, 9).Select(b => new {A = a, B = b}))                     .ToList()                     .ForEach(x => Console.WriteLine(x.A + "x" + x.B + "=" + (x.A * x.B)));             }         }     }  Ix使えるともっとスッキリ書けるんだけど
+"漢"を感じる
+最初らへんしか読んでないけどすごく読みやすい
+この人の他の記事もおもしろい。  [「許す」と「赦す」の件（みんな間違っている）](http://d.hatena.ne.jp/takeda25/20150116/1421379430)  プログラマーは言葉の使い方に厳しい人多いな。厳密に正しくない書き方が災いを招く生活をしているからなのか、単にそういう性格の人がプログラマーに向いているからなのか  
+Clojure      (doseq [a (range 1 10)             b (range 1 10)]       (printf "%dx%d=%d\n" a b (* a b)))
+formatかっこいい
+LISPか、昔ちょっとやったけどまた勉強しないと読めない 
+Rustで        fn main() {       for x in (1..10).flat_map(|i| (1..10).map(move |j| format!("{}x{}={}", i, j, i * j))) {         println!("{}", x);       }     }
+これが有料の作業であれば罵倒のひとつも来ると思うけど、ボランティアでやってる専門でもない人間の作業を信じすぎと思った。  (ネットからタダで手に入る)情報の信頼性を上げねばと言う話と、対価の発生してない作業をどれだけ信頼するかって話は別問題。
+さっそくDLしてみた   じっくり読もう
+自分の書いたプログラムを隅々まで読んで、修正して、よりよいものを作った人がいたら俺はとても嬉しい  翻訳もそういう気持ちでいいんじゃないかな
+翻訳に興味のある自分としてはちょっと怖くなった記事
+(´・ω・`)
+Javascriptで書いてみた。      console.log("1x1=1")     console.log("1x2=2")     console.log("1x3=3")     console.log("1x4=4")     console.log("1x5=5")     console.log("1x6=6")     console.log("1x7=7")     console.log("1x8=8")     console.log("1x9=9")     console.log("2x1=2")     console.log("2x2=4")     console.log("2x3=6")     console.log("2x4=8")     console.log("2x5=10")     console.log("2x6=12")     console.log("2x7=14")     console.log("2x8=16")     console.log("2x9=18")     console.log("3x1=3")     console.log("3x2=6")     console.log("3x3=9")     console.log("3x4=12")     console.log("3x5=15")     console.log("3x6=18")     console.log("3x7=21")     console.log("3x8=24")     console.log("3x9=27")     console.log("4x1=4")     console.log("4x2=8")     console.log("4x3=12")     console.log("4x4=16")     console.log("4x5=20")     console.log("4x6=24")     console.log("4x7=28")     console.log("4x8=32")     console.log("4x9=36")     console.log("5x1=5")     console.log("5x2=10")     console.log("5x3=15")     console.log("5x4=20")     console.log("5x5=25")     console.log("5x6=30")     console.log("5x7=35")     console.log("5x8=40")     console.log("5x9=45")     console.log("6x1=6")     console.log("6x2=12")     console.log("6x3=18")     console.log("6x4=24")     console.log("6x5=30")     console.log("6x6=36")     console.log("6x7=42")     console.log("6x8=48")     console.log("6x9=54")     console.log("7x1=7")     console.log("7x2=14")     console.log("7x3=21")     console.log("7x4=28")     console.log("7x5=35")     console.log("7x6=42")     console.log("7x7=49")     console.log("7x8=56")     console.log("7x9=63")     console.log("8x1=8")     console.log("8x2=16")     console.log("8x3=24")     console.log("8x4=32")     console.log("8x5=40")     console.log("8x6=48")     console.log("8x7=56")     console.log("8x8=64")     console.log("8x9=72")     console.log("9x1=9")     console.log("9x2=18")     console.log("9x3=27")     console.log("9x4=36")     console.log("9x5=45")     console.log("9x6=54")     console.log("9x7=63")     console.log("9x8=72")     console.log("9x9=81")
+Python      for i in range(1, 10):         for j in range(1, 10):             print str(i) + 'x' + str(j) + '=' + str(i * j)  どうでしょうか
+目次みたらワクワクしてきた。
+名著にポエムを差し込むことに成功した男
+いやー美しい
+「時間制限 : 1 sec」ってワンライナーの達人でも難しいだろって思ってしまった。
+common lisp        (dolist (i '(1 2 3 4 5 6 7 8 9))       (dolist (a '(1 2 3 4 5 6 7 8 9))         (format t "~dx~d=~d~%" i a (* i a)))) 
+飽きるまで一日一個やってみよう   1,使用言語   2,コード   添削できる方は添削お願いします！
+Brainfuckまで
+Delphi6結構好きで使ってたけど今どうなってるんだろう
+あと超個人的な感想だけど、この人がFregeを作るに至ったプロセス（本文中: *Fregeの歴史を詳しく教えてください。Fregeはどのように生まれ、進化したのですか?*）が、なんかアメリカンドリームっぽくて良い。
+Haskellを勉強して、似たことをScalaで書こうとすると、すごく煩くて不満だったから、育ったらうれしい。
+3ページ目の[プチコンファンが送るライトニングトーク](http://www.itmedia.co.jp/pcuser/articles/1510/20/news137_3.html)で紹介されてるプレゼンが面白そうなのばかりですね。
+gitの方は正しくできてたんですが失敗した時のための   バックアップしたディレクトリも一緒に読み込まれてて   動作がおかしくなってただけでした
+両方の変更っていうのはconflictしてない状態のこと？ conflict発生してないならhogeをmergeすればいい
+プログラマでも全く意味がわからん。  10行に一列だけある違う列が文字出力命令でその後の行が文字コード書いてるような気がするがそれすら定かでない
+原因はわかりましたがgitは全く関係ありませんでした  お騒がせしました
+同じファイルの別の位置が変更されてる数が多くて手動では難しい...
+ファイルを見ると両方とも正しく変更されてるように見える  gitは正しくmergeしてて動作が反映されないのは処理系辺りに問題があるからかな
+よくわかんないときはhogeをコピペって隔離して、改めてhugaを作って、それにhogeを被せて、改めてmasterにマージしちゃったらどうだろう。
+なんかもう汎用変態言語だなw
+RPGでキャラの名前を考えていたら日が暮れた
+顔が写らないように撮ったのに肌色成分が多いのも含めて察してさしあげろ！
+「おっさんだけのものじゃない」っておっさんがいってもしょうがないんだよなあ
+ちょっと懐かしい気持ちになったので貼り貼り。   小学生の時にBASICを一生懸命勉強したのはラムちゃん野球拳で勝たずして全裸が見たかったからでした。
+函数実装してる時間より、テスト書いてる時間のほうが長いし、名前考えてる時間も長いな 
+[ソース元](https://www.reddit.com/r/ProgrammerHumor/comments/3pgkp0/programmer_real_life_problems/)の[ニュー速Ｒ転載サブミ](https://www.reddit.com/r/newsokur/comments/3phlgh/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC%E3%81%93%E3%82%8C%E3%81%AA_rprogrammerhumor/)からの転載
+すわ毛の壁案件かとか思ってしまった
+キーボード使えるのはいいね
+だからプチなのにBIGとはどういうことだ
+Perlerは迫害されるのですか？そうですか
+割とリーズナブルだと思う。
+CMSだし日本語だからしゃーないしゃーない br 先生にはまだまだ出番が必要  しかしリストを  ・このように書くのは不安が残る  - li 先生はもっと活用されて欲しい
+汚いHTMLだなあ
+界王神（CommonLisp）
+ほんっとにPHP嫌いなんだろうね。PHP4の時代からの議論だけど。
+ソース(HTML)コピペしとくか       <p>■こんな仕事をしてみたい人はいいと思います     <br>・サービスを育てたいエンジニア（特にB2B）     <br>・グロースハックに興味のあるエンジニア     <br>・不動産業界をクリーンにしたいエンジニア     <br>・ホラクラシー型組織を一緒に作りたいエンジニア     <br>・プログラミングからインフラまでフルスタックに成長したいエンジニア（でもフルスタックフルスタック言わないよ！）</p>      <p>■技術的にはこんな人がいいと思います     <br>・PHPはもう触りたくない     <br>・PHPに触ると死ぬ     <br>・PHPでサービス作っている人の気持ちが分からない     <br>・PHPは研究所だけで十分</p>      <p>■いないとは思いますが、もしいたらすいません     <br>・PHP大好き     <br>・とりあえず動きました     <br>・Ruby？なにそれおいしいの？</p>      <p>■働き方     <br>・フルコミット希望ですが、相談でどうにでもなります     <br>・時間、場所などは完全に自由です     <br>・副業、起業OKです     <br>・給与は半年に一度チームで話し合って決めます     <br>・他はだいたい自由です</p>      <p>エンジニア向けの環境が実現できていると思いますので、自由に働きながら自社サービス開発したい方は是非一度ご飯でも行きましょう。     <br>※ただしPHPがキライな人に限る</p> 
+自分の観測範囲において `PHPer` というのはネガティヴな文脈で使われている。  そしてその事例がひとつ増えた
+まだ RoR で消耗してるんすかね。  みたいな感想
+JSガチ勢はどこに行こうとしているんだ…
+QEMUの開発者の人がjavascriptでPCのエミュレータを作ってLinuxのブートまでさせてるのを思い出した  [jslinuxのサイト(リンクを踏むとエミュレータが動くので注意)](http://bellard.org/jslinux/)  [jslinuxのテクニカルノート](http://bellard.org/jslinux/tech.html)
+おもしろそう
+githubのインタビューだとこれも面白い。      https://yakst.com/ja/posts/2989
+プログラミングに関する技術的な話は無いけど，インタビューが面白かったので．   線引きがわからないのでもしダメだったら消しちゃってください．
+[ 続JSONをSQLiteで置き換えた時の話 ](http://animane.hatenablog.com/entry/2015/10/10/092732)
+これを使えば渡辺斉藤問題を解決できるってことなのかな
+https://github.com/auchenberg/volkswagen/JS移植版も出たみたいムーブメント来てるな！
+おもろい、早く読めばよかった
+ジョークとはいえ案外しっかり作られているのね  この人のリポジトリ一覧でこれだけスター数がずば抜けていて若干シュール
+この発想はなかった。
+元サブミ：[PHPUnit Volkswagen Extension](https://www.reddit.com/r/programming/comments/3np68l/phpunit_volkswagen_extension/)
+言語の仕様変更に合わせて過去のコードを修正しなければならないなんてばかげてる。      
+mrubyの影響もあったりするのかな。
+Stack Overflow jaのサイトで信用度が500(多分大して使ってなくても達成できる)を越えてるのが95人位しかいないのに、イベントには130人超集まってるのが面白い  http://ja.stackoverflow.com/users?page=1&tab=reputation&filter=all
+これは素晴らしいですね。互換性の観点から言語も地球全体で統一して欲しい。日本語などは文化として残す感じで。
+まだ解決というのは早いと思うけど、関係者GJではあるね。
+coffeeはgruntfileで書くくらいしか触ってなかったけど、いつの間にかこんな事になっていたとは  jsはいつも色々とダメと言われることが多いが、他の言語にあんまり触れてない俺にとっては全てが当たり前だからわからぬ
+プラットフォームには、機能強化によってもたらされる発展と、安定によってもたらされる発展があると思う。  今までのJavascriptは言語として色々不足する部分が多々あったので、機能強化による発展でぐんぐん成長してきた。  でもES6である程度機能がそろってきたことによって、安定によるメリットの方がより求められるようになってくるかもしれない。
+公理を仮定しちゃその外側の世界ではソートできないな ~~あと要素の追加も有限時間で終わるのかどうかわからないし~~  ~~どちらが本質的に効いてるのか気になる。~~  EDIT: 要素の追加はアルゴリズムの操作じゃなかったわ
+このアルゴリズムは日常でも応用できそう。  「何もしなくていい理由」を考えることによって高速に仕事が完了する。
+直ちにＬを出力せず、事前に屁理屈を準備してから出力するあたりが重要なのでしょうか
+[スタンフォードの単位は通わなくてもリモートで取れるよ、テストとかの難易度は同じで](https://note.mu/ruiu/n/n7e1a79f5e9e4)   この人すごいなぁ。
+皮肉だよ。著者は割と名のあるF#開発者。
+Google の[HRT](http://kadoppe.com/archives/2015/05/book-team-geek.html)は見習いたいですね。
+>現時点の製品リストをすべて含んだ価格(変更される可能性がある)は，個人開発者向けの19.90ドル/月    全部自由に使えて月々2000円なら安いかもしれないと思ったけれども、IntelliJのUltimate使える状態でWebStormが使えるってなんかメリットあるんだろうか。
+製品が借り物なのはさほど問題ではなくて、自分の得た経験が借り物になるのが大きな問題。  利用者はお金以外にも、学習コストを支払ってる。それを人質に取られるのは精神的にキツい。
+粒度が小さいプログラムの組み合わせって、強いなぁ。
+だから迂闊に誰かのフレームワークに依存するのは危険なんだよなぁ 
+レンタルのみの体系って嫌だなあ
+ありがとうございます！  やっぱりコードのほうで例外を補足して終了させるしかないですかね。  Visual Studioが例外の発生個所にカーソルを移動させてくれると、異常が起きたのがすぐわかって良かったのですが・・・  EDIT:  自己解決しました！  デバッグ > 例外... メニューから、「例外が次の場合に中断する」で、該当箇所をチェックで、望み通りの動作になりました。  
+この辺使えるかな？  [捕捉されなかった例外がスローされたことを知る: .NET Tips: C#, VB.NET](http://dobon.net/vb/dotnet/programing/unhandledexception.html)  [＠IT：.NET TIPS 適切に処理されなかった例外をキャッチするには？ - C# VB.NET Windowsフォーム](http://www.atmarkit.co.jp/fdotnet/dotnettips/320appexception/appexception.html)
+やっとnode.jsを覚えたと思ったらGO
+「こんなクソダルい記述をありがたがってるの？ ﾌﾟｰｸｽｸｽ」みたいな皮肉だね
+全部の理由見たけど、おっさんの好みなんか知らねーよとしか  edit: そもそも皮肉いってるきがしてきたぞ
+C#好きとしては痛いところ突いてくる感あるなあ改善は続いてるとはいえ実際冗長な箇所が多いんだよねまあわざわざLINQとラムダ式を避けて長く書いただろ的コードもあるけど
+コメント欄読むまで"Javaを使わない10の理由"なのかと本気で考えたわ
+言語ジプシーにありがちなパターンだね
+読んだところRubyの破壊的なソフトウェア環境更新が問題であって、動的型付け云々はあまり関係ないのではないかと思った。   あとこの人Haskellで仕事してないので説得力ない
+ソースの管理はGitなのかな
+凄すぎ
+> これまで、もしくはここ最近のYAPC::Asiaと比べると、ほぼ100％Perlに関わる話が交わされるのが特徴と言えるでしょう。まぁ、Perlのカンファレンスだから当然ですね。日本が（悪い意味ではなく）異常です！  たしかに
+関連記事(という名の宣伝)  [オリジナルのボードゲームをルールからAIまで作る](http://qiita.com/kurehajime/items/4c5ab00e85550cfb27bb)
+この人のアイデアはどこから出てくるのかいつも気になる
+記事のタイトルを「削減」から「追放」に変えたのか。
+全部一人でやればコミュニケーションコストゼロ！とは言うものの、ほんとに全部一人でやっちまったのか   いやーすごいわ
+すごい
+Javaのユーザーとエバンジェリストの数は反比例するの？
+泥臭いJavaなんざ開発した技術者なんざ要らんわな。 SunとIBMのゴリ押しで普及したもののSmalltalk・C++と比べて標準Libraryが充実してただけで新しいところは何も無い。 他の言語開発者を雇ったほうが遙に利口だわ。
+寺田さんもMS行ったしなあ
+MSが綺麗なジャイアン化してる中、Oracleだけは悪の帝王を貫いてるな・・・
+armって遅くね？
+https://www.gitignore.io  こっちもおすすめ
+twitter見ても若々しくてすごくいい
+ブログの名前みて、もしやと思ったらガチで和田先生だった！
+名前が的確だけどあんまり過ぎるｗそういやタッチした場所を基点としてジョイスティック操作ってスクエニかどこかの特許って聞いたことがあるんだけど本当なのかな
+神さまみたいな人やな…
+Armのアセンブリを楽しまれる和田先生(84歳)   むしろアセンブリは得意中の得意かも
+乳首ダブルクリックしちゃうぞ＾＾
+Mavenってブラウザを思い出した
+何かと思ったら白猫プロジェクトのプニコンか   ゲームに使えそう
+これ前に知って触ってみたけどちょい不便なんだよな   入力したテキストに対してどこに一致するか即時反映する機能が欲しい
+これは便利
+ツバメちゃんのミッションしかやってみてないけど、簡単ですねｗ
+ちょくちょく型推論と動的型の区別がついてない人を見るけど、この漫画の作者もどうなのか不安になる説明。
+どう見てもゲームセンターあらしのポーズ
+Martin FowlerといえばHexagonal architectureで目からウロコが落ちた
+アンドロイドの影響かな〜
+ずっと逆立ちしてる...
+とある本の影響で、女子高生＋プログラミング にはネガティブな印象しか持てなくなってしまった
+結局ハローワールドしかできてねえじゃねえか
+ニュー速NOMORALで存在知ったが、1コマ目からツッコミ所しかないマンガだ……。   とりあえず決め台詞がHello, world!はどうなんだ。
+「ぶりきじゃ」に和んだ土日でゆっくり読もう
+あざっす！  削除されたアカウントはまあいいとしてshadowbanされたアカウントっていうのが確認できないのでそこが不安
+こりゃいいね
+おおちゃんと動く動く
+指定したユーザー名がshadowbanされてるかどうか確認するブックマークレット      javascript:(function(){var N=prompt('ユーザー名を入力してください'),D,C,B,X;if(/[\w\-]+/g.test(N)){D=document.createElement('div');C=D.style;C.backgroundColor='#fefefe';C.position='fixed';C.top='50%';C.left='35%';C.width='15%';C.height='50px';C.lineHeight='50px';C.textAlign='center';C.border='1px solid gray';C.borderRadius='3px';C.boxShadow='2px 2px 1px rgba(55,55,55,0.3)';D.textContent='情報を取得しています…';B=document.body;B.appendChild(D);X=new XMLHttpRequest();X.open('GET','https://www.reddit.com/user/'+N+'/about.json',true);X.onload=function(){if(!!JSON.parse(this.responseText).error){X.open('GET','https://www.reddit.com/api/username_available.json?user='+N,true);X.onload=function(){B.removeChild(D);if(!!JSON.parse(this.responseText)){alert('そのユーザーは存在しません');}else{alert('そのユーザーはshadowbanまたは削除されています');}};X.send();}else{B.removeChild(D);alert('そのユーザーは正常です');}};X.onerror=function(){B.removeChild(D);alert('エラーが発生しました');};X.send();}else{alert('ユーザー名が正しくありません');}}());  [shadowban判定サイトのソースを読んだ](https://www.reddit.com/r/p18s/comments/3jcizx/shadowban%E3%81%95%E3%82%8C%E3%81%9F%E3%81%8B%E3%81%A9%E3%81%86%E3%81%8B%E3%82%92%E5%88%A4%E5%AE%9A%E3%81%97%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AE%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92%E8%AA%AD%E3%82%80/)のでそれを活かして作った．数個しか試してないけど多分動くはず！
+一応Cは大学で習ったけどそれっきりだから、オートマ限定のようなコンプレックスがある。
+独学で学べるものは独学で学ぶのが一番効率がよい気がする
+古いけど、気軽に読める楽しい記事   
+おもしろそう。ご飯食べながら読む 
+「ぶりきじゃ」はファウラー直筆のサインなのかな？かわいい。
+年の区切りが違う、っていうのはいわゆる旧暦のことであってるかな？  閏月についてはサンプルソースにこういうのがあるから対応していそう > wd = Wareki::Date.new("天和", 3, 5, 4, true)   > wd.leap_month? # => true (閏月かどうか)  自分が使いそうなのは平成、昭和、せいぜい大正ぐらいなので   年の区切りや閏月は気にならないけど、   江戸以前の暦とかを扱う場合は   ライブラリに頼りすぎないで暦の基礎知識を抑えておいたほうがいいかもね 
+毎分100万リクエストってそんなに大規模じゃない
+詳しく中身を見てないが、例えば和暦と西暦では年の区切り位置が違う   （和暦の12月が西暦では次の年の1月や2月になることがある）   また閏月が入る年と入らない年がある　どこに閏月が入るかは年によって違う   辞典や辞書でもそのへんをいい加減にしているものが多いが、これはちゃんと扱っているんだろうか
+せっかくなんで俺も。  http://i.imgur.com/pfgiOK7.gif  ちょうどここ数日かけてつくってたBlenderのアドオン。  オブジェクトの3D空間上での移動がビューの向きに縛られすぎてて、好きな方向に移動したいときにビューをいちいち大きく動かさなきゃいけないのがどうにかならんかと思って作ったやつ。  いくつかのバグを直したら公開しようかな。その前にGitHubの使い方覚えなきゃ…
+Qiitaに時々投稿してるけど、自分の書いてる内容がQiitaの本筋から外れているんじゃないかと不安になる。
+地味に役立つ。
+皇紀まで扱えたり、和暦表示をパースできるのすごいな
+あ、pongは右側が自分で対戦できるのか   コンピュータ強すぎて歯がたたないｗ
+面白いけどなんに使うんだｗ って思ったけどSlackでBotにするのは良さそうだな 青空文庫のテキストでもぶっこむ？ ぐらいしか思いつかなかった   実用的（？）な利用例が書いてあるのはいいな  
+今日は暇だったからGo言語で[文章からダジャレのみを抽出するコマンド](https://github.com/kurehajime/dajarep)を作ってみた。  [こんな感じのコマンド](https://cloud.githubusercontent.com/assets/4569916/9517659/7641d0ca-4cec-11e5-98d6-7b0a64354877.gif)  中身の[解説](http://qiita.com/kurehajime/items/a922d42dff5e0f03d32c)。
+ありがとう！  [termbox](https://github.com/nsf/termbox-go)というコンソールに文字を自由配置できるライブラリがあって、これがなかなか便利。可能性が広がる。 
+pongすごいな。どうやったら作れるのかまったく想像がつかない。すごい    cmprssみたいなネタはけっこう好き。 
+すげえ！！ありがたや…  サブミリンクに関しては一応考慮してwww→npにしてるんだけど，[実は関係ないみたい](https://www.reddit.com/r/p18s/comments/3gapiz/totesmessenger%E3%81%AE%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E8%AA%AD%E3%82%80%E7%B5%82/)？   よくわからないのでリンクは取り去ったほうが無難ですね…
+    document.querySelector('textarea')      を      document.querySelector('.cloneable>.usertext-edit>.md>textarea')      に変えたら動いた！      javascript:(function(){var d=document.querySelector('[class="click-gadget"]').children[0],s=d.childElementCount,i=0,r='',e,m;for(;i<s;i++){e=d.children[i].children[1];m=e.querySelector('a');r+='* __['+m.innerHTML+']('+m.href.replace('/www.reddit.com/','/np.reddit.com/')+')__\n  - [';m=e.querySelector('small').querySelector('a');e=m.innerHTML.length<5?'0個の'+m.innerHTML:m.innerHTML;r+=e+']('+m.href.replace('www','np')+')\n';}document.querySelector('.cloneable>.usertext-edit>.md>textarea').value=r;}());      --- 他のサブミに通知飛ぶと恥ずかしいのでリンク外して転載・・・。   > * __岡田斗司夫氏が、知り合いの30代の独身男性に嫁いでくれる、33歳までで体重は60kg未満で、東北の某県の老舗に嫁いで跡継ぎを生んで育ててくれる女性を募集中。この件のシェアは歓迎とのこと。__ >  - 5個のコメント > * __Reporter &amp; Crew shot on live tv. WDBJ7. Video in comments.__ >  - 3030個のコメント > * __【速報】米CBSテレビの記者が生放送中に射殺された__ >  - 16個のコメント > * __Amazon 日替わり無料アプリを終了しAmazon Undergroundを立ち上げ__ >  - 0個のコメント > * __趣味で作ってるプログラム・サービスを晒すスレ 2__ >  - 4個のコメント  
+自分がOPであるテキストサブミだと動かなかった…  まぁ…御蔵入りかなw当面使う予定もなさそうだし
+テキストサブミだと      document.querySelector('textarea')  がサブミの>>1コメントを拾ってうまく動かないっぽい。   リンクサブミだとうまく動く。 
+少し前に作った`最近見たリンク`を晒すブックマークレット      javascript:(function(){var d=document.querySelector('[class="click-gadget"]').children[0],s=d.childElementCount,i=0,r='',e,m;for(;i<s;i++){e=d.children[i].children[1];m=e.querySelector('a');r+='* __['+m.innerHTML+']('+m.href.replace('/www.reddit.com/','/np.reddit.com/')+')__\n  - [';m=e.querySelector('small').querySelector('a');e=m.innerHTML.length<5?'0個の'+m.innerHTML:m.innerHTML;r+=e+']('+m.href.replace('www','np')+')\n';}document.querySelector('textarea').value=r;}());  サブミ紹介にもなって面白いかなーと思ってVIPでサブミたてたけどコメント0でした．はい   最近は忙しくて作れてないので余裕ができたら何か作りたいな
+最近Go言語でCUIコマンドを作るのにハマってる。  ### [lazy](https://github.com/kurehajime/lazy) パイプで受け取った文字列を遅れて表示するだけのコマンド。Go言語でパイプの使い方を覚えるために作った。実用性なし。  ### [cmprss](https://github.com/kurehajime/cmprss) 文章を非可逆圧縮するコマンド。 完全にネタ目的で作った。[解説記事](http://qiita.com/kurehajime/items/b3e03564e75d39c52113)。  ### [pong](https://github.com/kurehajime/pong-command) コンソールでpongが遊べるping風のコマンド。やはり[一発ネタ](https://cloud.githubusercontent.com/assets/4569916/7273449/e6c410be-e92e-11e4-89dd-ba6903089706.gif)。  ### [viewb](https://github.com/kurehajime/viewb)  任意のコマンドをWebサーバーにするコマンド。何言ってるのか分からないだろうけど、そういうコマンド。[解説記事](http://qiita.com/kurehajime/items/4b0b7cd9ff3494c18eaf)  このコマンドを公開して10日後に、似たようなコマンドが登場して、そっちがGithubで4000Star貰ってて泣いた。まぁあっちの方が断然高機能だし仕方ないけど・・・Starを10%いや1%でいいから分けて欲しい。  
+go is god
+PHPの心臓が止まりました
+d=-1ってのが変。違う？
+java人気が右肩あがりなのか。
+[ソース発見元](https://www.reddit.com/r/newsokur/comments/3hprl0/%E3%81%BE%E3%81%A8%E3%82%82%E3%81%AB%E8%A6%8B%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AB%E6%82%AA%E3%81%95%E3%82%92%E3%81%99%E3%82%8Bc%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88%E3%81%8C%E9%96%8B%E5%82%AC/) in /r/newsokur
+わかる。
+自分ならユニットテストが書けない職場なら転職する  
+* Mの最終Previewのリリース   - コンシューマー向けは今年の秋 * Android 6.0 SDKの公開   - SDK Managerからダウンロードできる * [Android Support Libraryがバージョン23にアップデート](http://developer.android.com/tools/support-library/index.html) * Google PlayではもうAPI 23をターゲットにしたアプリがリリースできる * コンシューマー向けのローンチの時にGoogle Play関係を更新して新しいパーミッションモデルに対応する  ***  /r/androiddev の[サブミ](https://np.reddit.com/r/androiddev/comments/3hc66p/android_m_is_marshmallow/)   EDIT:[一般向けのサブミ（NSRより）](https://np.reddit.com/r/newsokur/comments/3hf2xa/%E4%BF%BA%E3%81%84%E3%81%A4android50%E3%81%8C%E5%BD%93%E3%81%9F%E3%82%8A%E5%89%8D%E3%81%AB%E3%81%AA%E3%82%8B%E3%82%93%E3%81%A0%E3%82%8D%E3%81%86%E6%97%A9%E3%81%8F%E4%BD%BF%E3%81%84%E3%81%9F%E3%81%84%E3%81%AA%E3%81%81/)
+Transifexで趣味の翻訳を頑張ってたら仕事の依頼もらったことあるなあ結構チャンスは転がってるもんだね
+工数2日は流石に受けたくないな。
+SUGEEEEEEE！！  俺も海外の方からお声がかかるくらいの実績を積みたい
+Facebookでインドの少年がアメリカだったかな、海外のプログラマーなどに仕事を発注してカードゲームだか作ったって話は前にTVで見たな。  グローバルっすよすよ。
+お仕事ではないけど、「一緒にredditのbotつくらね？」というメールが海外から来たことはあった。 自分は英語ができないので難しだろうと返信したけど、正直参加したかった・・・。
+構造化が何を指しているのか判らないけど、抽象化の主目的は、抽象化して作った処理の再利用でしょ。     "再利用の例"    ` Object subclass: #SimpleDumper.   SimpleDumper class methodsFor: 'dump'   !   print: aValueHolder   on: aWriteStream       "aValueHolderの値を文字列にしてaWriteStreamに書き込むだけの処理"            aWriteStream           nextPutAll: aValueHolder value printString;           nl.   !!     | dumper |   dumper := SimpleDumper.     "ここから本題。　print:on:の引数は抽象的なため、Signatureさえ合っていればどんな構造の引数でも指定できる。"   dumper print: [ 1 ] on: Transcript.   dumper print: [ 1 ] on: Stream stderr.   dumper print: 0 -> 1 on: Transcript.   dumper print: 0 -> 1 on: Stream stderr.   `
+誰も興味ないんかと思ってたらスパム扱いやったんか  ｻﾝｷｭｰMod
+なぜかスパムあつかいになって承認待ちになってござった。   承認遅れてごめんなさい(mod)
+こういうツールが必要だというのがそもそも問題なわけだが
+マシンコードよりニーモニックで書いた方が楽   何度も何度も同じことを書くよりマクロを使った方が楽   マクロアセンブラよりFORTRANやLISPなどの高級言語を使った方が楽   長いコードの全体が関連し合っているより動作を局所化する方が楽   コードだけの局所化ではなくコード＋データのセットで局所化する方が楽  この『楽』は、    * 人間の認知機能の限界（同時に活性化できるアイテムが7±2しかないこと）からくるのが一つ   * 汎用部品を作ると異なる問題に新しくコーディングしなくて済むことからくるのが一つ
+すごいなーこれ。Cの変数宣言を分解して英文の説明にするやつ思い出した  
+https://www.reddit.com/r/programming/comments/3ggk5r/ から
+如何に再利用しやすいTestCaseを作るかってのがムズい。  ` 	TestCase 		subclass:		#BehaviorTest 		instanceVariableNames:	'example expectedSelector0 expectedValue0 sourceSelector0 sourceValue0' 		classVariableNames:	'' 		poolDictionaries:	'' 		category:		'User'.  	BehaviorTest  		createGetMethod: 'expectedSelector0'; 		createSetMethod: 'expectedSelector0';  		createGetMethod: 'expectedValue0'; 		createSetMethod: 'expectedValue0';  		createGetMethod: 'sourceSelector0'; 		createSetMethod: 'sourceSelector0';  		createGetMethod: 'sourceValue0'; 		createSetMethod: 'sourceValue0';  		yourself.  	BehaviorTest methodsFor: 'accessing' 	! 	target0  		^ self.	 	! 	defaultExample  		^ self sourceValue0.	 	!!  	BehaviorTest methodsFor: 'setUp-tearDown' 	! 	setUp  		self expectedSelector0: #example. 		self sourceSelector0: #example. 		self expectedValue0: 1. 		self sourceValue0: 1.  		self target0 class methodDictionary removeKey: self expectedSelector0 ifAbsent: []. 		self deny: ( self target0 class methodDictionary includesKey: self expectedSelector0 ). 	! 	tearDown 		self target0 class methodDictionary removeKey: self expectedSelector0 ifAbsent: []. 		self deny: ( self target0 class methodDictionary includesKey: self expectedSelector0 ).  	!!  	BehaviorTest methodsFor: 'test' 	! 	runCreateGetMethodWithDefault0  		self target0 class createGetMethodWithDefault: self sourceSelector0 asString. 		self assert: self expectedValue0 = ( self target0 perform: self expectedSelector0 ).  	! 	testCreateGetMethodWithDefault00  		self runCreateGetMethodWithDefault0. 	! 	testCreateGetMethodWithDefault01  		self sourceValue0: 0. 		self expectedValue0: 0. 		self runCreateGetMethodWithDefault0.  	! 	testCreateGetMethodWithDefault02  		self sourceValue0: 2. 		self expectedValue0: 2. 		self runCreateGetMethodWithDefault0.  	! 	runCreateGetMethodWithDefault1  		self target0 class createGetMethodWithDefault: self sourceSelector0 asString. 		self deny: self expectedValue0 = ( self target0 perform: self expectedSelector0 ).  	! 	testCreateGetMethodWithDefault10  		self sourceValue0: 0. 		self runCreateGetMethodWithDefault1. 	! 	testCreateGetMethodWithDefault11  		self sourceValue0: 2. 		self runCreateGetMethodWithDefault1. 	!!  	BehaviorTest runOnTerminal. `  
+折角のPrototypeが勿体ねぇ。 普通にPrototype object使えばいいのに。  `  	Type = {}; 	Type.something = function(){}; 	Some  = Object.create( Type ); 	Some.something();  `
+ああ、うん…  --- https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style  * 10.0 times 0.1 is hardly ever 1.0.   * 7/8 is zero while 7.0/8.0 is not zero.   * Don't compare floating point numbers solely for equality.    B. W. Kernighan and P. J. Plauger, The Elements of Programming Style 2nd Edition, McGraw Hill, New York, ***1978***. ISBN 0-07-034207-5    --- http://www.htdp.org/2003-09-26/Book/curriculum-Z-H-5.html#node_chap_2   2.1  Numbers and Arithmetic  Numbers come in many different flavors: positive and negative integers, fractions (also known as rationals), and reals are the most widely known classes of numbers:    5 |  -5 |  2/3 | 17/3 | #i1.4142135623731 ---|---|----|----|----  The first is an integer, the second one a negative integer, the next two are fractions, and the last one is ***an inexact representation of a real number***.  ---
+> 偶然かもしれないが、彼のコードはそれほどオーガナイズされているわけでもなく、決して読みやすいとはいえない強引さがみえた。ちょっと実装で悩んでいるという流れで見せてもらったものでもあるので差し引いてみるべきだし、僕もそんなに詳しいわけではないので断定はできない。    > 僕もそんなに詳しいわけではないので断定はできない。   > 僕もそんなに詳しいわけではないので断定はできない。   > 僕もそんなに詳しいわけではないので断定はできない。    詳しくない人がコードについて語ってはダメだと思う
+虫が巣を作ってるみたいだ。
+https://www.reddit.com/r/dataisbeautiful/comments/3g4rbn/_/ より
+>スマートでなくとも考えて試して実現するタフネスとでもいえる能力。  これ必要だなー
+とにかく「書く」ってのが大事だよね   コードの質とかは後から色々覚えたり他のコードを見るうちに「こういう風に書いたらいいのか〜」って自然と上がっていくと思う   それに手を動かして色々あーでもないこーでもないと書きまくったほうが楽しい
+いまだに「効率的なGCとは」で一席ぶててしまうってのは悲しむべきことなのかな？  しかも一見アホみたいなmark and sweepがわりと性能面でマシっていう
+さすがMatzだ、時空を超えるくらい何ともないぜ
+かなり昔に緯度経度触る仕事をしたときにはまったなあ下の桁のズレを考慮しない愚直な実装だとセンチ単位でズレるんだよね
+おお『Rubyのしくみ』の人の記事だ  > つまり良くも悪くも、Rubyは53年間、同じGCアルゴリズムを使い続けています。  まてー
+構造化できない人達のための抽象化だったはずなのに   抽象化できない人達が抽象化自体を目的にし始めた。
+この記事の最後に紹介されてる、[適切に抽象化されたコードとはなにかって話](http://nekogata.hatenablog.com/entry/2013/01/29/225900) も良い。
+ここにいる人達にとっては大したことじゃない(あるいは当然のこと)かもしれないけど、[NSRに立ってて](https://np.reddit.com/r/newsokur/comments/3fu2st/%E9%80%9Fr%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E9%83%A8_%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%81%AE%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%81%A3%E3%81%A6%E3%81%A9%E3%81%86%E3%81%84%E3%81%86%E6%84%8F%E5%91%B3%E3%81%A7%E3%81%AA%E3%81%9C%E5%BF%85%E8%A6%81%E3%81%AA%E3%81%AE%E3%81%8B/)とても良い記事だと思ったので投稿しました
+こういう所に直面した時、文系マは余分に苦労するよな。
+昔のexcelのバクを思い出した。  金勘定以外でも、気を使うケースがあるんだ。
+64ビットなら大丈夫だろうと思って桁の大きな値と小さな値を混ぜたら、見事に精度足りなくなって厄介なバグになったことあるなぁ 
+意外とハマる。
+アラビア語に設定してもアラビア数字が出るとは限らないんだな。
+アプリ開発者の中では常識だと思ってた
+数字が出てきてるんだから何の問題もない。
+日英以外の多言語とか国際化とかAndroidが出てくるまで真剣に考えたこと無かったなぁ。
+だいたいこんな感じ？   詳しいことはすごい人がQiitaかどこかにあげてくれるはず…  * メモリのプロファイリング * 柔軟にAPKのテストができるようになった * [permissionのannotation](https://developer.android.com/tools/debugging/annotations.html#permissions) * [レイアウトのData Binding](https://developer.android.com/tools/data-binding/guide.html) * Android SDK ManagerがAndroid Studioの一部になった * C++のサポート   - [Android NDK Preview](http://tools.android.com/tech-docs/android-ndk-preview)  ***  /r/androiddev の[サブミ](https://np.reddit.com/r/androiddev/comments/3f7mz3/android_studio_and_gradle_plugin_13_available/)
+こういうのの最大の敵がIE(特に9以下)でなあ「Vistaは不当に貶められた本当は素晴らしいOS！」みたいなのを見るたびに「Vistaのせいでみじめったらしい対応作業が増えるんじゃ、はよサポート切れろ」って思う
+background使って背景複数指定できるってマジかよ
+スライドの中で紹介されてるnth-child(n)はニュー速RのCSSで使われてたな。
+Google、Javaの裁判で負けちゃったし、本当にGoでAndroidアプリ開発する時代が来たりして…
+凝ったサブレ見てるとCSSだけでこんなこともできるのか！っていうのが多くて驚く   プログラム組もうとする負け側ですわ…
+NewアイコンすらCSSだけでできるようになったのかスゲェ！   と思ったけど、大枠にNew属性を付けるのはPHPの役割なのね。  でもcalc()とかスゲェ！
+ /r/newsokunomoral に先に投下されてるっぽいけどあまり趣旨を理解されてないっぽい。 
+自分が子供だったらprocessingがいいな
+> using static    いちいちクラス名記述する手間がなくなるのは嬉しいな。
+もう面倒くせーな。  なぜ人は新しいものを次から次へと作るのだ。ini形式でいーじゃん。jsonとかyamlとか同じもの作りすぎなんだよ。
+今どきはRaspberry PiでLL言語の時代ですよ。  これだから日本はIT教育後進国なんですよ……
+であれば、HSPという選択肢も有ったろうに。。  そりゃ3DSの方が管理の手間がなくていいんだろうけども、キーボードが例のタッチパネル限定なので、エディタの補完がMSのTouchDevelop位に賢くないと地獄を見そう。  http://www.itmedia.co.jp/pcuser/articles/1411/11/news123.html  MSのはこれ。 https://www.touchdevelop.com/ 
+bsdでLua採用してるんだから、   アプリケーションにLuaくっつけてprofile扱いにしたほうが   いろんな意味で融通が利くんだけどねぇ  
+身近な技術という点でPHPとかJSPの方がいいんじゃないかね。   下準備が大変だけど
+JSONっぽいけど、もうすこしゆるいのね  /bin/shから読み込む場合はどうするんだろ？  あと、シバンって何かと思ったらshebangのことかｗ
+いまどきBASIC・・・と思ったらプチコンか。  流行りの言語を文法だけ学ぶより、とにかく絵を動かした経験の方がその後にプラスになるだろうね。
+ちょっとした繰り返し処理をやらせるのに何通りも書き方があって   「こうした方が短くかけますよ」とかネットの知識でドヤられても   授業し難いだろう。
+ベーシックより他のスクリプト言語のほうがよくね
+10進BASICやったときは全く興味持てなかったけど、これは楽しそうだな
+Jordan Hubbardの名前をすごい久しぶりに見たわ   FreeBSDの代表者辞めてApple入ってApple辞めて、その後は知らなかったわ   ググると、今は旧BSDIが前身のiXsystemってとこに居るのかな
+シャープのポケコンとCASLの時代に戻ったみたいな
+ソフトウェアはニンテンドー3DS「プチコン3号」だそうな  http://smileboom.com/special/ptcm3/
+中で使われてる[click](http://click.pocoo.org/4/)ってライブラリも良さげだ
+[/r/Python](http://redd.it/3dp9t1)や[Hacker News](https://news.ycombinator.com/item?id=9907131)に上っていて面白かったので
+[/r/androiddevのサブミ](https://np.reddit.com/r/androiddev/comments/3dnibt/)  [更新点一覧？](https://code.google.com/p/android/issues/list?can=1&q=label%3AVersion-22.2.1)  ***  * FAB関連   - 四角くなるのとか~~マージンが変なの~~とか結構改善されたと思う__（マージンまだおかしい）__   - .show()とhide()のアニメーションが面白い
+これのFAQと関係あったりする？  https://slack.zendesk.com/hc/en-us/articles/204399343-Sharing-links-in-Slack
+CPUのことかと思ったら違った。
+やっぱそうなるか・・・   おれがスマホで画像加工とかしないせいかいちいち専用の画像用意するとかめんどいだろうなと思って。   ありがとう
+UNIX時間値じゃなくて年月日時分秒の文字列をDBに保存してる場合用の   高速処理か、なるほど・・ 
+切り取らない 任意のサイズに変更しない 保存しない が正解だと思う  適当に8割くらいに縮小して中央寄せで表示しときゃいいだろ  綺麗に表示したいユーザーは自分で勝手に編集して登録するだろうし   恐らくそこにコストをかけるのはもったいない
+リンク先の内容が抽象的すぎて、素人には理解不能だった。   λとか勉強できる本教えてくれ。英語でもOKだす。
+最初のActivityの雛形作ったりからCLIでできるんだっけ   たしか一応CLIで一通りできるんだよね
+リンク先の記事の引用してる記事ワロタ。 今じゃXMLとか当然のごとく使ってるだろ。   まあ確かにこれから先も使われるものなんてほんの一握りなんだろうけどな。    node.js, react.js, angular, go, rust, spark(ちょっと前ならHadoop), deep learning  殆ど知らねーけど最近良く聞く単語を挙げてみた。数年後に残ってるのはこの中でどれだけあるんだろうか。   とはいってもいろんなアイデアとか取り込んでみるのは悪くないと思うんだよね。最近の流行物を触って自分に合いそうなのをピックアップしてじっくりと時間をかけてやるのがいいんじゃないかな。あれもこれもってやるのは無理だろうから。
+ラスパイ1は若干安いけど、CPUが1コアでARMv6だしもうメリット低いかと   ラズパイ2はBしかないから、これで良いかと思いますわ  死活監視はラズパイ自身、稀に落ちる気がするので、まあそれなりかも…
+とりあえずコーディングしてやりたいことを実現していくのが九割九分の凡人にとって王道だろう
+過疎すぎてすぐにみんな知り合い状態になりそう
+概ね同意だけどべきは言いすぎかな   パラメーターとラベルの文字列が同じなら使えるわけだし
+とりあえず最上位モデル(Model B)買っちゃえどうせ安いし、下位モデル買ってもスペックが落ちる割に大して節約できないしね
+パテントトロールなんか。エイディシーテクノロジーでググると変な訴訟ばっかだな  「[ケータイの背面液晶](http://k-tai.impress.co.jp/cda/article/news_toppage/13053.html)」だの   「放送内容受信装置」「番組選択装置」「番組サーチ装置」だの
+alpha版を熱心に追う必要ないけど、beta版をチラ見してRC版は追った方が良い、みたいな？
+>ある夜、外灯の下で四つん這いになり 何かしてる男がいた。   「どうかしましたか？」    「財布を落としてしまい探してるんです」    「ではお手伝いしましょう」    「この辺りで落としたんですよね？」    「いいえ違います。落としたのは向こうです」    「ではなぜここで探してるんですか？」    「向こうは暗いので、明るい方が見つかるかと思いまして。」      これ。   勉強さえしておけばなんとなく前に進んだ気になれる。
+人気根強いんだなあ   VBA系が.net系に移行しなくて、VB6文法の継承者が現存してるのが大きいのかな
+どっかであったな、アニメネタはお前らの嫌ってる「いい年した大人はゴルフくらいやっとくもんだ」みたいな考えと変わらないぞ、って話
+こういうのがあると無駄な宗教論争しなくて済むので助かる。
+[これ](http://mitsuruog.github.io/javacript-style-guide/)もオススメ！
+Go言語は地味に普及しつつある。
+アニメネタでプレゼンって今普通なの？  それにしたって、禁書知ってる前提っていうのはちょっと対象を絞りすぎてる気がするが 
+XPでは、コメントをつけなければいけないような処理はメソッドとして切り出して、そのコメントをメソッド名にしろって言ってるな 
+googleはたった一つそこの値をtrueにすればいいのか  こんなに簡単なアップデートはないな  この記者に感謝せな
+圏論を学ぶんや
+むしろコメントを書く間に分かりやすく命名しなおしてほＣ
+一まとまりの処理の役割と仕組みを要約するぐらいでいいだろう  一個一個直訳してたら時間がかかるし煩雑になって大事なコメントが見落とされる
+変数名等特には問題ないかもしれないが、アプリを海外の人に馬鹿にされたくなければインターフェースをGoogle Translateに任せない方がいいよ。  例えばブログの記事でも「結婚」は「Marriage」のではなく「Marital status」の方がいいのではないでしょうか。
+>@vitaone_ 変数名やメソッド名から分かるならいらないかなぁ。aとかbとか何を略してるか分からない名前使う奴は書いてください（・ω・  ほんとこれ
+これいいなー。
+見出し的にコメント書いたら直訳みたいになってしまう場合がある。      // Get hoge from piyo     hoge = piyo.getHoge();          // Create hoge directory     mkdir("./hoge");          // Delete piyo     delete piyo;
+    // widthとheightを掛けて2で割ってareaに入れる     area = width * height / 2     // areaが100以上なら100にする     if area >= 100 then area = 100  こういうコメントがあって嬉しい期間はプログラミングをはじめて数日で終わりそうな気がするけど、そうでもない人も多いんだな
+昔すべての行に直訳コメントが書いてある1ファイル1万行ぐらいあるプログラムを保守させられたが、プログラムを少し書くたびにこの変数の日本語訳が何だったか、似た処理でどんな書き方をしているか統一するため調べるのが面倒だった。しかもたまにコメントの内容が間違っているので、惑わされた。  そのコードには直訳コメントしかなかったが、コメントは直訳よりももっと有意義な情報を提供すべきだと思う。  自分は意味のある小さなひと塊の処理を全て関数にして、説明はJavaDocなりでかく。英語を読むのは苦でないので、関数名は英語でなるべく見ただけで処理が把握できるように書く。関数名が長くなるのが難点だが、今時のIDEを使用していれば補完してくれるのでそれほど苦ではない。
+不思議と書いたが、実のところ理由は簡単だったりする。  彼らの評価は社長業で語られるし、寿命もまたそれに準ずるからだ。 ハッキリ言えば彼らは、よく言えばひよこ社長、悪く言えば社長ヒエラルキーの底辺社長なのだ。  得てして彼らにその自覚はなく、それが故に消え去るのもはやい。
+setter/getterレベルに付けることはないけど、javadocとメソッド内のポイントポイントには付けるかな。  数ヶ月後とかに読んでも何やってんのかすぐ分かるし。 
+昔からこれでやってる
+自分用か誰かにも見せる用かによってもまた違ってくるんじゃない   後者だと，ツイートにもあったけど，見せる相手がどういう人にもよるし  俺は自分用は，後からわかりにくそうなところに軽くコメントを付けてる
+要約はいるけど直訳はいらない派   三ヶ月後読むのが自分とは限らないし
+説明しなくても分かるだろうって今は思っちゃうけど、数千年後に砂漠に埋まった遺跡からソースコードが発掘された時はこういう対訳がとても貴重になる。
+なんかRubyみたいな見た目やな。やたら手続き的に感じるし、同様の処理はScalaの方がスッキリかけそう あとこれ、最速の結果が得られたあとも無駄なタスク？が走り続けるように見えるな、、
+Kindle版オナシャス
+知らなかった。便利げ
+XP本新訳発売記念トークイベントのスライドですか  優秀なプログラマも自らを発想と動機主導でないボンクラタイプに分類して落ち込むことがあったりするんだろうか   真のボンクラからするとわかりかねるけどとりあえずカラスが鳴いたらおうちに帰りたいでござる
+こういう人って、次から次へと出ては消えていくんだよな。 ふーしーぎーだーなー。
+それが良いモノだと、わからんうちからは、パラダイムシフトなんざ起こらん。 
+nodeもgitも今や必需品になったとはいえ、パッケージマネージャーを入れる為にパッケージマネージャーが必要という状況は、今のWeb開発周りがカオスになってることを表してるよなぁ。  今はまだ良いんだけど、数年後に依存ツールのどれかが廃れたり非互換になったりすると大変そうではある。
+これ試したい。 どれくらいの記号を網羅してるんだろう。
+Volley使っとけば安泰かと思ったけどそうでもないみたいね…   通信処理は難しいわ
+博士の異常な愛情 
+Volleyはもうお薦めできないものなのか   流れが変わるの早いな…
+クックパッドアプリなんて使ったことねぇけど、これぐらいのUIで15万行もいくのかね？
+いい記事だ 紹介ありがとう。  週末じっくり読もう
+10年先を見据えてるとは意外だ。  2005年に取ることができた選択肢の中に今でも正しいとされる選択肢ってあったんだろうか。
+Go言語を思い出した。
+この手の話で実装無視しても何も意味ないと思うんだけど元記事は分かってるのかな
+そうしないとテーブル行が終わりませんね早とちりしてしまいました   改めてありがとうございます
+最後のtrはwhileの中にいれなアカン
+			out.println("<table border=1>"); 			out.println("<tr><th>id</th><th>name</th><th>email</th></tr>"); 			while (rs.next()) { 				int id = rs.getInt("id"); 				String name = rs.getString("name"); 				String mail = rs.getString("email"); 				//out.println("<table border=1>"); 				//out.println("<tr><th>id</th><th>name</th><th>email</th></tr>"); 				out.println("<tr><td>" + id); 				out.println("</td><td>" + name); 				out.println("</td><td>" + mail + "</td>"); 				//out.println("</table>"); 			} 			out.println("</tr></table>");   うおー解決しました｡ありがとうございます！
+それでいいと思う。   具体的にはwhileの前でtableタグと1行目を出力して   ループの中で2行目以降   while抜けてtable閉じ
+javaがこんなんで   http://pastebin.com/D7wee3AF   フォームを送るhtmlがこんな感じです｡   http://pastebin.com/QvCuRw40    while文の中でtable文書いてるから     id | name | email ---|---|---- 1 | まさし | masa@shi.com id | name | email 2 | きよし | kiyo@shi.com   id | name | email 3 | たけし | ta@keshi.com ってなってしまうのを最初の質問文のように出力したいです｡   while文の中と外でtable文分離させるのはダメですかね
+ネットスラングのニヨニヨっていう表現が気持ち悪くて嫌いだわ  
+コードみせてみい
+指摘している内容のレベルが低すぎて、なんとも言えない気持ちになるな
+テンプレートエンジン使えばいいんじゃね
+俺は記事内容のやや煽る物言いに不快感を覚えたがここ含め誰も気にしていない模様
+家具屋であってIT企業じゃないから何とも
+こんなコード世に晒して大企業として恥ずかしくないんだろうか
+お値段以上の成果は得られないのだと教えてくれるニトリ
+本来高い金払ってコードレビューしないといけないところを無料でやってくれるプログラマの鑑
+コンウェイの法則   「システムを設計する組織は、その構造をそっくりまねた構造の設計を生み出してしまう」   まんまこれ。
+システム何日も止めて、無理矢理ひねり出したコードも散々で、これはジャンピング土下座不可避ですわ
+(´･_･`)Cmderって知らなかった。もっと早く教えてよ。
+最終的に詰め将棋みたいになりそう
+関数型に慣れるとオブジェクト指向が億劫だし、オブジェクト指向に慣れると今度は関数型がごちゃごちゃして感じる
+昔のCの教則本にはよく載っていたな  今はsampleとかfunction1みたいな合理的な（ギークっぽさのない）表記が多い気がする
+演算子オーバーロードしていなければまず差は無いような。
+めんどいな   macの移行アシスタント的なの無いの？
+あれ？既視感ネタ。
+用途が違うのだから気にすることはない。  プロセッサやコンパイラによっても結果が違ってくるだろうし。
+前に++を置く書き方なんて知らなかった
+初めて見たけどこれすごいな
+すごい方針だとは思うんだけど、ちょっと卑屈過ぎないかｗ Webkitだって標準に準拠してない点多いしなあ
+これ面白そう。時間があったら参加してみたい。
+Edgeで使われるJavascriptエンジンを使ってnode.jsを動かすプロジェクト     https://github.com/Microsoft/node  こういうのをMicrosoftがオフィシャルで、しかもgithubでやってるあたり時代は変わったな、と思う。  この前発表されたVisualStudioCodeもnode.jsで動いていて、Visual StudioがGoogleChromeの技術で動くという面白い構図になってたし。
+web関連の技術者が嬉々としてバグの報告を拡散しそう
+最近のMicrosoftの綺麗なジャイアン化は凄い。
+えっなにこれは(ドン引き)  知らずに書いたら30分は確実にハマる(´･_･`)  お勉強になりました…
+(ﾆｯｺﾘ  http://jsbin.com/vodupecuye/edit?js,console,output
+歴の浅い趣味プログラマですがhogeは割りとよく見かける
+なにそれこわい
+着眼点が惜しい。正解はステージに配置した文字を1文字ずつ表示した時先頭から見せるためだな。  右に進むゲームの場合 START　GOAL! → (進行に合わせて背景の文字を頭から読める)  左に進むゲームの場合 START　GOAL! 　　　　　← (背景の文字を尻から読む事になる。全文字表示されるまでは読みづらい)
+プログラミング参考サイトのサンプルコードでhogeが使われているのを見る→ん？なんだこれと検索→検索結果を見てほほう……といった感じで覚えたなhoge。
+hogeやfoobarをあまり見なくなった代わりに42はよく見るようになった。
+確かに最近のコード例とか見てると**doSomething**とかの意識が高い関数名の方が多いかもしれない
+asdf先輩が最強 それ一番言われてるから
+ほめぱげ
+i j kなら何時代でも通じそうだな。
+hogeは符丁みたいなものでプログラミングの経験が浅い人には前から通じなかったよ   ただfooを使う人が増えてhoge使う人が減ったとかなら可能性としてはあるかもしれない
+hoge hage hige
+呼ばれた気がした
+foo bar は化石ですかそうですか……
+これは期待
+「jQueryだけバイナリ化してくれればいいのに」と以前から思ってたので、嬉しい。
+swiftのanyObject、あれ何よ？キャストがうまくいかない
+あのアンディー・ハントがこんなメルマガのサンプルみたいな記事を書いているという絶望
+下手にnewしたりするとプリミティブがラッパーオブジェクトになって、クッソ分かりづらいバグの元になったりするトラップも用意してございます
+まーたバズワードが増えてしまうのか…
+多分されない(と思う)大して可読性が上がる訳じゃないし、これは普通に書いた方がいいと思うなあ
+Javaプログラマーの俺は読んでて気持ちが悪くなってきた
+ああごめん。 紛らわしかったかな？ 単に表記がしっくりくるか的な話  文字列→数値処理をやる時、Integer.parseIntとかNumberUtils.toIntとか使うんで。
+上司も知らなかったんじゃ・・・  
+これはどうして？パフォーマンス的な問題？   
+俺の見解と全然違う記事  ホントに自分で使ってるのか記者は
+整数化とかは素直にMath.floorなり使ったほうがいいな  文字列の繰り返しや0埋めは参考になった
+的な質問を上司にしたことがあったが、マイクロオーダーのパフォーマンスに力を注ぐならもっと改善すべき点があるはずだ、といわれた事がある。
+Javaにどっぷり頭の先まで浸かってると  >var x = '123'; var y = +x;     // 推奨 var y = x - 0; var y = x * 1; var y = x >> 0; // var y = Number(x);  // 非推奨  非推奨コードが1番確実で美しく思えてくる…
+>     配列の作成 >      >     var arr = 'foo,bar,baz'.split(','); >     // var arr = ['foo', 'bar', 'baz'];  こういうのパフォーマンスに影響ないの? (下と同じように最適化されるの?)
+自撮りする人は写真の中にパスワード書いた紙切れが映って   そこから漏れるという...
+嘘のようで本当の話、紙媒体に書いて自宅に置いておくのが安心。   まぁ完全無欠のセキュリティなどないわけだけど・・・。
+オンラインのパスワード管理はこれが怖くてなー
+おいおい、マジかよ！！ 今から変更や
+セブンイレブンのコーヒーのLとRとか、  iTunesのミニプレイヤーへの切り替えでマウスオーバーしないと切り替えボタンが出現しないとか、  さらにミニプレイヤーで×ボタンをクリックすると大きくなるとか、  驚きの連続でしたわ。  
+ただのバグだったんだけど、キャンセルしますか？[OK]っていうのが今まで見た中で最低レベルのクソUI
+すごいわかるｗ親切心からなんだけど余計なお世話っていう  
+    [NO] [YES]  これやめてくれ。NOだと思ってYES押してしまうことがある。
+Perl6ってキャンセルになったと思ってたわ。
+嫌いなUI/UXはモーダルダイアログとプッシュ通知です
+具体例かと思ったらネタ気味だった 
+互換性の無いもしくは低いバージョンを使うくらいなら別の言語を使う。
+自分がプログラミングを始めた頃からPerl 6は幻の存在だった。
+自分には縁がない言語だと思ってたけど、少し気になってきた。
+これは良いまとめ
+俺もWeblioとアルクに頼りっきりですわ英語のマニュアル読む時よりも辞書ひくかもしれない
+Weblio辞書は変数名・関数名に迷ったら使ってるな。
+HTMLをWebコンポーネントでくるんでクロスプラットフォーム、みたいなのって最終的にどれもひどいよね…
+これいいな  でもたまに複雑な処理の場合、内容を的確に表す文章を英文でってときに困ることがよくある
+AndroidJavaとかだとJSからJavaメソッド呼ぶことができるですよ
+へー、20年なんだ。   最近はJavaScriptとかとの連携とかもやってるっぽい？
+クロスプラットフォーム開発できるのは素晴らしいんだけどそれはPCでの話しで、各OSでのUI/UXについて洗練されてきた今現在クロスプラットフォームで同じUI作ってもイマイチな気がするが…
+定年退職するまでJavaが使えるといいが…ｗｗｗ
+「10億のデバイスで走るけど客先で走らないJava」でお馴染みのJavaも20周年かJava9から過去互換切り始めるし、ちょっとずつ昔の仕様に由来するダメな部分を切り捨てていってくれないかなあと思う
+あああ
+* HSA(Heterogeneous System Architecture) 1.0フル対応 * GPUがプリエンプションに対応 * GPU側のメモリアドレステーブルに専用のキャッシュを追加して，GPU側のアドレス変換高速化
+サブレがあった  /r/tis100/
+確かにアセンブリってパズルみたいだけど、それを本当にパズルにしちゃったのかｗ
+[こんな感じ](http://i.imgur.com/IZ1uOXI.png)  
+おお、なんかようやくまともな機能が積まれてる…あとは5までの負の遺産に関わることがなければそれなりにいい選択肢かもね
+おー、太っ腹ですね
+[Github](https://github.com/js-org/dns.js.org)からプルリクを送れば基本的に受け付けてもらえる模様  ただしさすがに内容がないようなページはダメみたい
+zval構造体が変わっちゃうんだ。  ソースコードを読み直さないと PHPer相手にドヤ顔できなくなってしまうわ。
+昨日開催されたPHPカンファレンスの発表資料より  * 10年ぶりのメジャーバージョンアップ（PHP6はふっとんだ） * 致命的なエラーを例外として扱うようになった     - PHP5はエラーハンドリング出来ずに，即座に死亡 * ??演算子を追加（isset地獄からの解放）       $hoge = isset($_GET['hoge']) ? $_GET['hoge'] : "日本"; // PHP5       $hoge = $_GET['hoge'] ?? "日本"; // PHP7   * 無名クラスの導入 * 返り値のタイプヒントに対応 * HHVMと同等の性能 * やっとまともにデータ構造が修正された     * int,float,bool型がちゃんとプリミティブな型になった          * PHP5までは，コピーオンライトとかやってた     * 配列がちゃんとした配列になった           * PHP5までは，連想配列しかなかった（添字が整数値でもわざわざハッシュを計算してた）
+「テストコードをテストしない」  これは確かにありそう
+最近はnode.js関連が個人的に熱い   ちょっと落ち着いてきたからまた触り始めたらすっかり楽しくなってしまった  でーびー使うSPA作るならMEANでやるのって今でも主流なの？ それともnode.js+mongoDBと何かだけでいいかな   express.jsとangular.jsにいまいち関わりたくない
+こういうのをマトリックスとは言わんだろ、と思ったら原文はちゃんとマトリックスだった   ただしダブった項目がある　これはDRY原則に反する
+あまりTDDは関係ないんじゃないかなという感想。   「昨日言っていた仕様が今日変わる」に対応するには、いかに破壊しないで変更するかが大事になるのでテスト書く方がデグレ防止になるだけでも効果ありだと思うな。   まあ、仕様がコロコロ変わるのに振り回される状況をどうにかするのが先だとは思うけども。   あとテストコードの量については、頭を使わなくても書けるものが殆どなので増えても捨ててもあまりダメージはないという印象。
+TDDは、難しい内容のライブラリとかに向いている   こういうI/Fで使いたいな～でもどう実装したらいいか分からん…みたい場合に有用   仕様を聞けばすぐに実装が思い浮かぶWebアプリは相性が悪い  テストが成果物や工程として要求されているような仕事も相性が悪い   客が求めているのは品質ではなく、コードを隅から隅までなめ回す事なのだから。
+>「昨日言っていた仕様が今日変わる」というレベルの物を許容しなけれならなくなった  これが入ってくると、どんな開発の方法論であっても機能しなくなると思う  一人で開発してるなら何とかやってけても、チームで開発してるとコミュニケーションが行き届かない部分から崩壊してく
+テストファーストがダメだったから一切テスト書かなくなったってすごいな
+壁にぶつかって乗り越えた話かとおもったら、乗り越えられずにもうやらないって話だった。
+狙ってるのか天然なのかわかりにくいのがよろしくない   Scheme手習いの所を解析少女美咲ちゃんに変えるべき
+これ行きたかった
+レベル感ガバガバすぎるだろ…
+クソ指標
+excelはデータベースでありワードプロセッサでありプレゼンテーションツールであり表計算機能だっておまけに付いているのだ
+ソフトウェアエンジニアリングのとこだけ妙にハードル低い気がする
+一生勉強だなぁ 
+イイネ。明日から業務で使おう。
+個人の開発になら使ってもいいが…業務用アプリにそんなコーディングしたらぶちのめすｗｗｗｗｗ  
+clangか
+リンク先とその元ねたのMSDN blogのコメントにねたばれ書いてあるね  超最新でも何でもないって
+面白いけど--と混同しそうなので個人的には不採用
+うひょ～
+こんなコード読みたくない
+キモい演算子だな   可読性ほんとに上がってんのか疑問 
+幅優先探索と深さ優先探索しかわかってない   A*覚えようとしたけど効率よく実装しようと思ったら   (そのへんの言語備え付きの)優先順位付きキューじゃだめで   ヒープつかって自分で実装しろとか書いてあってぐはぁってなった  
+A*は最良優先探索(Best-first search)  この迷路探索プログラム、フレームレートで制限されてるっぽいから1手で多くアクセスするアルゴリズムが速く感じるな
+これらのアルゴリズム知らない…  勉強しなきゃ
+Good FirstってA*みたいなものなのか？
+一ヶ月前のニュースだが... GCCにOpenACC（ディレクティブ書くだけでGPUで加速させるやつ）の実装が入った模様   いままでPGIコンパイラとか有償のしかなかったから助かる   今後の発展に期待！
+> 『関数型プログラミングに目覚めた！』寝てろ
+本屋行ったらこの本平積みだったんだよなあ 買っちゃった人かわいそう
+live templateも合わせて設定すると便利
+条件の保持がちょっと厄介かも。 
+ステータスの上昇分などを変化点オブジェクトにして、必要な箇所で参照するようにしようかと思います。 
+シンプルでいいかもです。ただ経験値の変化も伝えたいので、フラグを変更点オブジェクトにしようかと思います。  
+これ良さそうです。クローンしたものと比較より変更点のほうが意図を伝えやすいような気がします。  
+ステージのスコア計算などはステージ終了直後にまとめてやってしまっているので、レベルアップの処理のタイミングでエフェクトを出すのは無理なんですよね。   
+とても参考になりました。ありがとうございます。  今のところ、ステージ終了直後のスコア計算時に、レベルアップなどの変更点を記録して、ステージ選択画面で参照する方法が良さそうに思えます。ちょっと実装してみます。   
+現状ステージ中でレベルアップさせてステージ選択画面に戻ってからエフェクトを出すようになってるみたいだけど   ステージ選択画面でレベルアップさせるようにはできないの？   個人的にはレベルアップの処理のタイミングでエフェクト出してやる方がいいと思う   ゲームデザイン的に無理（もしくはすでにある仕様が変えられない）じゃないんだったら   ステージ選択画面に戻るときに経験値的なものを返してやって選択画面側でレベルアップの処理をしてやった方がいいんじゃない？   無理なら変更点を返してやるのが無難だと思う
+ステージによる変更点を戻るときに渡すとかできないかな？
+次のレベルになる条件を保持しておいてステージ終了後に比較する？   手間も結果もあまりかわらないな
+変化した時にフラグでも立てとけばよさそうだけど愚直かな
+ステータスの上昇分を記録とかかな   ステージ選択時の状態を記録して差分を後で計算した方が楽だとは思うけど。
+ASと上手く連携していてとてもイケてる
+よいと思います
+最後のまとめだけ見たけど笑ってしまった
+全部できたと思ったら、問題4を単に辞書順比較にしてた…。   上のコメントにもありますがこれ結構罠ですね。
+lifetimeが難しすぎて禿げる言語
+Maven, Gradleはもう古いの？
+Rustの経験が無い企業、満場一致でRustの採用を決定するも   コンパイルが通らず無事死亡の未来が見えた
+だよね というかメジャーなプログラミング言語でチューリング完全じゃない言語ってそこまで多くないっていうチューリング完全ってチューリングマシンに由来する言葉だし、ラムダ計算がベースにある言語に使うのは何だかなあ…って感じもある もちろんチューリングマシンもラムダ計算も同じ計算能力があるのは踏まえた上でね
+いえーい!これを機にどっか企業がRustを使って下さいそして雇ってください。
+バイナリベースなんてヤダー  telnetでhttp通信できるテキストベースがいいー  （ただの我侭）
+『チューリング完全』の使い方が変だ   何か関数型言語でないとチューリング完全でないかのような印象を与える   実際はCもC++もJavaもチューリング完全だ
+サムネこわいよ！
+ターミナルで動くバイナリエディタをGo言語で作った人の記事。  ジョークを交えてGo言語について語っていてなかなか面白い。
+IISが対応完ってのが意外
+[Registerの記事](http://www.theregister.co.uk/2015/05/15/http2_is_now_utterly_officially_official/)によれば、サーバ側の対応としては、IISは既に対応済み、Apache httpdはアドオン(モジュールのことか？)で対応予定([これがbugzillaのチケット？](https://bz.apache.org/bugzilla/show_bug.cgi?id=57624))、nginxは今年末までに対応予定とのこと
+イミュータブルオブジェクトと非同期処理が出来れば何でもいいのではなかろうか。   次世代言語に求められてるものっておおむねこのふたつでしょ。
+いつになったら、webに工業製品を担保できる言語が登場するのかね。
+Haskellを学べばF#を含むML系の言語は大体使えるようになるのでそう言う点でもおすすめします。後Haskellで関数型プログラミングをしっかり習った後Clojure等の関数型Lispを学ぶ時楽なはずです。
+現役大学生の友達でSRSを使っている人がいる、かなり重宝しているよ。自分はプログラミングを習い始めたときはCodeacademyやCoderbyteとかを使って快適に学べるのが楽しかったな～。数学はKhan Academyでちょこちょこ頑張っている。あれは中々優秀なソフトで「採点」で人を評価するより「理解の深さ」を測る事で進行できるシステムなのが良い。あとKhan Academyは大学生の友達に大人気、練習がたくさんできるし何度も説明を見直せるからだと。  今はCourseraとかで大学レベルの授業出きるしfish3345さんが言う様に自分もそのうち学校は要らなくなると思う。日本は学歴に対する社会の視点が変わらないといけないけど。  ただインターネットで情報が手軽にアクセス出来るだけではなく、SRSの様なパソコン独自のアルゴリズム的な動作を利用する技術が出ているのがポイントだと思う。今までは出来なかった・思いつきもしなかった教育方法、何千何万というユーザーという名の学生の膨大な教育データー、Occulus Rift等のVR技術、それらを利用して一人一人の人間の特徴に合わせてプログラムが独自の授業を自動的に生成してユーザーの反応に応じて臨機応変の対応をとる。  それに加えて近年に生まれた子供たちは小さい頃から膨大な量の情報を記録されながら育っている、Wearable　Gadgetで測る身体情報、LMSからとれる学歴情報、今はまだ開発されていないデバイス等。その子供たちが成長する中経験する「完全情報化社会での教育」というものはきっと我々が経験してきた「教育」というものと根本的に違う経験になると思う。ああ何だかワクワクしてきた～。
+コードが無いのは残念。個人的にElixirで一番好きな機能はErlang譲りのパターンマッチング。こんな事が出来ちゃうんだから：         defmodule Recursion do       def sum_list([head | tail], acc) do         sum_list(tail, acc + head)       end        def sum_list([], acc) do         acc       end     end   引数一に何かある場合のみ最初の関数を使って、そうで無い場合は次の関数を使う。パターンマッチング使えば大抵の`if...else`が要らなくなるんだよな。  例は http://learnxinyminutes.com/docs/elixir/ から
+bashで問題5。再帰しまくるから遅いかと思ったけど、そうでもなかった。      #!/bin/bash      MIN_NUM=1     MAX_NUM=9      gen_expr()     {       local n=$1       if [ "${n}" -gt "${MAX_NUM}" ]; then         echo ""         return 0       fi       gen_expr $((n + 1)) | while read LINE; do         echo "${n}${LINE}"         if [ "${n}" -ne "${MIN_NUM}" ]; then           echo "+${n}${LINE}"         fi         echo "-${n}${LINE}"       done     }      gen_expr ${MIN_NUM} | while read LINE; do       val=$((${LINE}))       if [ "${val}" -eq 100 ]; then         echo "${LINE} = ${val}"       fi     done 
+プログラマ失格者がプログラマ失格認定する試験なのか
+最近思っていたことなんだけど、テクノロジー技術って大体研究団体、大きくは学界がら出た研究が最先端を行ってそれを産業が利用する傾向があるじゃん。そんで今プログラミング言語の研究で一番活性化しているのはFPと型理論に元ついた言語の開発だと俺は思うんだよ。  安直に「学界が必ず最先端をいっているから」と言ってFPを棚にあげるのはよくないけど、そう言うトレンドはあると思うんだよ。  あまり上手く言えないけど今は動的型付けが人気だけど（少なくともウエブでは）、未来は静的型付けにあると思うんだ。パフオーマンス、安全性、団体での開発、それとまだ主流ではない今研究されている新技術とか（Dependent Typing等）色々あるけど動的に出来て静的に理論上出来ないことは基本ないと思うんだ。残る問題は動的の利便性、教えやすさをどうやって静的の言語に取り入れるか。
+これって書いた本人が元の記事で問題４の例が間違ってんだよな～： http://www.reddit.com/r/programming/comments/358tnp/five_programming_problems_every_software_engineer/cr2mw62  ただ書き間違えでプログラムがコンパイルしないとかじゃなくて論理的失敗で間違った答えを出すんだから恥ずかしい。「プログラマ失格」とか言っておいてね～。
+問4をJavascriptで解いてみた。       function getMostBigNum(_arr){         return _arr.sort(function(a,b){             return String(a)+String(b)<String(b)+String(a)?1:-1;         }).reduce(function(x,y){return x+y},"");     }     console.log("[50,2,1,9]->"+getMostBigNum([50,2,1,9]));//95021     console.log("[8,85,1,6]->"+getMostBigNum([8,85,1,6]));//88561     console.log("[8,89,1,6]->"+getMostBigNum([8,89,1,6]));//89861   最初に問題読んだ時「単純に文字列ソートすりゃ楽勝じゃん！」と思ってミスった。  これテストケースが重要だね。出題された数字を試すだけではバグが潜む。 
+問題5はeval使っていいのかな
+Rustで問題5 方針立てるよりコンパイル通すのがきつい      #![feature(core, collections, convert, negate_unsigned)]      use std::collections::LinkedList;     use std::iter;     use std::char;     use std::str;      fn main() {       let mut stack = Vec::new();       let empty:LinkedList<char> = LinkedList::new();       let mut minus = empty.clone();       minus.push_front('-');       stack.push((0i32, 1i32,empty, 1i32, 1i32));       stack.push((0i32,-1i32,minus, 1i32, 1i32));       while !stack.is_empty() {         let (sum, sign, acc, current, n) = stack.pop().unwrap();         let mut new_acc = acc.clone();         new_acc.push_front(char::from_digit(current as u32, 10).unwrap());         if current == 9 {           if sum + n * sign == 100 {             println!("{}", new_acc.iter().rev().cloned().collect::<String>());           }         } else {           stack.push((sum, sign, new_acc.clone(), current + 1, n * 10 + (current + 1)));           let mut m = new_acc.clone();           m.push_front('-');           stack.push((sum + n * sign, -1, m, current + 1, current + 1));           let mut p = new_acc.clone();           p.push_front('+');           stack.push((sum + n * sign,  1, p, current + 1, current + 1));         }       }     }
+問題4は簡単な比較関数を自作する必要のあるソートが出来るかを見たかったんだろうけど、それだけじゃなくて同時にぱっとは思い付かないコーナーケースを発見する事が出来るのかって問題になっちゃってる
+問題5が難しいけど、問題2がヒントになってるのかな。
+あっ、この問題SICPで出たやつだ！（ｽﾗｽﾗｧ
+  チューリングマシンとかそういう仮想的，理想的な機械のうえだといいかもしれないけど，現実のハードウェアは癖があるから性能を出そうと思うとどうしても低レイヤに降りてきてしまう...   早くそういう世界になったらいいね
+Makefileやシェルスクリプトでいいじゃんってのも一つの解法だと思うけど、   それらって書けない・読めない人が結構いるので、開発言語と同じ言語で書けるならそっちのほうが良いと思う   あと個人的にはほぼLinux限定になっちゃうのが嫌(Linuxでしか動かさないんだけどね)  あとはもうひたすらに流行っているかどうか。   流行っていないと(プラグインとかがバージョンアップされなかったりで)他の流行っているツールや言語が使えないとかになってモチベがどんどん下がっていく
+フロントしかやってないwebデザイナー()とかだと鯖側の事はさっぱりってのが多いからだろうね  php、jqueryしか書かない人間はちょい前までコンソールを開くことすらなかったんじゃないかな
+正しいことを言っているように思える。つまりHaskellかF#を使えってこと？ 
+ありがとうございます。Haskell調べてみます。 
+まあ、なんにしろHaskellは外せないでしょうね。   Lispはまた別物ですが、純粋関数型をやってる人は割とLisp知らない/興味ない人が多いです。   F#は状況に応じてという感じでは。F#よりはOCamlを選択する人が多そう。
+結局関数型言語は何がいいの？  Haskell?, LISP?, F#?   
+JS界隈はビルド環境だけじゃなくFWにしろライブラリにしろ無駄に流行り廃りが激しいもんだから「古式ゆかしい方法(彼らの言う古くてダサくて非効率な方法)が最強じゃね？」感がある
+関連ニュース   [TLSの普及へサーバ証明書を無料発行、MozillaやCiscoが認証局を創設](http://www.itmedia.co.jp/enterprise/spv/1411/20/news049.html)  >インターネット上の通信を暗号化するTLSの普及を目指し、手軽に実装できるサーバ証明書を無料で発行する認証局（CA）の「Let's Encrypt」が、MozillaやCisco Systemsといった大手のバックアップで創設された。  
+色んな原語版があるのか。  こういう挙動が明確に解ってる車輪の再発明って勉強に良いよな。 簡単なコマンドを実装するもよし、どうやって実装されてるのか読むのもよし。
+Haskellでこういうの10年前位に流行った記憶があったなと思ったので調べてみましたが、日本国内でちょっと流行っただけだったのかな?(いずれにしろcoreutils丸ごとって話ではなかった。)    * http://pub.cozmixng.org/~the-rwiki/rw-cgi.rb?cmd=view;name=Haskell#Haskell.20.a4.c7.20UNIX.20.a5.b3.a5.de.a5.f3.a5.c9.a4.f2.bd.f1.a4.b3.a4.a6.a5.b7.a5.ea.a1.bc.a5.ba  言語のシステムプログラミング能力の証明としてはやってみたくなるお題なんですかね。
+[Rust版もある](https://github.com/uutils/coreutils)。歴史はこっちの方が古いかな？
+まだ開発途中。  > ### Completed: >  > 13/100 >  > | Utility | Completeness   | Cross Platform      | Need Refactor| > |:--------|:---------------|:--------------------|:-------------| > | wc      | 100%           | Yes (Unix/Windows)  | No           | > | uname   | 100%           | No                  | Gofmt        | > | cat     | 100%           | Yes (Unix/Windows)  | No           | > | chown   | 90% (-R has infinite recursion issues) | No | Yes (-R)   | > | whoami  | 100%           | Yes (Unix/Windows   | No           | > | tty     | 100%           | Yes (Unix/Windows)  | No           | > | xxd     | 100%           | Yes (Unix/Windows)  | No           | > | sync    | 100%           | Yes (Unix/Windows)  | No           | > | logname | 100%           | No                  | No           | > | tsort   | 100%           | Yes (Unix/Windows)  | No           | > | yes     | 100%           | Yes (Unix/Windows)  | No           | > | env     | 100%           | Yes (Unix/Windows)  | No           | > | true    | 100%           | Yes (Unix/Windows)  | No           |
+その発想は高3の時に持ってたけどスケジュール的に無理って思って結局やらなかったなぁ。   今は作るのがめんどくさい
+wolframalphaは学生の味方
+全く詳しくないけどboostに分数のライブラリはあった気がする   残り2つは知らんけどprotoみたいな事したら式自体を表すオブジェクトは作れるはずだし方程式はありそう
+> In [23]: expand((x+y)\*\*3)  > Out[23]: 3\*x\*y\*\*2 + 3\*y\*x\*\*2 + x\*\*3 + y\*\*3  まさに欲しかった機能です！  ありがとうございました！    
+pythnnのsympyはいいで 
+GNU Octaveなんかも確かCから叩けたはず 数学ライブラリってなかなかない上に、あったとしても有償多いよね…
+おお！これはいいかも！調べてみます。  ありがとうございました！ 
+真っ先に思いついたのはライブラリではなくScilabだったけど、C/C++からも使えるようだ   <https://help.scilab.org/docs/5.5.2/ja_JP/call_scilab.html>
+emacsはほとんど使ったことないんですよね。できればC++やC#から利用可能なライブラリであるといいのですが・・・ 
+ほとんど使ったことないけどemacsのcalcとか
+私は数学を嫌いではないが数学の方は私のことを余り好きではないようだ
+redditの保存機能使ったわ  しかしよく集めたなコレ
+ピンと来ないなあ
+お、なかなか良いですねこれ
+ゴリ押しじゃ途方もなく時間がかかるけど、きちんとした回答なら1分で処理が終わる、ってイイね。
+日本語は[こっち](http://odz.sakura.ne.jp/projecteuler/index.php?Project%20Euler)
+LISPでも目指してるのかな。
+記事読んだ後一旦冷静になって、コメントと演算が使いたいならJSと`JSON.stringify()`があれば十分じゃない？という結論になった。
+うーん。JSONは使うが、拡張する必要あんの？
+要約サンクス。   1～3ってプログラム側の初期値とかDBで管理する値のような気がする。   下手に拡張しちゃうと脆弱性が増えそうで嫌だわ・・・。
+Json.net使ってるので紛らわしいです
+サロゲートペアが無い時代には固定長だったのかな。あとサロゲートペア含んでてもランダムアクセスして下位サロゲートを指しても上位サロゲートに容易にシークできるしフォーマットとしては悪くない。  あとUTF-8は日本語が6バイトとか1～6バイトのマルチバイトだし内部データには向いてなかったと思う。
+[例](https://github.com/google/jsonnet/blob/master/case_studies/fractal/service.jsonnet)が複雑でびっくりした  [設計のページ](http://google.github.io/jsonnet/doc/design.html)に    1. でっかい設定ファイルにおいて、重複してるデータがあると手で同期し続けるの大変やん？ 1. だからたいていその設定ファイルを生成するスクリプトを書くけどそれのメンテナンスって楽じゃないやん？ 1. jsonnetはそれを解決しようとしてるんやで  って書いてあった。  俺には必要なさそう
+JavaやC#の文字列はなんでUTF-16なのかね。  UTF-8の方がいいと思うんだけど。
+Ｃ＋＋で書く場合だと、自分用だったらrapidxml使ってる   ヘッダをインクルードするだけで使えてお手軽   速度は知らない。そもそもxmlのアクセスにそんなにスピードは求めないし
+いえいえ！アイディアだけだったのに検証してくれてこちらもありがたい。 前段の適当な乱数たちと後段の調整役とのあいだにまったく対称性がないから、平らな分布には程遠いのだろうね。    ちなみにこちらでも実装してみたところ、調整役は一組でも大丈夫だった。この場合乱数はますます不均一になるが、解析的に解けるので効率はいいと思う。    ----  ついでに対称性を意識した方法を思いついたので一応書いとく  - 1') 全てのai, riを乱数で初期化  - 2') 条件3の両辺の差の二乗を最小化すると思って、勾配法で解を探索する (数値的な安定性を考えると、x=ar, y=a(1-r^(2))と変換してから探索すると良さそう)  - 3') 例のごとくaiをリスケール
+Boostを使ってみては？   <http://boostjp.github.io/tips/xml.htm>   <http://www.boost.org/users/history/version_1_58_0.html>   たぶんヘッダだけで使える  > これがどういう意味か、どうすれば良いのか教えてください  当該プログラムで使用していないアドレスにアクセスしたのでOSに拒否されちゃったという状態。   大抵はポインタがあらぬ場所を指していてそのままアクセスしちゃった場合。  デバッガで1行ずつ進めるかprintfでどこまで進んだか探った後、問題のある行を見つけてデバッグする。
+Windowsのプログラミング環境には詳しくないんだけど、msxmlのデバッグシンボルを拾ってきてアクセス違反起こしている箇所を調べるとかできないのかな？   CとかC++で開発してるとアクセス違反頻繁に起こるので、デバッガ使って原因箇所の特定はできたほうが捗ると思う。
+msxml総叩きの流れ、さすがに笑う
+C#で.NET FrameworkのXMLライブラリじゃダメなのか   プラットフォーム非依存で書きたいならJavaのDOMもSAXもあるしスクリプト言語ならどれでも標準のXMLライブラリがある
+msxml6.dllは正常に使えてもすごくめんどくさいよ。 フリーのxmlパーサーを使った方がいいと思う。  xml読むならC#のLINQがとても便利。   
+そのライブラリは使うの面倒だよ。   とりあえずデバッガでどのコード呼び出しで落ちてるか調べて、その周辺のコード張るべし。   単にヌルポってる感があるけど...
+良いアイデアだと思ったので実装した  実装してわかったこと  * a_{n-1},a_{n}のどちらかがかなり高確率で1になる(Max(a_{n-1},a_{n})で正規化した場合)   理想は全てのiについて平らな確率分布だが‥‥ * なにげに2)が難しい   r_{n-1}とr_{n}を同じく乱数で求めてa_{n-1}とa_{n}に関する連立方程式を解くが、Sympyによれば一般解がなさそうである   それならa_{n-1}とa_{n}だけは条件が合うまでランダムに生成させる方法を取るのが良いかもしれない  とにかくありがとう
+C++はあまり詳しくないから回答はできないけれども、**プログラミングに関して質問をする場合、自分の書いたコードをまず示したほうが良い**よ。 gistでもpastebinでも何でも使って。
+そして、仕事中にパズドラやる奴とかも助けなけりゃならない。
+メモリ周りとあとは   型システムが難しいというかドキュメントの見方が難しいというか   メソッド?チェインっぽくコレクション操作しようとしてもなかなか上手くいかない感じかなぁ   次にお題がでたらなんか書いてみます
+今更すぎるが、アイディアだけ。  (i=1,...,nと仮定する。)   1) i<=n-2までは適当にai, riを生成   2) 条件3を満たすように最後の2組(a{n-1}, r{n-1}), (an, rn)を決める(aの値に関する条件1は無視)   3) 条件3はaiについてスケール不変なので、全てのaiが条件1を満たす範囲内で、ランダムにスケールする  乱数の密度の指定が無いのでなんとも言えないけど、必要なら最後にiに関してランダムシャッフルを加えるといいかと。
+例えばソートのアルゴリズムなど、客観的に優劣が明確な部分は抽象化されて自分で実装することは稀なんだよね。  だからプログラミングするのは客観的な答えがなく効率化も難しい曖昧な部分ばかりになる。合理化出来る所を徹底的に合理化した結果、残されるのは、どうしようもない非合理か、暗中模索の未開の地のどちらか。  泥にまみれずにすむ理想的な仕事は、車輪の再発明の中にしかないのかもしれない。
+> ワザファッ!?　さっそく問題探しスタート。  「ワザファッ!?」なんて表記初めて見た
+二年ほど前プログラミングを習い始めていたころこのサイトを使った（RubyとJavascript＋Jqueryコース）。プログラミングの紹介には悪くないけど本気で習い人はCodeacademyやったら専門書を買うといいと思う。Codeacademyはまだ「全てが習える」環境では無いから。そのうちそうなるだろうけど。
+大体あっているのでは？プレゼンだから言いたいこと全部スライドに載せるわけにはいかないし。
+でも大体どんな仕事もこんなもんだろ。毎日が路線上を走るだけの仕事なんて工場やレストランのようなスキルがない簡単な仕事だけ。プログラミングはまだ50年程度し存在していない未開の地。めちゃくちゃなのは仕方ない。
+でもソース非公開なんだよなー
+サブミおつ。 ちなみにRでは/r/dailyprogrammerというサブレがある、参考までに。programming_jpは人口少ないからサブレは無理だと思うけど少なくてもこういうスレをもっと立てれば活気がでるかも？
+これ読んだらプログラマって何なのか分からんくなった
+ヤバい    読むと辛くなる    泣ける
+コンパイル通らないのはlifetime周りかな？ メモリの領域がどこにあるか意識しながら量を書いてみると、そのうち慣れてくるよ！  今回のみたいなmain内にベタ書きするやり方ならlifetime周りはあまり気にしなくてもコンパイル通ったりするから、ベタ書きしたのを後からリファクタリングする書き方とかもありかも
+C#は速度やメモリより安全性を優先しているようなところがあるから、C++のような、速度も安全もという書き方はあまりしないような気がする。  配列もC/C++では使いまわすのが普通だけど、C#では使い捨て前提だしね。むしろ妙に寿命の長い、使いまわされてる配列を見つけると脆弱性を発見したと思うくらい。  変更されたくないインスタンスを返す時はクローンするのがC#のやり方だと思う。   
+その記事。くると思ったんだよな。
+Clojureで書いた      (ns training.core       (:require [clojure.java.io :as io]                 [clojure.string :as s]))          (defn counting [counts c]       (let [n (counts c)             m (if n (inc n) 1)]         (assoc counts c m)))          (defn score-sorted [score-map]       (into (sorted-map-by               #(compare (score-map %1)                         (score-map %2)))         score-map))          (defn top10 [text]       (let [shichoson (-> text                           s/split-lines                           s/join                           (s/split #""))             score (reduce counting {} shichoson)]         (take 10 (reverse (score-sorted score)))))          (defn -main [fname]       (prn (top10 (slurp (io/file fname)))))  勉強になった
+ついさっきスラドで知った。「関数型言語にはセミコロンは必要ない」の下りが興味深い。  あまり関係ないけど、大昔JavaScriptで行末のセミコロンが省略できる場合があるのを知って変な言語だなーと感じたのを思い出した。
+「エジソンがまだ生きてた時代」って想像できないけど、今この時代もある意味そういう時代だよなぁ。  コンピュータの歴史を作ってきた人たちがまだちらほら生きてる。そして数十年後にはみんな過去の偉人になる。
+Gradleで管理できるJavaエディタみたいなプラグインが出たら試す
+このサブミ土日祝日の恒例行事になって欲しい。
+Haskell      {-# LANGUAGE TupleSections #-}     import           Data.Function (on)     import           Data.List     import qualified Data.Map      as M          main :: IO ()     main = mapM_ (\(c,n) -> putStrLn $ c : ": " ++ show n) . take 10 . sortBy (flip compare `on` snd) . M.toList . M.fromListWith (+) . map (, 1 :: Int) . filter (`notElem` "\r\n") =<< readFile "shichoson.txt"     
+    defmodule Shichoson do        def word2tokens(str) do         strlist = []         len = String.length str         for n <- 0..len-1 do           Enum.concat strlist, [String.slice(str, n, 1)]         end       end        def run(filename) do         {:ok, content} = File.read filename         names = String.split content, "\r\n"         unsorted = Enum.reduce names, %{}, fn (name, acc) ->           Enum.reduce word2tokens(name), acc, fn (token, accc) ->             token = hd token             Map.put accc, token, (Map.get(accc, token, 0) + 1)           end         end         sorted = Enum.sort unsorted, fn {_, a}, {_, b} -> a > b end         IO.ANSI.format Enum.take sorted, 10       end      end      Shichoson.run("Shichoson.txt")  Elixirっす。もっと綺麗に書けるような気がするんだけど今の俺には無理でした。
+これは本当にひどいクソだぜ(CV：フルメタルジャケットの微笑みデブ)
+Mavenとかもきっちりキーサインする必要あると思う、ホントは
+なるほど
+こういう処理ができる言語の方が良いと前々から思ってた   ScalaとかRubyだと似たような処理をコレクションに対して行える
+ファイルをダウンロードするところからCommon Lispで書いてみた      (ql:quickload :drakma)          (deftype white-space ()       '(member #\Newline #\Tab #\Return #\Space))          (defun strip-white-space (s)       (remove-if (lambda (x) (typep x 'white-space)) s))          (defun top-n-chars (n str)       (let ((tab (make-hash-table)))         (map nil (lambda (c) (incf (gethash c tab 0))) str)         (loop :for k :being :the :hash-keys :of tab :using (:hash-value v)               :collect (cons v k) :into ans               :finally (return (map 'string #'cdr (subseq (sort ans #'> :key #'car) 0 n))))))      実行:      (top-n-chars 10                  (strip-white-space                    (drakma:http-request "https://www.dropbox.com/s/dilfbz67n2ty2wu/shichoson.txt?dl=1")))     ;=>  "川田大山野南島東津原"  
+ソースコードの各行頭を半角スペース4つでインデントするとうまくいくと思う
+ひらがなとカタカナと一部の漢字が「ノ」に集計されてるっぽい。   「ヶ」や「々」がひらがなカタカナと一緒に分類されてるのは面白い。  それぞれの[文字コードの並び順](http://ash.jp/code/unitbl21.htm)の前後を調べてみると   「ヶ」：...アイウエオ...ワヰヱヲンヴヵ***ヶ***...   「々」：...仝***々***〆〇〆...  多くの文字コードでは「ヶ」はカタカナ、「々」は記号扱いなんだね。  どっちも漢字だと思ってた。
+C#版の余分な宣言がなくてきれいだなあGWでちょっと勉強してみようかな
+安定のシェルスクリプトこの"ノ"って何を誤認識してるんだろう？
+このスレは一般的な話かと思ったら個別のお題か   遅ればせながらこの連休でNode.jsとMongoDBで何かサーバを書いてみようかと思ったのに    このお題ならこれに一票   慣用句のワンライナーだがUnix的思想の威力はまさにここにある
+それな
+おお ガチ書きだ他環境への移植とかも考えるとこういう書き方が強いよね
+split("")で一文字ごとに区切れるのか 必ず何かの文字を入れなきゃいけないと思い込んでた
+> counts = Counter(c for c in s)> for c in counts.most_common(display_max):圧縮率すげえ
+C#が既出だったのでF#で      open System.IO     File.ReadLines("shichoson.txt")     |> Seq.concat     |> Seq.groupBy(fun x -> x)     |> Seq.sortBy(fun (key, chars) -> -Seq.length chars)     |> Seq.take(10)     |> Seq.map(fun (key, chars) -> key)     |> Seq.iter(printfn "%c")  どう見てもLinqをそのまま書き換えただけです本当に略
+真に恐るべきところには触れてないような   そのためにRatforがあった
+んーイマイチかな   分類に直交性がないのと説明（理解？）が浅い感じ
+テキスト処理ならBashにおまかせ。こういう書き方パッと使えると色々捗るね。      $ cat shichoson.txt | grep -o "." | sort | uniq -c | sort -nr | head -10  ~~実行例：http://melpon.org/wandbox/permlink/zE0KT3KxJbxyeeqs~~  実行例：http://melpon.org/wandbox/permlink/Q9GOIkWsYQFSm8lU (ロケール変更ミスってたのを修正)
+テキストエディタのマクロでガーっと１もじづつ改行させて あとはエクセルにコピペしてちょいちょいっとやる  おわり
+Rust参考になります   人が書いたの見るとすごく綺麗なんだけど   自分でやろうとするとコンパイル通すのきつい
+あえての謎アルゴリズム      using System;     using System.IO;      namespace Test     {         class Program         {             static void Main(string[] args)             {                 if(args.Length != 1)                 {                     return;                 }                  char[] buffer;                 using(var sr = new StreamReader(args[0]))                 {                     buffer = sr.ReadToEnd().Replace(Environment.NewLine, "").ToCharArray();                 }                 var counter = new int[buffer.Length];                 var resCount = new int[10];                 var resChar = new char[10];                 for(int i = 0; i < buffer.Length; i++)                 {                     if (counter[i] == 0) { counter[i] = 1; }                     for (int j = i + 1; j < buffer.Length; j++)                     {                         if(buffer[i] == buffer[j])                         {                             counter[j] = counter[i] + 1;                             counter[i] = 0;                             break;                         }                         if(j == buffer.Length - 1)                         {                             for (int k = 9; k >= 0; k--)                             {                                 if (counter[i] > resCount[k])                                 {                                     if (k + 1 < 10)                                     {                                         resCount[k + 1] = resCount[k];                                         resChar[k + 1] = resChar[k];                                     }                                     resCount[k] = counter[i];                                     resChar[k] = buffer[i];                                     continue;                                 }                             }                         }                     }                 }                  for(int i = 0; i < 10; i++)                 {                     Console.WriteLine("{0} -> {1:D4}", resChar[i], resCount[i]);                 }             }         }     } 
+EDIT: インデントつけた  -*- mode: compilation; default-directory: "~/" -*- Compilation started at Tue May  5 16:47:14  cat ~/newsokur.cpp | sed -e 's/^/    /g'      #include <iostream>       #include <fstream>       #include <iterator>       #include <map>	     #include <algorithm>       #include <functional>              // from: http://blog.sarabande.jp/post/64272610753       size_t utf8_strlen(std::string str)       {            size_t len = 0;            unsigned char lead;             int char_size = 0;                 for (std::string::iterator it = str.begin(); it != str.end(); it += char_size) {              	  lead = *it;              	  if (lead < 0x80) {       	       char_size = 1;       	  } else if (lead < 0xE0) {       	       char_size = 2;       	  } else if (lead < 0xF0) {       	       char_size = 3;       	  } else {       	       char_size = 4;       	  }              	  len += 1;            }                   return len;       }              void set_to_map(std::string word, std::map<std::string, int> &map)       {            if (map.find(word) != map.end())            {       	  const int val = map[word];       	  map[word] = val + 1;            }            else            {       	  map[word] = 1;            }       }              int main()       {            std::cout << "Hello, NewsokuR !!" << std::endl;                        std::ifstream ifs("./shichoson.txt");                   std::map<std::string, int> map;                   if (ifs)            {       	  std::istream_iterator<std::string> begin(ifs);       	  std::istream_iterator<std::string> end;              	  for (std::istream_iterator<std::string> i = begin; i != end; ++i)       	  {       	       std::string word = *i;       	       const size_t len = utf8_strlen(word);              	       for ( size_t j = 0; j < len; )       	       {       		    const char lead = word.at(j);       		    size_t char_size = 0;              		    if (lead < 0x80) {       			 char_size = 3;       		    } else if (lead < 0xE0) {       			 char_size = 3;       		    } else if (lead < 0xF0) {       			 char_size = 3;       		    } else {       			 char_size = 4;       		    }              		    set_to_map(word.substr(j, char_size), map);       		    j = j + char_size;       	       }       	  }                     	  // map -> vector<pair<K,V>>       	  std::vector <std::pair<int, std::string>> pairs;       	         	  std::for_each(map.begin(), map.end(), [&pairs](std::pair <std::string, int> elm ){       		    pairs.push_back(make_pair(elm.second, elm.first));       	  });              	  // 降順からの逆順       	  std::sort(pairs.begin(), pairs.end());       	  std::reverse(pairs.begin(), pairs.end());              	  // 表示       	  std::for_each(pairs.begin(), pairs.end(), [](std::pair <int, std::string> elm){       		    std::cout << elm.first << ": " << elm.second << '\n';       	  });            }                        return 0;       } 
+Go言語が無駄に長ったらしくなったので今度はJavascriptで。  手続き型っぽい書き方でも汎用sort関数があるだけで大分楽になるなぁ。       function listUpByCount(text){         var counter={};         var wordArray=[];         var array =text.replace("\n","").split("");         for(var i in array)counter[array[i]]=(counter[array[i]]!=undefined)?counter[array[i]]+1:1;         for(var s in counter)wordArray.push({word:s,count:counter[s]});         wordArray.sort(function(a,b){return b.count - a.count ;});         for(var i=0;i<Math.min(wordArray.length,10);i++)console.log(wordArray[i].word+":"+wordArray[i].count);     }
+残念ながらC++みたいなかっちりした縛りをかけるconstはないんで、いちいち新しいインスタンス返す以外の対応策はないっすねー設計思想的にはJavaに近い、簡単で使いやすい方に倒した言語なんで…ちなみに言語設計者としては「不変なら不変だって言えばいいだけじゃないか(The concept of an immutable object is very useful, but it's just up to the author to say that it's immutable.)」くらいのスタンスの模様http://www.artima.com/intv/choicesP.html
+C#でやってみようかなって思ったけどOPはもうやったみたい(´・ω・`)  Python 2:      def display_count(filename, display_max):         with open(filename) as file:             s = file.read().decode("utf-8").replace("\n", "")             u = {}                      for c in s:                 if c in u:                     u[c] += 1                 else:                     u[c] = 1                      ul = [(v,k) for k,v in u.iteritems()]             ul.sort(reverse=True)                      for c in ul[:display_max]:                 print "%c: %d" % (c[1], c[0])          display_count("shichoson.txt", 10)   辞書を作るところは不満だったから、ググってCounterということ見つけた。      from collections import Counter     def display_count2(filename, display_max):         with open(filename) as file:             s = file.read().decode("utf-8").replace("\n", "")             counts = Counter(c for c in s)                      for c in counts.most_common(display_max):                 print "%c: %d" % (c[0], c[1])      display_count2("shichoson.txt", 10)
+lisp勉強中なので参考になりました
+コレクション操作苦手なのかー なんか凄く意外そういうのはライブラリの範疇だろ、みたいな設計思想なのかな
+C++erがC#を書こうと思ってるんだけど、C#には(C/C++的な意味での)constが無いから、みんなどうやってるのか聞きたい。  例えば配列を返すメソッドやプロパティがあったとして、配列の中身を書き換えられたくない (読み取り専用として使って欲しい) 場合はどうすればいいの? 配列のクローンを返せば書き換えられても問題無いよねと言われるかもしれないけど、さすがに配列を返すたびにクローンを作るのはちょっと…  更に例えば、クラスのインスタンスを返すメソッドやプロパティがあって、呼び出し元でそのインスタンスのプロパティを変更されたくないという場面も多々あると思う。そのクラスをStringみたいにimmutableにすればいいよねと言われるかもしれないけど、全てのクラスが最初からそうなってるわけじゃないし…。ReadOnlyにするWrapperみたいなクラスをクラスごとに作るしか無いのかな。
+> *map.entry(c).or_insert(0) += 1;"凄み"を感じた すげえ
+rustで書いてみた。標準入力でファイル食わせてね。      #![feature(collections, io)]          use std::io::prelude::*;     use std::io;     use std::collections::HashMap;          fn main() {       let chars = io::stdin()         .chars()         .filter_map(Result::ok)         .filter(|&c| !c.is_whitespace() && !c.is_control());            let mut map = HashMap::new();       for c in chars {         *map.entry(c).or_insert(0) += 1;       }            let mut vec = map.into_iter().collect::<Vec<_>>();       vec.sort_by(|a, b| a.1.cmp(&b.1).reverse());            for &(k, v) in vec.iter().take(10) {         println!("{} => {}", k, v);       }     } 
+「こんな課題楽勝だな。せっかくだから勉強中のGo言語で書いてみよう」  と、思ったら、Go言語って便利なCollection型が無いんだね・・・  四苦八苦しながら書いてたらとてもとても長い長いコードになってしまった。  簡単な事やりたいだけなのに、ソートやイテレータまで書くことになるとは・・・。コレクションとしても不完全で汎用性もないし。何やってんだろ。  他の人のGo言語の回答が見たい。      package main          import (     	"fmt"     	"io/ioutil"     	"os"     	"sort"     	"strings"     )          type sortedRuneMap struct {     	_map       map[rune]int     	_runeArray []rune     }          func (srm *sortedRuneMap) Len() int {     	return len(srm._map)     }          func (srm *sortedRuneMap) Less(i, j int) bool {     	return srm._map[srm._runeArray[i]] > srm._map[srm._runeArray[j]]     }          func (srm *sortedRuneMap) Swap(i, j int) {     	srm._runeArray[i], srm._runeArray[j] = srm._runeArray[j], srm._runeArray[i]     }     func (srm *sortedRuneMap) Iter() <-chan rune {     	ch := make(chan rune)     	go func() {     		defer close(ch)     		for i := 0; i < len(srm._runeArray); i++ {     			ch <- srm._runeArray[i]     		}     	}()     	return ch     }          func getSortedRuneMap(runeMap map[rune]int) *sortedRuneMap {     	srm := new(sortedRuneMap)     	srm._map = runeMap     	srm._runeArray = make([]rune, len(runeMap))     	i := 0     	for key, _ := range runeMap {     		srm._runeArray[i] = key     		i++     	}     	sort.Sort(srm)     	return srm     }     func main() {     	dict := make(map[rune]int)     	if len(os.Args) < 2 {     		os.Exit(1)     	}     	path := os.Args[1]          	b, err := ioutil.ReadFile(path)     	if err != nil {     		fmt.Println(err.Error())     		os.Exit(1)     	}          	str := string(b)     	str = strings.Replace(str, "\r\n", "", -1)     	str = strings.Replace(str, "\n", "", -1)          	for _, r := range []rune(str) {     		dict[r]++     	}     	i := 0     	for r := range getSortedRuneMap(dict).Iter() {     		if i >= 10 {     			break     		}     		fmt.Println(string(r), dict[r])     		i++     	}     }     
+C#もrubyもこの書き方の出所は同じだからなあ…多分filterしてmapしてうんぬんな書き方ができる言語なら大体同じになるのかな？でもさすがrubyはコンソール1行におさめられるのな すげえ
+最初Lisp系言語特有の香りにｳﾞｯてなったけど、じっくり読むと問題の定義が素直にコード化されてるんだなあやっぱ関数型の総本山はさすがだ
+    $ ruby -e 'puts $stdin.read.gsub(/\r\n/, "").chars.group_by{|c| c}.sort_by{|k,v| -(v.length)}.take(10).map{|e| "#{e[0]} -> #{e[1].length}" }.join("\n")' < shichoson.txt     川 -> 110     ...     原 -> 42  OPの回答丸パクリの悪寒
+何か必要に迫られて「あっこんなの手でやったら死ぬな」みたいな状況になると最高に勉強が捗るんだけどね…最初からガチプログラムを目指すと高確率で挫折するから、ちょっと凝ったことができる電卓くらいのレベルから始めるといいよ
+    (defun load-file (filename)       (with-open-file (in filename)         (loop for line = (read-line in nil)               while line               collect (string-right-trim '(#\Return) line))))      (defun collect-chars (names)       (let ((chars (loop for name in names append (coerce name 'list))))         (loop for c in (remove-duplicates chars)               collect (list c (count c chars)))))      (defun sort-chars (lst)       (sort lst             (lambda (x y)               (> (cadr x) (cadr y)))))      (defun main (filename)       (let ((rank (sort-chars (collect-chars (load-file filename)))))         (loop for (c _) in (subseq rank 0 10)               do (princ c) (terpri))))      (main "shichoson.txt")  もっとすっきりしたコードが書きたい
+よしやってみよう。
+とりあえず言いだしっぺが貼る 言語は[CS-Script](http://www.csscript.net/)、C#でスクリプトを書くいい意味で頭おかしいステキ言語      //css_args /ac     using System;     using System.IO;     using System.Linq;          void main(string[] args)     {         File.ReadLines(@"C:\foo\bar\shichoson.txt")             .SelectMany(line => line)             .GroupBy(chr => chr)             .OrderByDescending(grp => grp.Count())             .Take(10)             .Select(grp => grp.Key)             .ToList()             .ForEach(Console.WriteLine);     }     
+40秒で書いてやる(ハッタリ)
+GWになったらプログラミング勉強してみるかと思ってたのにいざ連休になるとだらだら寝てるだけだわ
+ありがと！やっぱそうか〜  kindがmoreだからすっかり騙されたぜ…
+rvにはそのやり方で実装してるよ   morechildrenだと『続きを見る』になっちゃってると取れないね
+こういうニュースの際にインストールしたエディタを 次に使う時が来る前に新しいエディタが登場してしまう。
+いれてみたけど、よく考えたら、シェルの履歴から入力するんでいらなかった。
+使い勝手はどうだろうか？ キーカスタマイズは？ マクロは？ LinuxのCUIで使える？
+ナデラになってから方針変わったよねえまあ昔もMicrosoft Researchっていういい意味で頭おかしい尖ったチームがいたんだが
+最近のMicrosoft攻めてるな〜
+"Ticino という名前のキーを削除すればコンテキストメニューから消えます。"空目した
+Visual Studio Code の中身は Electron + Monaco だった   http://blog.shibayan.jp/entry/20150430/1430328999  MSが新しいブラウザを発表した同日に、Visual Studio CodeがChromeベースで作られるというカオスな展開。
+ちょっと試してみたい。
+CS-Scriptっていうスクリプト言語(というかスクリプトっぽく書き殴れるC#)を愛用してるんだけど、うまいこと組み合わせられれば最高に捗るなあ
+VS大好きMSの犬だけど、VS立ち上げる程でもないっていうかVSである必要はない用途で、まったく別のエディタ使うのもまた微妙だったので歓迎  VSは実は.net系言語以外も結構快適なんよ。Javascriptとか
+This is the best tl;dr I could make, [original](http://techcrunch.com/2015/04/29/microsoft-shocks-the-world-with-visual-studio-code-a-free-code-editor-for-os-x-linux-and-windows/#.dq11wt:wqmf) reduced by 74%. (I'm a bot) ***** > At its Build developer conference, Microsoft today announced the launch of Visual Studio Code, a lightweight cross-platform code editor for writing modern web and cloud applications that will run on OS X, Linux and Windows.  > Visual Studio Code offers developers built-in support for multiple languages and as Microsoft noted in today&#039;s Build keynote, the editor will feature rich code assistance and navigation for all of these languages.  > As Somasegar told me, the new editor is partly based on Microsoft&#039;s experience with writing the online Monaco editor for Visual Studio Online, but the company also worked on bringing some of Visual Studio&#039;s language features to Visual Studio Code.   ***** [**Extended Summary**](http://np.reddit.com/r/autotldr/comments/34apjh/microsoft_annouces_visual_studio_code/) | [FAQ](http://np.reddit.com/r/autotldr/comments/31b9fm/faq_autotldr_bot/ "Version 1.5, ~13191 tl;drs so far.") | [Theory](http://np.reddit.com/r/autotldr/comments/31bfht/theory_autotldr_concept/) | [Feedback](http://np.reddit.com/message/compose?to=%23autotldr "PMs and comment replies are read by the bot admin, constructive feedback is welcome.") | *Top* *five* *keywords*: **editor**^#1 **Visual**^#2 **Studio**^#3 **Code**^#4 **Microsoft**^#5  Post found in [/r/programming](/r/programming/comments/34aglr/microsoft_annouces_visual_studio_code/), [/r/microsoft](/r/microsoft/comments/34agmg/microsoft_launches_visual_studio_code_a_free/), [/r/technology](/r/technology/comments/34aj5j/microsoft_launches_visual_studio_code_a_free/), [/r/webdev](/r/webdev/comments/34ai2m/microsoft_launches_visual_studio_code_a_free/), [/r/csharp](/r/csharp/comments/34ah8v/microsoft_launches_visual_studio_code_a_free/), [/r/javascript](/r/javascript/comments/34ala9/microsoft_launches_visual_studio_code_a_free/), [/r/Ubuntu](/r/Ubuntu/comments/34ai9l/microsoft_launches_visual_studio_code_a_free/), [/r/programming_jp](/r/programming_jp/comments/34akp0/visual_studio_code_が発表されるフリーのコードエディタでwindowsmac/), [/r/hackernews](/r/hackernews/comments/34ajwg/microsoft_launches_visual_studio_code_a_free/) and [/r/realtech](/r/realtech/comments/34ajiq/microsoft_launches_visual_studio_code_a_free/).
+ここ最近の変化にMSファンはついていけるか
+アイディアだけの一発ネタと見せかけて意外と実用性高いなこれ
+エキスパートCプログラミングという本にはFORTRANのカンマと小数点の打ち間違いでロケットが制御不能になったという話はデマだと書かれていた。
+最終コマンドohmygodはまだか
+fuaaaaaaaaaaaaaaaaaaaaaaaaaccccck
+Hadoopはめちゃ大変なんだよな。 あれは死ぬ。
+今後、fsckでミスったらfuckだな。
+プログラマは心の中でふぁっくと叫ぶことの多い仕事の上位に入ると思う  件のコマンドは修正されたコマンドがどう修正されて実行されるのか完全に予測できないうちは怖くて使えないなあ
+引用  ----  コマンドラインで作業をしていると、タイプミスや誤入力でエラーが表示されて「イラッ」とした経験を持つ方もいるかと思います。  こんな時、海外ならば「Fuck!(クソッ)」という汚い言葉使いになってしまうでしょう…。  ところが、それを逆手にとって「fuck」とそのまま入力するだけで、誤ったコマンドを自動修正して再実行してくれる便利ツール「The Fuck」が公開されていたのでご紹介！  一体どのように使うのか、いくつか事例が掲載されているので見ていきましょう。    例えば、何らかのツールをインストールしようとして、管理者権限「sudo」を付け忘れてエラー…、みたいなよくあるパターン。      $ apt-get install vim     E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)     E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?   本来なら、ここで「sudo」を付けて再入力するわけですが、この時に「fuck」と打ち込めば「自動修正＆再実行」を代行してくれるのです！      $ fuck     sudo apt-get install vim     
+『泥棒から金庫を買う』  　   いま考えた ことわざ。
+> Walking on water and developing software from a specification are easy if both are frozen.  2番目はfrom a specificationが抜けてて意味が分からなかった。 
+ちょうど趣味で作ってるアプリをswift化してるけど、記事みたいな感じですね。  最終的に全Swift化するなら、必ずSwiftからObjective Cを呼び出す順番で書き換えていく。逆だとSwift側でNSObject継承したりして、OcjectiveCに引っ張られて何のためにswift化してるか分からなくなる。  この順序だとAppDelegateから始まって、View書き換えて、アプリ固有のモデル部は最後になる。作ってる側としてはモデルこそSwift化したい所なんだが、我慢、我慢。
+あー … 031 == 25ね…(納得)
+BASICって軽んじられがちだけど、初心者がスムーズにちょっとしたゲーム開発まで手を出せる環境って貴重だと思う。  最近の言語は  >HelloWorld→文法ひと通り習得→～壁～→オリジナルのプログラムを作る  と、入門書マスターから作品作りまでのギャップが大きい。 RPGで船を手に入れた途端に途方にくれる現象に似てる。
+オライリーの詳説正規表現の注釈で「性器表現」について真面目に言及しててちょっと笑える 
+終わらないプロセスには   https://pbs.twimg.com/media/B4BAXFGCMAAC-sz.png
+これは…　何？   教科書の宣伝？
+英語が楽に読めたらなぁ 
+やっぱりそんな感じなのね。ありがとー。  まあ、今後Androidで遊ぼうとおもったらASが主流になるんだろうし、自宅環境ならそれなりに動いてくれる気もするので弄ってみますわ。 
+SVN連携の現状はやってないからわかんないや…(´・ω・`) gitをターミナル運用してるんで…  動作の重たさはどちらもあまり変わらない気がするですよ。 Mac OSだけれども。
+プロジェクト指定なのは辛いね…  Eclipse自体別に悪いわけではないし、新しいものへの関心が少なかったりコスト（習得時間と人件費）のせいで移行のハードルは結構あるよね。  Google自体開発環境のメインストリームはASにしたいっぽいし、EclipseへのADTサポート切ったりすると致し方なく移行できそうだｗ
+前に触った時はeclipse並に重くて、かつsvn連携とか微妙だったのでがっかりしたんだけど、今もまだ重いのかなあ……  もともとなんでもemacsで済ませるおっさんなので、こういうのめんどくさいw
+Eclipse辛いから使いたくないけどプロジェクトの指定で仕方なく使ってる民としては、ASをキッカケにJava開発者のEclipse離れ進まねえかなと思ってる
+俺も借りよう
+まぁそうだろうと思ってたよ   ( ´∀`)σ)Д´)
+ああ、勘違いしてた(´・ω・`)  ASの話のスレだからAndroid開発者なのは暗黙の前提だわね。  ごめんごめん。
+AndroidアプリってJavaで開発するじゃない。   webアプリをAndroidアプリに変換するソフトを使ってAndroidアプリ作ってるのよ。
+あれ？Android StudioでJavaプロジェクト開発できたっけ？  ASはIntelliJをAndroid開発用に改造したものなんでJavaプロジェクト用にするなら、ベースとなったIntelliJの方がいいんじゃない？  基本的なUIとか同じだし、今まで有料だったけどちょっと前に無料のコミュニティエディションが出たし。
+何より困るのがガバガバ入門書の存在なんだよね…いくらサンプルだって限度があるぞとしか言いようのないひどいやつ
+IchigoJamを組み立てたから使ってみた。   レガシーなBASICで懐かしい。   いろいろ遊べそうだ。
+html+css+jsで開発しているからeclipseでやってるけど、   Javaで開発するならAndroid Studio使おうかなと思ってる。
+あっ専ブラの人だ！ お疲れ様です！  小耳に挟んだ話だと未だ移行してない企業が結構あるそうで、ここではどんなもんなのかなと思って。  こっちは0.8くらいから使い始めてようやく、こなれてきた感じだよ。
+面白い話だが、tipsであって性能「論」ではないと思う
+ユーザー入力値をチェック済みか確認するので、どっちでもいいです。
+うおー   先週60ドルぐらい買ってしまった
+可読性低い。
+バシバシ使ってるよ～   一部しか触れられてないからもっと勉強しなくちゃだけど
+マルウェア解析の本買うかな 
+なんかすげーの来てる
+すげーepubもあるんだ
+昔はこれが重要な情報源だった
+セキュリティ意識せず何も考えずに作るとセキュリティホールガバガバなシステムが出来上がるからなあPHP
+This thread has been linked to from another place on reddit.  - [/r/newsokur] [O'Reillyの書籍がクーポンコード"TS2015"で今年いっぱい半額に - r/programming_jp から](//np.reddit.com/r/newsokur/comments/33p879/oreillyの書籍がクーポンコードts2015で今年いっぱい半額に_rprogramming/)  [](#footer)*^(If you follow any of the above links, respect the rules of reddit and don't vote.) ^\([Info](/r/TotesMessenger/wiki/) ^/ ^[Contact](/message/compose/?to=\/r\/TotesMessenger))*  [](#bot)
+おお出来た出来た   ありがとです
+APLの拡張かなと思ったらRubyだった
+shop.oreilly.comで扱ってる本なら、他の出版社のでも割引されるっぽい
+恐らく割引対象は本家英語版だけかと…   http://www.oreilly.com/
+http://www.oreilly.co.jp/sales/2014/04/deal-of-the-day-oreilly-collection.html  > 本キャンペーンは終了しました。ありがとうございました  あれ？もうおわっちゃったのか？
+試しに打ち込んでみたら確かに割引される   Oreilly主催のカンファで配布されていたようだ   個人の方のツイートなので何か問題あれば消します
+[**@basuke**](https://twitter.com/basuke): >[2015-04-22 22:25:52 UTC](https://twitter.com/basuke/status/591005021749149697)  >ツィートしていいと言われたのでつぶやくよ。この50%オフのディスカウントコード、年内使えるって。今年はずっと半額。 [#FluentConf](https://twitter.com/search?q=%23FluentConf) [*pic.twitter.com*](http://pbs.twimg.com/media/CDOr6riUkAEBHk1.jpg) [^[Imgur]](http://i.imgur.com/IkEATZ5.jpg)  ----  [^[Mistake?]](http://www.reddit.com/message/compose/?to=TweetPoster&subject=Error%20Report&message=http://reddit.com/33odqf%0A%0APlease leave above link unaltered.) [^[Suggestion]](http://www.reddit.com/message/compose/?to=TweetPoster&subject=Suggestion) [^[FAQ]](http://np.reddit.com/r/TweetPoster/comments/13relk/) [^[Code]](https://github.com/buttscicles/TweetPoster) [^[Issues]](https://github.com/buttscicles/TweetPoster/issues) 
+ぴゅう太は絵文字が変数だった。
+最近、Linux環境上のライブラリを使ったGoのコードを書いたんだけど、Windows上でコンパイルしたらこけた。 Linux上のことしか考えていなかったから、当然と言えば当然なんだけど、この経験を踏まえて、ライブラリを使っていた機能も全部Goで書き直したら、どこでも動くプログラムができあがった。  Pure Goで書くだけでどこでもコンパイルできるようになる！素晴らしい！！と実感した瞬間だった。
+コミットログが一つも分からない。。。
+これはおしゃれ。こういう方向に展開するとは思ってなかった   Firefoxだと動かなかったけどブラウザによってXMLをどうHTMLに変換するかが異なってるのかな
+初答書くときすでに調べて思いついてたけど、i=100まで正確に出るやつ      javascript:var a=b=c=1,i=90;for(;16>(a+'').length,2<i;i--){c=a;a+=b;b=c}     if(2<i){a+='';b+='';var d=e='';     	c=parseInt(a.slice(-9));d=parseInt(b.slice(-9));     	a=parseInt(a.slice(0,a.length-9));b=parseInt(b.slice(0,b.length-9));     	for(;2<i;i--){e=a;a+=b;b=e;e=c;c+=d;d=e}c+='';     	if(9<c.length){a+=parseInt(c.slice(0,c.length-9))}     	a+=''+c     }document.write(a)
+ありがとう
+    javascript:var i,k,t,u='https://www.reddit.com/r/programming_jp/comments/.rss';     if(location.href==u){if(k=window.prompt('Search(half-space is reset-key)',' ')){t=document.getElementsByClassName('collapsible-content')[1].childNodes;     for(i=0;i<t.length;i++)if(k==' '){t[i].removeAttribute('hidden')}else if(0>t[i].innerText.indexOf(k))t[i].setAttribute('hidden','')     }}else if(window.confirm('retry'))location.href=u  絞り込み検索式、半角スペースでリセット、指定ページ以外だとOKでリダイレクト   普通はxhttprequest投げて持ってくるんだろうがrssでjsが効いたので（IEは駄目だった、多分Chrome系向け）
+こういうの嫌いじゃない
+もう漢字でいいだろ……ッ
+重複してたらごめん
+タイトル見て「いやPrepared Statement使えよ」って言おうと思ったら既に突っ込み済みだった  実業務で文字列からSQL組み立てるコード見かけたら基本レビューで落とすなあ…
+JavaScriptの数はぜんぶ浮動小数点数なので15だか16桁以上はずれるそうな
+こういうハマると強い特化クラスが多いのがC#の嬉しいところだよねXDocumentみたいな使いやすい汎用クラスも並行して準備してくれてるし
+とりあえず書いてみたけど、うーん エレガントなLINQおじさんがエレガントに書いてくれること期待      using System;     using System.Collections.Generic;     using System.Linq;      namespace ConsoleApplication3     {         static class Program         {             private static void Main()             {                 var val = Fib().Skip(90).First();                 Console.WriteLine(val);                 Console.ReadKey();             }              private static IEnumerable<long> Fib()             {                 var a = 0L;                 var b = 1L;                 yield return a;                 yield return b;                 while (true)                 {                     var temp = a + b;                     yield return temp;                     a = b;                     b = temp;                 }             }         }     }
+これはうつくしいLINQ  item.SummaryはAtomのsummaryとRSSのdescriptionを[抽象化してある](https://msdn.microsoft.com/ja-jp/library/system.servicemodel.syndication.syndicationitem.summary%28v=vs.110%29.aspx)のか
+予想以上にさっくりかけた Ix-Main使ってるから入れてない人はForEachの前にToList入れてね      using System;     using System.Diagnostics;     using System.Linq;     using System.ServiceModel.Syndication;     using System.Xml;      namespace ConsoleApplication2     {         static class Program         {             static void Main(string[] args)             {                 Debug.Assert(args.Length > 0, "args.Length > 0");                 using (var xr = XmlReader.Create("https://www.reddit.com/r/programming_jp/comments/.rss"))                 {                     var feed = SyndicationFeed.Load(xr);                     Debug.Assert(feed != null, "feed != null");                     feed.Items                         .Where(item => item.Title.Text.Contains(args[0]) || item.Summary.Text.Contains(args[0]))                         .ForEach(item => Console.WriteLine(item.ToPrettyString()));                 }             }              private static string ToPrettyString(this SyndicationItem item)             {                 return string.Format("Title: {0}\nSummary: {1}\n---", item.Title.Text, item.Summary.Text);             }         }     }  Edit : 問題の条件読み落としてたので修正、ついでにC#で外部から勝手にクラスにメソッドを生やす(正確には生えて見えるだけ)例 ちょっと汚くなってしまった…
+とりあえず書いたけどここで政治的な内容を書くのは適切ではないと思うよ   描画されてる中からユーザーネームを取得してコピペ欄に出すだけのブックマークレット      javascript:var u,n=document.getElementsByClassName('username');for(i=0;i<n.length;i++)u+=','+n[i].innerText;prompt('',u)
+ああ普通そっちですよね・・・失礼しました。
+すまん、こういうプロパガンダ系アカをいろんな検索結果から総リスト化できるスクリプトない？ 外人アバターもヤブ蚊ぐらいの数いるんだけど 。何千何万ぐらいw https://twitter.com/kay_shixima/status/591184056416534529/photo/1
+ソースがシンタックスハイライトしてあるってだけです。ちょっと紛らわしくてすみません
+パターンマッチいいなー。例外処理もしてあってはっとした   ちなみにハイライトしてるのはどの行？しばらく眺めてもわからなかった
+Rustで。無駄にIterator使ってみた。  http://is.gd/w30tF4      struct Fibonacci(u64, u64);          impl Iterator for Fibonacci {         type Item = u64;         fn next(&mut self) -> Option<u64> {             let (a, b) = (self.0, self.1);             self.0 = b;             self.1 = a + b;             Some(a)         }     }          fn main() {         println!("{}", Fibonacci(1, 1).nth(89).unwrap());     } 
+「この程度ならprepared statementつかっとけや」と思ったら回答者がきちんと書かれていた…… 
+PHP知らない自分は「1番目もSQLインジェクションには至らなくても、エラーで落ちて危ないだろ」と思ってしまった。 PHPはほんと親切だな。
+これを読めば誰にでもユニティちゃんが動くクールなゲームを作れますか？＾＾
+Haskell (ハイライト付き: http://codepad.org/9Uh5qLqB)      {-# LANGUAGE OverloadedStrings #-}     module Main where      -- library: text, http-conduit, xml-conduit     import           Control.Applicative     import           Control.Arrow        ((&&&))     import           Control.Exception     import           Control.Monad     import qualified Data.Text            as T     import qualified Data.Text.IO         as TIO     import           Network.HTTP.Conduit (simpleHttp)     import           System.Environment   (getArgs)     import qualified Text.XML             as XML     import           Text.XML.Cursor      (($//), (&/))     import qualified Text.XML.Cursor      as XML      commentsUrl :: String     commentsUrl = "https://www.reddit.com/r/programming_jp/comments/.rss"      main :: IO ()     main = do         args <- map T.pack <$> getArgs         case args of             (target:_) -> do                 items <- getItems commentsUrl `catch` (\(SomeException e) -> print e >> return [])                 forM_ items $ \(t, d) -> when (any (T.isInfixOf target) [t, d]) $ TIO.putStr $ T.unlines [t, d, "---"]             _ -> putStrLn "検索語句が指定されていません"      type Item = (T.Text, T.Text)      getItems :: String -> IO [Item]     getItems url = either throwIO (return . constructItems) . XML.parseLBS XML.def =<< simpleHttp url      constructItems :: XML.Document -> [Item]     constructItems doc = map (content "title" &&& content "description") (XML.fromDocument doc $// XML.element "item")       where         content name c = T.concat $ c $// XML.element name &/ XML.content  
+    #!/usr/bin/env ruby     # coding: utf-8      require 'rss'     require 'open-uri'      text = open('https://www.reddit.com/r/programming_jp/comments/.rss').read()     rss = RSS::Parser.parse(text, true)     rss.items.each do |item|       if (item.description.include? ARGV[0] or item.title.include? ARGV[0])         puts item.title         puts item.description         puts "---"       end     end
+それもいいなあ。回答が寄せられる期間とスレの流れが一致しそう
+多分お題ごとに一個一個サブミ建てたほうがredditっぽい気がする
+    (defun fibo2 (n)       (let ((a 0)         (b 1)         (s 0))        (loop for i from 1 to n              finally (format t "~d" s)              do              (setf a s                    s (+ s b)                    b a)))) loopで書いたらできた！ 
+Haskellで。もっとマシな書き方あった気がするけど忘れた      main = print $ go !! 89       where         go = 1 : 1 : foldr (\n ns -> (go !! (n-1)) + (go !! (n-2)) : ns) [] [2..]  実行結果: http://codepad.org/WdbFnkN4
+    (define (fib n)       (define (fib-loop n a b)         (if (zero? n)     	a           (fib-loop (- n 1) b (+ a b))))       (fib-loop n 0 1))  schemeで   末尾再帰になかなか慣れない   fib-loopのネーミングで既に負けてる気がする(´・ω・｀)
+実行時計算を上回るコンパイル時計算をさらに上回るコーディング時計算とかいうアプローチ
+    var memo = [1, 1, 1];      function fib(x) {      	memo[x] = memo[x] || fib(x - 1) + fib(x - 2);     	return memo[x];     }          print(fib(90));  http://ideone.com/PyPaYV  javascriptで。120ほど足りない。
+ぐぐったらwindows以外の64bit環境で動かせば64bit値扱えるみたい
+求められてる答えは出せてるから問題ないw
+clojureで有名なのを書いてみた   遅延評価ばんばんざい              (def fib (lazy-cat [0N 1N] (map + (rest fib) fib)))     (nth fib 90) => 2880067194370816120N     (nth fib 10000) => 33644..... 
+Python: print "2880067194370816120"  これでもいい？（笑）
+お題： https://www.reddit.com/r/programming_jp/comments/.rss から /r/programming_jp の新着コメントのRSSを取得して、titleかdescriptionに指定したワードが含まれるコメント（item）を出力しなさい  実行例      $ ./select 言語     daphne_odora on ニュースばっかじゃ寂しいからコードを書こう     Go言語で、こんな感じ。 package main import &quot;fmt&quot; ...     ---     nettribe on 今までのPHPのやり方を全て打ち捨てよう - pnkts's blog     include要らないっていっても引き続き前の書き方サポートしてくれるんなら現場は     そこまで大変ではないと思うけど、そういう保証もないからねぇ。 言語のバージョン...     ---     $  （注：行数が多くなるのでdescriptionを全部表示せずに...で省略してますが、実装する必要はないです。）
+PHPで書いてみたら整数はオーバーフローして浮動小数になってしまった。      <?php     $fib = array(0, 1);      while (($num = count($fib)) < 90) {         $fib[] = $fib[$num - 1] + $fib[$num - 2];     }     echo $fib[count($fib) - 1] . "\n";  
+ごもっともすぎるのでちょっと待ってね
+出して欲しい類のお題出せば解決
+スレタイにコードを書こうってあったので喜び勇んでお題を見たらアルゴリズム系で撃沈
+スマホから見ているから参戦出来ない
+    (defun fibon (n)       (cond        ((= n 0) 0)        ((= n 1) 1)        (t (+ (fibon (- n 1)) (fibon (- n 2))))))      (fibon 90) これでいいんかなー。lisp勉強中   ※90はだめだった(´；ω；｀)
+書いたはいいけど79番目から[これ](http://www.suguru.jp/Fibonacci/Fib100.html)とずれる・・・      javascript:var a=b=1;for(var i=0;i<44;i++){a+=b;b+=a}document.write(b)
+Go言語で、こんな感じ。      package main          import "fmt"          func f(x int) (uint64) {     	var result, next uint64     	result = 0     	next = 1     	for i := 0; i < x; i++ {     		tmp := result + next     		result = next     		next = tmp     	}     	return result     }          func main() {     	fmt.Printf("%d\n", f(90))     }  https://play.golang.org/p/86N3585HeY
+結構変わったのね〜  落ち着いたら試してよう
+とりあえず最初のお題: 90番目のフィボナッチ数を出力するコード
+Haskell  ``` main = flip mapM_ [1..100] $ \n -> print (100 - n) ```
+この人の日本語すごすぎるだろ。
+unityはもういいからUEの入門でいいサイトか書籍ないの？
+1TBとか未来が来過ぎだろ…オンメモリ処理が捗るなストレージ側にももうちょっと頑張ってほしい
+個人的には「速いかどうか」ってのはあまり気にしない（組み込みでもない限り）けど、そうじゃなくって「なぜ前置（後置）なのか？」が論理的にあってるならいいんじゃねーの？と思う。 論理的ってのはどうしてそうコーディングしたかってことなので、たとえばインクリメントしてから代入とか代入してからインクリメントするとかってのは、そのときによるから。
+include要らないっていっても引き続き前の書き方サポートしてくれるんなら現場はそこまで大変ではないと思うけど、そういう保証もないからねぇ。 言語のバージョンってなんであがるんやろか…。
+http://book.cakephp.org/2.0/ja/installation/url-rewriting.html   このあたりなのかな   mod_rewriteが有効になってないこととかあるから気をつけたらいい
+前置インクリメントはwriteの直後にreadが発生するから，データハザードによりストールが起きてしまうという話はわかる（後置インクリメントはread->writeの順番なのでデータハザードが起きない）   ただ，今までストールの発生を意識したこともなければ，それがボトルネックになったこともないのでよく分からん
+> そのため、同じHBMでも、AMDはPirate IslandsでHBM1を、NVIDIAはPascalでHBM2を採用と、分かれた可能性が高い。言い換えれば、AMDはHBM1を使うことでHBMを先んじて採用することを重視し、NVIDIAはHBM2にすることで帯域や容量、ECCなどの成熟を待つことにしたと見られる。  AMDのほうがHBMを先に搭載するみたい   遂に1TB/secの時代が来るんだぜ   楽しみだな  
+そりゃそうだろ
+「え？こんな単純な概念なら昔からあるんじゃないの？」  と思ってググったら、似たようなのがあった。 observerパターンだ。 少し賢くなった。
+純粋関数型のHaskellでさえ自動並列化なんてしてくれないよ   並列・並行処理は書きやすいけど、それでも書きやすいだけ。
+授業 :: haskell -> なんかいい感じ とか   ('熱烈 ('schemeで ('かっこの世界へ 'ようこそ)) '歓迎) とか       思ったらOCaml  OCamlには何かの成分が足りない気がする。
+「環境周りでトラブルにあいたくないだろうから全部俺らが再実装したやつだけに依存しろ、感謝しろよ」って姿勢、ロックだね
+mapなどの高階関数を勝手に並列化するぐらい抽象度高いといいなあと思う。歳だから楽なのがいい。
+最近Go言語を気に入ってる。   構文自体も良いけど、環境構築周りでトラブルにあいにくいのも良い。
+ログミー君は自動文字起こしアルゴリズムのはずなのに   なんでライターを募集しているのおおおおおおいやああああああ    並列化を意識したプログラミングだとキャッシュとかもしやすくて良いですよね
+引数にしか依存しない関数は実際並列処理しやすいね関数型っていってるのにC#で申し訳ないけど、例えば「AsPallarel()」って1文書くだけで機械的に全コア使い切るプログラムに変換できたりするのはそれがベースにあるもちろんスレッド立てるコストがどうこう、っていうのはこっちで面倒見なきゃいけないけどね
+関数型プログラミングなら副作用がないから、コンパイラが自動で並列化しやすいって聞いたけど、実際のところどうなんだろう
+> 私のプログラムは1コアで動いているんですけれども、という人のプログラムの性能は一生上がらないわけですね。  フリーランチの時代はおわったんだ   ハードウェアはそれを分かっててマルチコア化やGPUなどアクセラレータの搭載を進めているが，ソフトウェアはまだ追いついてないように思う 独自の並列向けプログラミング言語を開発したり，ディレクティブで解決しようとしたり．．． どのアプローチが正解なんだろうな
+どういう使い方をするかで利用を制限するのはフリーソフトではないということらしい。  「営利目的の使用は禁止」「軍事利用は禁止」「人種差別のために利用するのは禁止」みたいの。
+うーん。確かに使い分けをしていた記憶があるんだよな。 DOSの3ぐらいからだったか。 片方はパイプで使うからRAMDiskを割り当てるとか、やってた気がする。
+無理矢理擁護すれば、パーソナルユースからスタートして過去との互換性を最大限保ちつつ進化する必要があったWindowsが背負ってしまった哀しみというか何というかまあUNIX系だって歴史的事情で全然ユーザーの自由にならなくなった/usrとかvariableを名乗ってるのにログ置き場にされてる/varとかあるからしゃーない
+linuxでも併存していないっけ？ とかいいつつ/tmpか/var/tmpしか使わないけどなw 後は~/tmpか ともかくWindowsは複雑すぎてダメ。 最近はlinuxもsystemdとかhttp2とかで複雑になってしまっているのが残念。
+「いいこと」「悪いこと」なんて決めようがないからね 例えば自爆テロはやってる本人には正しいことなわけで要は「ライセンスが不明確過ぎるので自由なソフトとしては使えない」ってのが問題
+> The Software shall be used for Good, not Evil.  これの何がダメなのか意味が分からない。  権利者の気まぐれで使用許諾が得られなくなるリスクがあるってことなのかな。 
+ソース提供者に頼んでデュアルライセンスにして貰うってのは無理だったんだろうか。
+ははあ   そして言語がバージョンアップするたびに既存のソースを全て書き換えるわけですか
+車輪の再発明
+PS3が念頭にあるんじゃないかなあっと。まだPS3は死んでないし著者はノーティの技術者ということも考えると。  >一部のアーキテクチャにおいては  じゃなく、著者は暗黙的にその一部のアーキテクチャについての話を書いてるんだと思う。最近のコンパイラでx86のアセンブラを作って眺めても最近のコンパイラは優秀ですねえって話ではない   はてなの反応見ててもなんかごっちゃにしてる人が見受けられる  クロックのために分岐予測もOoOも切り捨てた組み込みプロセッサで動かす方針みたいなもんで、PCで動くものを作ってる自分は全く関係ない世界だよね  という理解で正しいかな？
+式に埋め込む場合は必ず前置にしてるけど、それは単に可読性のためだな
+PHPが高機能になっていくのはどうなのかな  言語オタク用の高機能言語と、普通の人が使う普通の言語で棲み分けたほうがいいような気がするんだよな。PHPは特にお仕事だから覚えた人も多いわけで、新しい高度な機能は現場に混乱を齎すだけのような気がしないでもない。
+これって、Cなの？   組まなくなって10年くらいだけど、printfのフォーマット変わったんだ！   おれの頃は%がフォーマット文字で¥は制御文字だったよ   Cの規格いまなんぼなんだろなぁ
+最近将棋とかガジェット関係の話が続いたけど、今回は技術系の話。
+年功序列に飼い慣らされてるから成果主義と言われてもピンと来ないんだろ
+いや幼なじみがビアンカで   金持ちがフローラっぽいと思っただけｗ 前にもやったことあるけど今回のは簡単だった
+Cの時は前置が早かった気がするが。 時代は移るもんだなぁ。
+自分のキーボードも日本語配列だということに気がついたんだろうか
+なんと。そんなルートがあったのか。
+ほほう。OCamlだ。
+フローラルートにした
+日本語入力欄はいつだってフリーダム。  a <= hoge<= zみたいな簡単な式でサニタイズさせてくれ。
+operator++()を実装することが滅多に無い。
+ずっと前置の方が速いと思ってたけど、後置の方が速かったのか…  一時オブジェクトの生成に数MBのメモリ確保とコピーが発生するクラスでも、今度から後置を使うは。
+確かにチューニングの『推測するな。計測しろ』の原則からすると、ちょっと推測に偏っている気はしますね。  
+結論については正しいと思うけど検証の過程がいまいち不足してる感  edit: 結果→結論
+リンクはこちらのようです。  http://www.archimatetool.com/  オープンソースのようで、ソースコードはGitHubで管理しているようです。  https://github.com/archimatetool/archi 
+面倒くさいからとか脳汁出るからとかで読みにくいコード書く奴は即刻腹を切るべき
+Your welcome! I hope that it is helpful! I think most don't work at lower levels like the kernel! がんばて! 
+Thank you for your advice! I can use easy English. I could find some documents in your recommended web page.  By the way, there are few comments in this submit so far. I wonder, there are few Linux Kernel researchers in Japan. So, I'm glad to find new your advice today.
+トライグラフとかいう負の遺産
+わたしのにほんごはわるい、しかし、これはOK。ごめんなさいもしこれたすけてません。https://www.kernel.org/doc/
+これおもしろいけど怖い
+https://np.reddit.com/comments/32ojeu から
+あれはいいものだとは思う。
+現状のRyuJITの移植可能性を高めるためにLLVMベースにする。そのターゲットはJITとAOT(ネイティブコンパイラ)という事。 またあくまでも入力はILであって、C#やVBのコードじゃない。
+心配せんでも東大で民間行く奴なんか負け組扱いや 
+まあ円高円安の影響もあるから一概には言えんけどね何だかんだで円も信頼あるから海外で何かあればすぐ上がる(≒出稼ぎのうまみがなくなる)し
+先ほどJSONを最新の情報に更新しました
+Perlが無かったので。      use feature qw(say);     say for reverse 1..100;  Range()は不思議とJavascriptに無いんだよね。
+シリコンバレーの話題とはちょっとズレるけど   米シアトルで「最低賃金1,500円」　満場一致で可決  ※今は約1790円   http://jp.ibtimes.com/articles/388285  シアトル(15ドル)からみた日本の平均最低賃金(780円)は、   日本から見た時給335円に等しいんだよね。   日本人も外国人研修生としてアメリカに出稼ぎに行くようになるかもしれない。
+[“シリコンバレーの真実！！！”(?)への反応いろいろ。 - Togetterまとめ](http://togetter.com/li/808007)  まあ人によって感じ方は大きく変わるということで  R速だかに立ったPG給与スレでも現地の人っぽい書き込みは概ね肯定的だったしな
+やっぱり年功序列は優秀だよなぁ。  人間はいつ才能枯れて無能になるかわからないんだし、完全成果主義とか地獄だわ。働ける年齢になってから死ぬまで、企業にとって有能な個人なんているんだろうか。 
+忘れてた  コンパイルエラー出るからいいよね
+LINQマンの答え      for (int i = 0; false; ) { }     Enumerable.Range(1, 100).Reverse().ToList().ForEach(Console.WriteLine);  最近の言語に慣れてると確かにシーケンス作りたくなるね
+ありがとうございます！
+forの初期化条件で変数の定義とか言語規約で禁止すればいいのにと思いました
+うわー、それは大変ですね。クライアントの方は本当にCakePHPを保守できるつもりなんですかね。コードを書かない方の流行にのせられやすさときたら・・・  それはともかく、もし/r/CakePHP/で質問することになったら、/r/interpretation_ja/や/r/eigo/が役に立つんじゃないかと思います。 
+ワロタ   けど , 忘れてねぇ？
